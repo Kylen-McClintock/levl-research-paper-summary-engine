@@ -1,0 +1,46 @@
+{
+  "titleBlock": {
+    "headline": "Inhibition of IL-11 Signalling Extends Mammalian Healthspan and Lifespan",
+    "authors": "Widjaja, A.A., Cook, S.A., et al.",
+    "journal": "Nature",
+    "year": 2024,
+    "doi": "10.1038/s41586-024-07701-9"
+  },
+  "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
+  "whatIsIL11": [
+    "What is IL-11?",
+    "Interleukin-11 (IL-11) is a pro-inflammatory cytokine. While historically known for its role in platelet formation, it is now recognized as a major driver of fibrosis and inflammation.",
+    "Why does it matter for aging?",
+    "As mammals age, IL-11 levels progressively increase across multiple tissues. This chronic elevation acts as a master switch, driving the hallmarks of aging including cellular senescence, mitochondrial dysfunction, and tissue fibrosis.",
+    "What did this study discover?",
+    "By genetically deleting IL-11 or administering an anti-IL-11 neutralizing antibody to older mice, researchers achieved a staggering ~25% extension in median lifespan alongside profound improvements in healthspan."
+  ],
+  "studyOverview": [
+    { "label": "Objective", "value": "Determine if inhibiting IL-11 signaling can delay aging and extend lifespan in mice." },
+    { "label": "Design", "value": "Genetic deletion models and pharmacological intervention (anti-IL-11 antibody) in aged mice." },
+    { "label": "Lifespan Result", "value": "Median lifespan increased by 22.5% in males and 25% in females." },
+    { "label": "Healthspan Result", "value": "Reversal of frailty, improved metabolic function, and preserved muscle mass." }
+  ],
+  "mechanismDescription": "IL-11 acts as a critical upstream regulator of the aging process. Its age-induced upregulation triggers a pathological signaling cascade that suppresses nutrient sensing and drives cellular senescence.",
+  "pathwaySteps": [
+    { "step": "1. Age-Induced Upregulation", "desc": "IL-11 expression chronically increases in tissues as mammals age." },
+    { "step": "2. Receptor Binding", "desc": "IL-11 binds to IL-11RA, initiating pathological intracellular signaling." },
+    { "step": "3. ERK-AMPK-mTORC1 Axis", "desc": "The ERK pathway is hyperactivated, AMPK is suppressed, and mTORC1 becomes hyperactive." },
+    { "step": "4. Pathological Phenotype", "desc": "This drives cellular senescence, mitochondrial dysfunction, and widespread tissue fibrosis." }
+  ],
+  "keyFindings": [
+    { "title": "Massive Lifespan Extension", "desc": "Anti-IL-11 antibody treatment in 75-week-old mice (equivalent to 55-year-old humans) extended median lifespan by up to 25%, making it one of the most effective pharmacological longevity interventions ever discovered." },
+    { "title": "Reversal of Physical Frailty", "desc": "Treated mice exhibited significantly improved grip strength, better motor coordination, and a profound reduction in clinical frailty scores compared to controls." },
+    { "title": "Metabolic Rejuvenation", "desc": "Inhibition of IL-11 reduced age-associated white adipose tissue accumulation, preserved lean muscle mass, and restored youthful glucose metabolism and lipid profiles." },
+    { "title": "Cellular Senescence Reduction", "desc": "The therapy systemically lowered biomarkers of cellular senescence, effectively acting as a senomorphic intervention to suppress the SASP (Senescence-Associated Secretory Phenotype)." }
+  ],
+  "conclusions": [
+    "IL-11 is a fundamental, targetable driver of mammalian aging.",
+    "Blocking IL-11 signaling safely extends both healthspan and lifespan in preclinical models.",
+    "Anti-IL-11 therapies represent a highly promising, near-term clinical approach to treating age-related multimorbidity in humans."
+  ],
+  "protocolRecommendations": [
+    "IL-11 inhibition represents a cutting-edge pharmacological frontier. While currently in clinical trials for fibrotic diseases, it is not yet available as a longevity therapeutic.",
+    "In the interim, lifestyle interventions that reduce systemic inflammation and suppress the ERK/mTORC1 axis (like endurance exercise and fasting) remain the most effective accessible strategies."
+  ]
+}
