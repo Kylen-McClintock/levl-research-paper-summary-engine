@@ -198,12 +198,40 @@ export const CrExWebpage = () => {
 
         </div>
 
-        {/* Shared Mechanisms */}
-        <div className="mt-16 bg-white bg-opacity-[0.02] border border-white border-opacity-10 rounded-2xl p-8 text-center max-w-3xl mx-auto">
-           <span className="block text-xs font-semibold tracking-widest text-[var(--levl-text-muted)] uppercase mb-4">Shared Downstream Effects</span>
-           <p className="text-lg text-[var(--levl-text-secondary)] font-light italic leading-relaxed">
-             "{data.sharedMechanisms}"
-           </p>
+        {/* Shared Mechanisms: Molecular Venn Diagram */}
+        <div className="mt-24 pt-16 border-t border-[var(--levl-border)] border-opacity-30 relative max-w-4xl mx-auto">
+          <h3 className="text-center text-2xl font-bold mb-16 text-white tracking-wide">The Molecular Overlap</h3>
+          
+          <div className="relative h-[300px] md:h-[400px] flex items-center justify-center overflow-visible">
+            {/* Left Circle (Green - Diet) */}
+            <div className="absolute left-[5%] md:left-[15%] w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-green border-opacity-50 bg-green-500 bg-opacity-10 mix-blend-screen flex items-center justify-start pl-8 md:pl-12 shadow-[0_0_50px_rgba(34,197,94,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10">
+              <div className="text-left w-24 md:w-32">
+                <span className="block text-green font-bold text-lg md:text-xl mb-1">Calorie<br/>Restriction</span>
+                <span className="text-[10px] md:text-xs text-green opacity-80 leading-tight block">Microbiome & Metabolism</span>
+              </div>
+            </div>
+            
+            {/* Right Circle (Cyan - Exercise) */}
+            <div className="absolute right-[5%] md:right-[15%] w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-cyan border-opacity-50 bg-cyan-500 bg-opacity-10 mix-blend-screen flex items-center justify-end pr-8 md:pr-12 shadow-[0_0_50px_rgba(14,165,233,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10">
+              <div className="text-right w-24 md:w-32">
+                <span className="block text-cyan font-bold text-lg md:text-xl mb-1">Endurance<br/>Exercise</span>
+                <span className="text-[10px] md:text-xs text-cyan opacity-80 leading-tight block">Epigenetics & Tissue</span>
+              </div>
+            </div>
+            
+            {/* Center Overlap Text */}
+            <div className="relative z-20 text-center w-[120px] md:w-[180px] pointer-events-none mt-4">
+               <Zap className="w-6 h-6 text-white mx-auto mb-2 opacity-90 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
+               <span className="block text-white font-bold text-sm md:text-base mb-2 drop-shadow-[0_0_10px_rgba(0,0,0,1)]">Shared Pathways</span>
+               <span className="text-[10px] md:text-xs text-white opacity-90 leading-tight block drop-shadow-[0_0_8px_rgba(0,0,0,1)]">Oxidative Stress Reduction & Basal Transcription</span>
+            </div>
+          </div>
+          
+          <div className="text-center max-w-2xl mx-auto mt-8 relative z-30 bg-[var(--levl-bg)] p-4 rounded-xl border border-[var(--levl-border)] bg-opacity-80 backdrop-blur-sm">
+             <p className="text-sm text-[var(--levl-text-secondary)] font-light italic leading-relaxed">
+               "{data.sharedMechanisms}"
+             </p>
+          </div>
         </div>
       </section>
 
@@ -231,6 +259,63 @@ export const CrExWebpage = () => {
                  </div>
               )
            })}
+        </div>
+      </section>
+
+      {/* 4.5. Trajectory Line Chart */}
+      <section className="max-w-4xl mx-auto px-6 py-24 border-b border-[var(--levl-border)] border-opacity-40">
+        <div className="bg-[var(--levl-panel-bg)] border border-[var(--levl-border)] rounded-3xl p-8 md:p-12 shadow-[0_30px_60px_rgba(0,0,0,0.3)]">
+           <h3 className="text-xl font-bold text-white mb-2 text-center">Biological Age Trajectory</h3>
+           <p className="text-sm text-[var(--levl-text-secondary)] font-light text-center mb-10">Divergence of physiological aging from chronological aging over time.</p>
+           
+           <div className="relative w-full h-[300px] mb-6">
+             {/* Y-Axis Label */}
+             <div className="absolute -left-4 top-1/2 -translate-y-1/2 -rotate-90 text-[10px] text-[var(--levl-text-muted)] tracking-widest uppercase font-semibold">Biological Age</div>
+             
+             {/* X-Axis Label */}
+             <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-[10px] text-[var(--levl-text-muted)] tracking-widest uppercase font-semibold">Chronological Age</div>
+             
+             {/* SVG Chart */}
+             <svg className="w-full h-full overflow-visible" viewBox="0 0 800 300" preserveAspectRatio="none">
+               {/* Grid Lines */}
+               <line x1="0" y1="300" x2="800" y2="300" stroke="var(--levl-border)" strokeWidth="1" />
+               <line x1="0" y1="0" x2="0" y2="300" stroke="var(--levl-border)" strokeWidth="1" />
+               <line x1="0" y1="150" x2="800" y2="150" stroke="var(--levl-border)" strokeWidth="1" strokeDasharray="5,5" opacity="0.3" />
+               <line x1="400" y1="0" x2="400" y2="300" stroke="var(--levl-border)" strokeWidth="1" strokeDasharray="5,5" opacity="0.3" />
+               
+               {/* Western Diet (Control) - 1:1 ratio slope */}
+               <path d="M 0 300 L 800 50" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="3" strokeDasharray="10,5" />
+               
+               {/* Calorie Restriction Line (Green) */}
+               <path d="M 0 300 Q 400 220 800 130" fill="none" stroke="#22c55e" strokeWidth="4" className="drop-shadow-[0_0_15px_rgba(34,197,94,0.6)]" />
+               
+               {/* Endurance Exercise Line (Cyan) */}
+               <path d="M 0 300 Q 400 230 800 145" fill="none" stroke="#0ea5e9" strokeWidth="4" className="drop-shadow-[0_0_15px_rgba(14,165,233,0.6)]" />
+
+               {/* Data Points at end */}
+               <circle cx="800" cy="50" r="6" fill="#333" stroke="white" strokeWidth="2" />
+               <circle cx="800" cy="130" r="6" fill="#22c55e" stroke="white" strokeWidth="2" className="drop-shadow-[0_0_10px_rgba(34,197,94,1)]" />
+               <circle cx="800" cy="145" r="6" fill="#0ea5e9" stroke="white" strokeWidth="2" className="drop-shadow-[0_0_10px_rgba(14,165,233,1)]" />
+             </svg>
+             
+             {/* Legend */}
+             <div className="absolute top-4 left-6 flex flex-col gap-3 bg-[var(--levl-bg)] border border-[var(--levl-border)] p-4 rounded-xl bg-opacity-80 backdrop-blur-md">
+                <div className="flex items-center gap-3 text-xs text-white">
+                  <div className="w-4 h-1 bg-white opacity-30"></div> Sedentary (Western Diet)
+                </div>
+                <div className="flex items-center gap-3 text-xs text-green-400 font-semibold">
+                  <div className="w-4 h-1 bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.8)]"></div> Calorie Restriction
+                </div>
+                <div className="flex items-center gap-3 text-xs text-cyan-400 font-semibold">
+                  <div className="w-4 h-1 bg-cyan-500 shadow-[0_0_10px_rgba(14,165,233,0.8)]"></div> Endurance Exercise
+                </div>
+             </div>
+             
+             {/* Callout Label */}
+             <div className="hidden md:block absolute right-[-20px] top-[138px] translate-x-full text-xs text-white font-mono bg-[var(--levl-border)] px-2 py-1 rounded shadow-lg whitespace-nowrap">
+                ~5 Yr Delta
+             </div>
+           </div>
         </div>
       </section>
 
