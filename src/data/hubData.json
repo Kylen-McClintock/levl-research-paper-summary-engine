@@ -79,5 +79,14 @@
     "summary": "The discovery of a microbiome-derived metabolite that triggers mitophagy, clearing dead mitochondria and extending lifespan.",
     "path": "/urolithin-a-mitophagy",
     "accentColor": "orange"
+  },
+  {
+    "id": "nad-communication",
+    "title": "The Communication Breakdown",
+    "journal": "Cell",
+    "year": 2013,
+    "summary": "Declining NAD+ levels break the vital communication network between the nucleus and mitochondria, driving rapid cellular aging.",
+    "path": "/nad-communication",
+    "accentColor": "cyan"
   }
 ]
