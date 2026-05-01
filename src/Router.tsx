@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ResearchHub } from './ResearchHub';
 import { AgingClocksWebpage } from './AgingClocksWebpage';
 import { MetabolitesWebpage } from './MetabolitesWebpage';
+import { CrExWebpage } from './CrExWebpage';
 import App from './App';
 
 export const Router = () => {
@@ -14,6 +15,7 @@ export const Router = () => {
         {/* Individual Paper Summaries */}
         <Route path="/organ-specific-aging-clocks" element={<AgingClocksWebpage />} />
         <Route path="/endogenous-metabolites-longevity" element={<MetabolitesWebpage />} />
+        <Route path="/diet-vs-exercise-aging" element={<CrExWebpage />} />
         
         {/* Original Poster Generatory */}
         <Route path="/poster" element={<App />} />

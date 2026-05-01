@@ -1,0 +1,47 @@
+{
+  "titleBlock": {
+    "headline": "Multi-omic analysis of biological aging biomarkers in long-term calorie restriction and endurance exercise practitioners",
+    "authors": "Fiorito, G. et al.",
+    "journal": "Aging Cell",
+    "year": 2025,
+    "doi": "10.1111/acel.14442",
+    "source": "Aging Cell"
+  },
+  "keyTakeaway": "Long-term calorie restriction (CR) and endurance exercise (EX) both significantly reduce biological age compared to sedentary lifestyles, but they accomplish this through completely distinct molecular pathways.",
+  "studyOverview": [
+    { "label": "Participants", "value": "41 CR practitioners, 41 endurance athletes, and 35 sedentary controls on a Western diet." },
+    { "label": "Methodology", "value": "Cross-sectional analysis using 'PhenoAge' composite scores and deep multi-omic profiling." },
+    { "label": "Primary Finding", "value": "Both interventions slowed physiological aging, but affected different tissues and biological layers." }
+  ],
+  "multiOmics": [
+    { "title": "DNA Methylation", "desc": "Epigenetic clock measuring chemical tags on DNA.", "icon": "Dna" },
+    { "title": "Transcriptomics", "desc": "RNA sequencing of colon mucosa tissue.", "icon": "FileText" },
+    { "title": "Metabolomics", "desc": "Analysis of small molecules and metabolic byproducts in the blood.", "icon": "Activity" },
+    { "title": "Metagenomics", "desc": "Stool analysis evaluating the composition of the gut microbiome.", "icon": "Globe" }
+  ],
+  "comparison": {
+    "cr": {
+      "title": "Calorie Restriction (Diet)",
+      "primaryMechanism": "Ether lipid metabolism and profound microbiome remodeling.",
+      "biomarkersImproved": "Drastic reductions in biological age observed in gut microbiome metagenomics and blood-derived metabolomics.",
+      "color": "green"
+    },
+    "ex": {
+      "title": "Endurance Exercise",
+      "primaryMechanism": "Oxidative stress reduction and deep epigenetic regulation.",
+      "biomarkersImproved": "Significant reductions in biological age observed in DNA methylation (epigenetics) and colon mucosa transcriptomics.",
+      "color": "cyan"
+    }
+  },
+  "sharedMechanisms": "While distinct in their primary pathways, both interventions shared common downstream effects, including the broad reduction of oxidative stress and the modulation of basal transcription rates.",
+  "conclusions": [
+    "Diet and exercise are not biologically redundant; they reverse aging through parallel, complementary mechanisms.",
+    "Calorie restriction heavily influences systemic metabolism and gut health.",
+    "Endurance exercise drives deep epigenetic and structural changes at the tissue level."
+  ],
+  "protocolRecommendations": [
+    "Do not rely solely on diet or solely on exercise; combine both for synergistic healthspan extension.",
+    "Optimize nutritional intake to support microbiome diversity and ether lipid metabolism.",
+    "Incorporate consistent aerobic endurance training to maintain youthful epigenetic expression."
+  ]
+}

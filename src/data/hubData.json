@@ -16,5 +16,14 @@
     "summary": "Targeting metabolic networks with endogenous compounds offers a safer, more integrated strategy to delay aging by simultaneously modulating core hallmarks.",
     "path": "/endogenous-metabolites-longevity",
     "accentColor": "magenta"
+  },
+  {
+    "id": "diet-vs-exercise-aging",
+    "title": "Diet vs. Exercise At the Molecular Level",
+    "journal": "Aging Cell",
+    "year": 2025,
+    "summary": "Calorie restriction and endurance exercise both reduce biological age, but through entirely distinct mechanisms—from microbiome remodeling to epigenetic reversal.",
+    "path": "/diet-vs-exercise-aging",
+    "accentColor": "green"
   }
 ]
