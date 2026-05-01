@@ -1,4 +1,6 @@
-import React from 'react';
+
+
+import levlLogo from '../assets/levl-logo-gradient.png';
 
 export const Footer = () => {
   return (
@@ -6,7 +8,7 @@ export const Footer = () => {
       <div className="flex gap-4 items-center">
         <div className="w-24">
           <img 
-            src="/src/assets/levl-logo-gradient.png" 
+            src={levlLogo} 
             alt="LEVL Logo" 
             className="w-full h-auto object-contain" 
           />
