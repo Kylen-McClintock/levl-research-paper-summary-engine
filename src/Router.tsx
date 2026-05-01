@@ -7,7 +7,7 @@ import App from './App';
 
 export const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/research">
       <Routes>
         {/* Research Hub Directory */}
         <Route path="/" element={<ResearchHub />} />
