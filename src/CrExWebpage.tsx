@@ -204,24 +204,24 @@ export const CrExWebpage = () => {
           
           <div className="relative h-[300px] md:h-[400px] flex items-center justify-center overflow-visible">
             {/* Left Circle (Green - Diet) */}
-            <div className="absolute left-[10%] md:left-[25%] w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-green border-opacity-50 bg-green-500 bg-opacity-10 mix-blend-screen flex items-center justify-start pl-8 md:pl-12 shadow-[0_0_50px_rgba(34,197,94,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10">
-              <div className="text-left w-24 md:w-32">
+            <div className="absolute w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-green border-opacity-50 bg-green-500 bg-opacity-10 mix-blend-screen flex items-center shadow-[0_0_50px_rgba(34,197,94,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10 -translate-x-[60px] md:-translate-x-[100px]">
+              <div className="text-center absolute left-[15px] md:left-[30px] top-1/2 -translate-y-1/2 w-24 md:w-32">
                 <span className="block text-green font-bold text-lg md:text-xl mb-1">Calorie<br/>Restriction</span>
                 <span className="text-[10px] md:text-xs text-green opacity-80 leading-tight block">Microbiome & Metabolism</span>
               </div>
             </div>
             
             {/* Right Circle (Cyan - Exercise) */}
-            <div className="absolute right-[10%] md:right-[25%] w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-cyan border-opacity-50 bg-cyan-500 bg-opacity-10 mix-blend-screen flex items-center justify-end pr-8 md:pr-12 shadow-[0_0_50px_rgba(14,165,233,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10">
-              <div className="text-right w-24 md:w-32">
+            <div className="absolute w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-cyan border-opacity-50 bg-cyan-500 bg-opacity-10 mix-blend-screen flex items-center shadow-[0_0_50px_rgba(14,165,233,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10 translate-x-[60px] md:translate-x-[100px]">
+              <div className="text-center absolute right-[15px] md:right-[30px] top-1/2 -translate-y-1/2 w-24 md:w-32">
                 <span className="block text-cyan font-bold text-lg md:text-xl mb-1">Endurance<br/>Exercise</span>
                 <span className="text-[10px] md:text-xs text-cyan opacity-80 leading-tight block">Epigenetics & Tissue</span>
               </div>
             </div>
             
             {/* Center Overlap Text */}
-            <div className="relative z-20 text-center w-[120px] md:w-[180px] pointer-events-none mt-4">
-               <Zap className="w-6 h-6 text-white mx-auto mb-2 opacity-90 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-center w-[120px] md:w-[160px] pointer-events-none">
+               <Zap className="w-5 h-5 md:w-6 md:h-6 text-white mx-auto mb-2 opacity-90 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
                <span className="block text-white font-bold text-sm md:text-base mb-2 drop-shadow-[0_0_10px_rgba(0,0,0,1)]">Shared Pathways</span>
                <span className="text-[10px] md:text-xs text-white opacity-90 leading-tight block drop-shadow-[0_0_8px_rgba(0,0,0,1)]">Oxidative Stress Reduction & Basal Transcription</span>
             </div>
