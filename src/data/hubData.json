@@ -52,5 +52,14 @@
     "summary": "Three independent longevity interventions—Young Blood, Klotho, and Exercise—all converge on a single blood factor (PF4) to reverse brain aging.",
     "path": "/pf4-systemic-rejuvenation",
     "accentColor": "red"
+  },
+  {
+    "id": "epigenetic-reprogramming",
+    "title": "The Information Theory of Aging",
+    "journal": "Cell",
+    "year": 2023,
+    "summary": "Aging is a loss of epigenetic software, not a hardware mutation. And using OSK factors, this software can be rebooted.",
+    "path": "/epigenetic-reprogramming",
+    "accentColor": "emerald"
   }
 ]
