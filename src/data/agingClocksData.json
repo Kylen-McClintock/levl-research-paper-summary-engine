@@ -1,0 +1,80 @@
+{
+  "titleBlock": {
+    "headline": "Organ-Specific Proteomic Aging Clocks Predict Disease and Longevity Across Diverse Populations",
+    "authors": "Wang, Y., Xiao, S., Liu, B. et al.",
+    "journal": "Nature Aging",
+    "year": 2026,
+    "doi": "10.1038/s43587-025-01016-8",
+    "pmid": "41299092",
+    "pmcid": "PMC12823432",
+    "source": "Nature Aging"
+  },
+  "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
+  "whatIsClock": [
+    "An organ-specific aging clock is a tool that measures the biological age of individual organs using proteins found in the blood. Unlike chronological age (years alive), biological age reflects how well an organ functions.",
+    "Why does this matter?",
+    "Different organs in the same person can age at different rates. Knowing which organs are aging fastest can predict specific diseases before symptoms appear, allowing for highly targeted preventative interventions.",
+    "What does this study investigate?",
+    "Researchers analyzed blood plasma proteins to develop clocks for overall aging and 10 specific organs. They validated these clocks across tens of thousands of people from the UK, China, and the USA to see if accelerated organ aging predicts disease and mortality."
+  ],
+  "studyOverview": [
+    { "label": "Objective", "value": "Develop and validate organ-specific proteomic aging clocks to predict disease and mortality." },
+    { "label": "Design", "value": "Machine learning analysis of plasma proteomics across diverse cohorts." },
+    { "label": "Participants", "value": "UK Biobank (n=43,616), China (n=3,977), USA (n=800)." },
+    { "label": "Assessments", "value": "Proteomic profiling, clinical health records, mortality tracking, genomic data." }
+  ],
+  "keyFindings": [
+    { "title": "Predictive Power", "desc": "Organ-specific clocks added predictive value beyond established clinical and genetic risk factors." },
+    { "title": "Brain Aging Risk", "desc": "The brain aging clock had the strongest link to mortality and could accurately stratify Alzheimer's risk even among high-risk APOE4 carriers." },
+    { "title": "Diverse Validation", "desc": "The models were proven highly accurate across three distinct global populations (UK, China, USA), ensuring broad applicability." },
+    { "title": "Genetic & Lifestyle Links", "desc": "Organ aging trajectories are shaped by both inherited genetic factors and modifiable environmental/lifestyle habits." }
+  ],
+  "findingsCallout": "Individuals with super-youthful brain ageotypes showed lower dementia risk, suggesting possible resilience even in genetically higher-risk groups.",
+  "keyTakeaway": "Measuring the biological age of individual organs via blood proteins can accurately predict disease onset and mortality risk, offering a powerful tool for personalized, preventative longevity interventions.",
+  "protocolRecommendations": [
+    "Monitor organ-specific biological age (via emerging proteomic tests) rather than relying solely on whole-body clocks to identify specific aging vulnerabilities.",
+    "Target interventions specifically to accelerated organs (e.g., vascular protocols for an aging artery clock, neuro-protective habits for an aging brain clock).",
+    "Leverage lifestyle modifications, as organ aging was shown to be influenced by environmental and lifestyle factors, not just genetics."
+  ],
+  "mortalityLineChart": {
+    "title": "Mortality Risk by Extremely Aged Organs",
+    "yLabel": "Mortality Risk",
+    "unit": "Hazard Ratio",
+    "minY": 0,
+    "maxY": 8,
+    "step": 2,
+    "points": [
+      { "label": "0 Organs", "y": 1.0 },
+      { "label": "1-2\nOrgans", "y": 1.7, "asterisk": "*" },
+      { "label": "3-4\nOrgans", "y": 3.8, "asterisk": "*" },
+      { "label": "5+\nOrgans", "y": 7.8, "asterisk": "*" }
+    ],
+    "callout": {
+      "messages": ["Participants with 5+ extremely aged organs face a 7.8-fold higher mortality risk."],
+      "legend": ["* p < 0.05"]
+    }
+  },
+  "dementiaLineChart": {
+    "title": "Dementia Risk by Extremely Aged Organs",
+    "yLabel": "Dementia Risk",
+    "unit": "Hazard Ratio",
+    "minY": 0,
+    "maxY": 5,
+    "step": 1,
+    "points": [
+      { "label": "0 Organs", "y": 1.0 },
+      { "label": "1-2\nOrgans", "y": 1.4, "asterisk": "*" },
+      { "label": "3-4\nOrgans", "y": 2.4, "asterisk": "*" },
+      { "label": "5+\nOrgans", "y": 4.1, "asterisk": "*" }
+    ],
+    "callout": {
+      "messages": ["Having 5+ extremely aged organs increases dementia risk by 4.1-fold."],
+      "legend": ["* p < 0.05"]
+    }
+  },
+  "conclusions": [
+    "Organ-specific aging clocks provide a high-resolution map of an individual's biological health.",
+    "Brain aging showed the strongest association with mortality and neurodegenerative disease, while artery and other organ clocks contributed to broader disease-risk patterns.",
+    "The framework is robust, biologically interpretable, and applicable across diverse global populations."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "titleBlock": {
+    "headline": "All-cause mortality and cardiovascular outcomes with glucagon-like peptide-1 receptor agonists in patients with type 2 diabetes and heart failure with reduced ejection fraction",
+    "authors": "Aravinthan Vignarajah, Peter oro, Joseph El Dahdah, Nishanthi Vigneswaramoorthy, Amanda R. Vest, Gautam Shah",
+    "journal": "Am Heart J Plus. 2025; 60:100676",
+    "doi": "10.1016/j.ahjo.2025.100676",
+    "pmcid": "PMC12664052",
+    "pmid": "41323510"
+  },
+  "researchSummary": "This is a summary of the scientific study. Not affiliated with the study authors or their institutions.",
+  "keyTakeaway": "In adults with type 2 diabetes and HFrEF, GLP-1 receptor agonist use was associated with lower 5-year mortality and fewer hospitalizations and cardiovascular events compared with DPP4 inhibitor use.",
+  "whatAreGLP1": "GLP-1 receptor agonists are medicines used to treat type 2 diabetes. They help lower blood sugar by enhancing insulin secretion, reducing appetite, and slowing gastric emptying.\n\nThey often support weight loss and have shown cardiovascular benefits in prior research.",
+  "whatIsHFrEF": "Heart failure with reduced ejection fraction (HFrEF) means the heart's main pumping chamber (left ventricle) is weakened, with ejection fraction <= 40%.",
+  "studyOverview": [
+    {
+      "label": "Objective",
+      "value": "To compare all-cause mortality and cardiovascular outcomes between GLP-1 RA users and DPP4 users in adults with type 2 diabetes and HFrEF."
+    },
+    {
+      "label": "Design",
+      "value": "Retrospective cohort study using the TriNetX Research Network database."
+    },
+    {
+      "label": "Population",
+      "value": "Adults (18+) with type 2 diabetes mellitus (T2DM) and HFrEF (left ventricular ejection fraction <= 40%)."
+    },
+    {
+      "label": "Comparator",
+      "value": "GLP-1 receptor agonist (GLP-1 RA) users vs. dipeptidyl peptidase-4 inhibitor (DPP4) users."
+    },
+    {
+      "label": "Matching",
+      "value": "Propensity score matching 1:1 on demographics, BMI, comorbidities, HbA1c, medications, and socioeconomic factors."
+    },
+    {
+      "label": "Follow-up",
+      "value": "Up to 5 years."
+    },
+    {
+      "label": "Outcomes",
+      "value": "All-cause mortality, all-cause hospitalization, acute myocardial infarction, heart failure exacerbation, and cerebrovascular accident."
+    }
+  ],
+  "studyDesignFlowchart": {
+    "groups": [
+      {
+        "label": "GLP-1 RA USERS",
+        "sublabel": "New Users",
+        "patients": "13,098 patients",
+        "color": "magenta"
+      },
+      {
+        "label": "DPP4i USERS",
+        "sublabel": "New Users",
+        "patients": "13,098 patients",
+        "color": "cyan"
+      }
+    ],
+    "matchingLabel": "Propensity Score Matching 1:1",
+    "matchedDetails": "26,196 patients total\nFollow-up: Up to 5 years"
+  },
+  "keyFindingsSummary": [
+    "All-cause mortality was 38% lower with GLP-1RAs (HR 0.62, 95% CI 0.59-0.66).",
+    "All-cause hospitalization was 29% lower (HR 0.71, 95% CI 0.69-0.73).",
+    "Acute myocardial infarction risk was 13% lower (HR 0.87, 95% CI 0.82-0.92).",
+    "Heart failure exacerbation risk was 17% lower (HR 0.83, 95% CI 0.81-0.86).",
+    "Cerebrovascular accident risk was 15% lower (HR 0.85, 95% CI 0.80-0.92)."
+  ],
+  "keyFindingsCallout": "Across a large, matched cohort followed up to 5 years, GLP-1 RA use was consistently associated with better survival and fewer cardiovascular events.",
+  "forestPlot": [
+    {
+      "outcome": "All-cause mortality",
+      "hr": 0.62,
+      "ciLower": 0.59,
+      "ciUpper": 0.66,
+      "pValue": "< 0.001",
+      "color": "#e879f9"
+    },
+    {
+      "outcome": "All-cause hospitalization",
+      "hr": 0.71,
+      "ciLower": 0.69,
+      "ciUpper": 0.73,
+      "pValue": "< 0.001",
+      "color": "#0ea5e9"
+    },
+    {
+      "outcome": "Acute myocardial infarction",
+      "hr": 0.87,
+      "ciLower": 0.82,
+      "ciUpper": 0.92,
+      "pValue": "< 0.001",
+      "color": "#0ea5e9"
+    },
+    {
+      "outcome": "Heart failure exacerbation",
+      "hr": 0.83,
+      "ciLower": 0.81,
+      "ciUpper": 0.86,
+      "pValue": "< 0.001",
+      "color": "#22c55e"
+    },
+    {
+      "outcome": "Cerebrovascular accident",
+      "hr": 0.85,
+      "ciLower": 0.80,
+      "ciUpper": 0.92,
+      "pValue": "< 0.001",
+      "color": "#eab308"
+    }
+  ],
+  "interpretation": [
+    "This was an observational, retrospective database study using the TriNetX Network.",
+    "Findings show association, not causation.",
+    "Residual confounding and unmeasured factors may influence results.",
+    "Misclassification of diagnoses or medication exposure is possible.",
+    "Results may not be generalizable to population outside the database.",
+    "Randomized controlled trials are needed to confirm causality."
+  ],
+  "conclusions": [
+    "In adults with type 2 diabetes and HFrEF, GLP-1 receptor agonist use was associated with significantly lower 5-year all-cause mortality and reduced risk of hospitalization, myocardial infarction, heart failure exacerbation, and stroke compared with DPP4 inhibitor use.",
+    "These observational findings suggest potential cardiovascular benefits of GLP-1 RAs in this high-risk population and warrant confirmation in prospective randomized trials."
+  ],
+  "protocolRecommendations": [
+    "For adults with T2DM and HFrEF, discuss with a qualified clinician whether GLP-1 RA therapy may be appropriate in the context of your full medical picture.",
+    "Do not replace guideline-directed heart failure or diabetes care without medical supervision.",
+    "Track cardiometabolic metrics such as HbA1c, body weight, symptoms, hospitalizations, and medication tolerance.",
+    "Pair medication decisions with foundational lifestyle support: nutrition quality, protein adequacy, activity as tolerated, sleep, and clinician-guided risk factor control.",
+    "Clinical decisions should be individualized."
+  ]
+}

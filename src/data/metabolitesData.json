@@ -1,0 +1,82 @@
+{
+  "titleBlock": {
+    "headline": "Lifespan-Extending Endogenous Metabolites",
+    "authors": "Jiang, Y. & Han, J.D.J.",
+    "journal": "Aging Cell",
+    "year": 2025,
+    "doi": "10.1111/acel.14442",
+    "pmid": "39563510",
+    "pmcid": "PMC12796513",
+    "source": "Aging Cell"
+  },
+  "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
+  "whatIsClock": [
+    "What are endogenous metabolites?",
+    "They are naturally occurring small molecules—intermediates and end products of metabolism—that reflect and drive cellular health.",
+    "Why do they matter?",
+    "Unlike synthetic drugs, these metabolites integrate naturally into biological networks. They act as cofactors for epigenetic enzymes and regulators of nutrient-sensing pathways, making them powerful, multi-target geroprotectors.",
+    "What does this study investigate?",
+    "This review synthesizes evidence across model organisms showing how specific metabolites (like AKG, Spermidine, and NAD+) extend lifespan by modulating core aging pathways."
+  ],
+  "studyOverview": [
+    { "label": "Objective", "value": "Evaluate the lifespan-extending effects and mechanisms of key endogenous metabolites." },
+    { "label": "Design", "value": "Comprehensive literature review and mechanistic synthesis." },
+    { "label": "Scope", "value": "In vivo models including C. elegans, Drosophila, mice, and human translational data." },
+    { "label": "Key Focus", "value": "Metabolite integration with nutrient sensing, epigenetics, and autophagy." }
+  ],
+  "translationalChallenges": [
+    "While invertebrate data for lifespan extension is compelling, mammalian evidence is currently limited to improvements in healthspan metrics.",
+    "Translating these preclinical findings into human applications requires establishing optimal dosing, timing of intervention, and long-term safety profiles.",
+    "The full mechanistic understanding remains incomplete, highlighting the complexity of metabolic networks."
+  ],
+  "keyFindings": [
+    { "title": "Multi-Pathway Modulators", "desc": "Metabolites concurrently influence multiple aging hallmarks like mTOR inhibition, AMPK activation, and redox homeostasis, offering a systems-level defense against aging." },
+    { "title": "Epigenetic Regulation", "desc": "Metabolites act as essential cofactors for chromatin-modifying enzymes, directly translating nutritional states into longevity-promoting gene expression." },
+    { "title": "High Biocompatibility", "desc": "As natural cellular components, these molecules generally exhibit higher biocompatibility and lower toxicity profiles compared to synthetic single-target drugs." },
+    { "title": "Conserved Mechanisms", "desc": "The geroprotective effects of key metabolites are evolutionarily conserved across species, underscoring their fundamental role in biology." }
+  ],
+  "findingsCallout": "By acting as direct allosteric modulators and cofactors, endogenous metabolites physically link the cell's metabolic state to its lifespan-regulating transcriptional programs.",
+  "keyTakeaway": "Targeting metabolic networks with endogenous compounds offers a safer, more integrated strategy to delay aging and extend healthspan by simultaneously modulating multiple core hallmarks of aging.",
+  "protocolRecommendations": [
+    "Consider multi-pathway approaches to aging rather than relying on synthetic single-target drugs.",
+    "Supplementation with key metabolic precursors (like NAD+ boosters or AKG) may help restore youthful epigenetic and nutrient-sensing states.",
+    "Dietary and lifestyle interventions should be optimized to naturally upregulate these endogenous geroprotective networks."
+  ],
+  "topMetabolites": [
+    {
+      "name": "α-Ketoglutarate (AKG)",
+      "mechanism": "Inhibits ATP synthase & activates autophagy",
+      "effect": "Extends lifespan by ~50% in C. elegans and delays age-related functional decline."
+    },
+    {
+      "name": "Spermidine",
+      "mechanism": "Induces PINK1-dependent mitophagy",
+      "effect": "Prevents neurodegeneration and increases mitochondrial respiratory capacity."
+    },
+    {
+      "name": "Taurine",
+      "mechanism": "Supports mitochondrial function & redox balance",
+      "effect": "Demonstrates potent tissue-protective effects, including preserving epidermal moisture and reducing aging markers."
+    },
+    {
+      "name": "NAD+ Precursors",
+      "mechanism": "Activates Sirtuins & PARPs",
+      "effect": "Reverses mitochondrial dysfunction and mitigates a wide range of chronic age-related disorders."
+    },
+    {
+      "name": "Betaine",
+      "mechanism": "Methyl-group donor for SAM",
+      "effect": "Regulates one-carbon metabolism and epigenetic networks, delaying aspects of aging in C. elegans."
+    },
+    {
+      "name": "Trehalose",
+      "mechanism": "Cellular stress protectant",
+      "effect": "Upregulated under reduced insulin/IGF-1 signaling (IIS) to support extreme longevity and stress resistance."
+    }
+  ],
+  "conclusions": [
+    "Endogenous metabolites are potent, multi-target modulators of longevity.",
+    "They bridge the gap between environmental nutrient sensing and deep epigenetic regulation.",
+    "Translating these findings to humans requires overcoming challenges in optimal dosing and context-specific metabolic states."
+  ]
+}
