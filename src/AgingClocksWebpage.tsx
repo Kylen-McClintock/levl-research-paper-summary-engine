@@ -32,9 +32,9 @@ export const AgingClocksWebpage = () => {
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-500 opacity-10 blur-[120px] rounded-full pointer-events-none"></div>
         
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center">
-          <div className="mb-6 px-4 py-1.5 rounded-full border border-cyan border-opacity-30 bg-cyan-500 bg-opacity-[0.05] text-cyan text-xs tracking-widest uppercase font-semibold inline-flex items-center gap-2 shadow-[0_0_15px_rgba(14,165,233,0.15)]">
+          <a href={`https://doi.org/${data.titleBlock.doi}`} target="_blank" rel="noreferrer" className="mb-6 px-4 py-1.5 rounded-full border border-cyan border-opacity-30 bg-cyan-500 bg-opacity-[0.05] text-cyan text-xs tracking-widest uppercase font-semibold inline-flex items-center gap-2 shadow-[0_0_15px_rgba(14,165,233,0.15)] hover:bg-opacity-20 hover:shadow-[0_0_20px_rgba(14,165,233,0.3)] transition-all cursor-pointer">
             <Zap className="w-4 h-4" /> Nature Aging Study (2026)
-          </div>
+          </a>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-[1.1] text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60">
             Your Organs Are Aging <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-magenta to-cyan-400">at Different Rates.</span>

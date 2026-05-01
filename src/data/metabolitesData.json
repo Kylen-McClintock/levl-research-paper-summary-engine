@@ -4,7 +4,7 @@
     "authors": "Jiang, Y. & Han, J.D.J.",
     "journal": "Aging Cell",
     "year": 2025,
-    "doi": "10.1111/acel.14442",
+    "doi": "10.1111/acel.70371",
     "pmid": "39563510",
     "pmcid": "PMC12796513",
     "source": "Aging Cell"
@@ -24,6 +24,12 @@
     { "label": "Scope", "value": "In vivo models including C. elegans, Drosophila, mice, and human translational data." },
     { "label": "Key Focus", "value": "Metabolite integration with nutrient sensing, epigenetics, and autophagy." }
   ],
+  "reviewScope": [
+    { "title": "In Vivo Models", "desc": "C. elegans, Drosophila, & Murine" },
+    { "title": "Human Translation", "desc": "Evaluating biocompatibility & dosing" },
+    { "title": "Mechanistic Pathways", "desc": "IIS, mTOR, Sirtuins, & Autophagy" }
+  ],
+  "mechanismDescription": "Endogenous metabolites act as physical messengers, translating environmental nutrient cues into deep epigenetic and transcriptional changes that directly govern cellular aging and longevity.",
   "translationalChallenges": [
     "While invertebrate data for lifespan extension is compelling, mammalian evidence is currently limited to improvements in healthspan metrics.",
     "Translating these preclinical findings into human applications requires establishing optimal dosing, timing of intervention, and long-term safety profiles.",
