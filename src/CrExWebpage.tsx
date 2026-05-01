@@ -34,10 +34,13 @@ export const CrExWebpage = () => {
           <a href={`https://doi.org/${data.titleBlock.doi}`} target="_blank" rel="noreferrer" className="mb-6 px-4 py-1.5 rounded-full border border-green border-opacity-30 bg-green-500 bg-opacity-[0.05] text-green text-xs tracking-widest uppercase font-semibold inline-flex items-center gap-2 shadow-[0_0_15px_rgba(34,197,94,0.15)] hover:bg-opacity-20 hover:shadow-[0_0_20px_rgba(34,197,94,0.3)] transition-all cursor-pointer">
             <Zap className="w-4 h-4" /> {data.titleBlock.journal} Study ({data.titleBlock.year})
           </a>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-[1.1] text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4 leading-[1.1] text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60">
             Diet vs. Exercise <br />
             <span className="text-[32px] md:text-[42px] text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-cyan-400 font-medium">At the Molecular Level</span>
           </h1>
+          <p className="max-w-2xl text-center text-[var(--levl-text-secondary)] font-light text-sm italic mb-8">
+            "{data.titleBlock.headline}"
+          </p>
           <div className="text-center bg-[var(--levl-panel-bg)] border border-[var(--levl-border)] rounded-2xl p-8 max-w-3xl shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
             <span className="flex items-center justify-center gap-2 text-white font-semibold tracking-widest uppercase text-xs mb-4 border-b border-[var(--levl-border)] pb-4">
               <ShieldCheck className="w-4 h-4 text-green" /> Key Takeaway
@@ -62,13 +65,50 @@ export const CrExWebpage = () => {
             <Search className="w-6 h-6 text-[var(--levl-text-secondary)]" />
             <h2 className="text-xl font-bold text-white tracking-wide uppercase">Study Overview</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {data.studyOverview.map((item, idx) => (
               <div key={idx} className="bg-[var(--levl-panel-bg)] border border-[var(--levl-border)] p-6 rounded-2xl text-center">
                   <span className="block text-xs font-semibold tracking-widest text-[var(--levl-text-muted)] uppercase mb-3">{item.label}</span>
                   <span className="block text-sm text-[var(--levl-text-secondary)] font-light leading-relaxed">{item.value}</span>
               </div>
             ))}
+        </div>
+
+        {/* Chart Visualization */}
+        <div className="max-w-4xl mx-auto bg-[var(--levl-panel-bg)] border border-[var(--levl-border)] rounded-2xl p-8 shadow-[0_20px_40px_rgba(0,0,0,0.2)]">
+          <h3 className="text-center font-bold text-lg mb-8 uppercase tracking-widest text-[var(--levl-text-secondary)]">
+            PhenoAge Biological Age Reduction
+          </h3>
+          <div className="flex flex-col gap-6">
+            {data.chartData.map((bar, idx) => {
+               // Calculate width percentage relative to max value (5.1)
+               const maxAbs = 5.1;
+               const widthPct = bar.value === 0 ? 2 : Math.abs(bar.value) / maxAbs * 100;
+               let barColor = "bg-[var(--levl-border)]";
+               if (bar.label === "Endurance Exercise") barColor = "bg-cyan-500 shadow-[0_0_15px_rgba(14,165,233,0.4)]";
+               if (bar.label === "Calorie Restriction") barColor = "bg-green-500 shadow-[0_0_15px_rgba(34,197,94,0.4)]";
+               
+               return (
+                 <div key={idx} className="flex items-center gap-4">
+                   <div className="w-48 text-right text-sm font-semibold text-[var(--levl-text-secondary)] tracking-wide">
+                     {bar.label}
+                   </div>
+                   <div className="flex-1 bg-white bg-opacity-5 h-8 rounded overflow-hidden flex items-center relative">
+                      <div 
+                        className={`h-full ${barColor} transition-all duration-1000 ease-out`}
+                        style={{ width: `${widthPct}%` }}
+                      ></div>
+                   </div>
+                   <div className="w-16 text-left font-mono font-bold text-white">
+                     {bar.value < 0 ? `${bar.value} yr` : '-'}
+                   </div>
+                 </div>
+               );
+            })}
+          </div>
+          <p className="text-center text-[10px] text-[var(--levl-text-muted)] mt-6 italic">
+            *Data reflects the average reduction in PhenoAge biomarkers compared to chronological age.
+          </p>
         </div>
       </section>
 

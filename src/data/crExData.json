@@ -19,6 +19,11 @@
     { "title": "Metabolomics", "desc": "Analysis of small molecules and metabolic byproducts in the blood.", "icon": "Activity" },
     { "title": "Metagenomics", "desc": "Stool analysis evaluating the composition of the gut microbiome.", "icon": "Globe" }
   ],
+  "chartData": [
+    { "label": "Sedentary (WD)", "value": 0 },
+    { "label": "Endurance Exercise", "value": -4.8 },
+    { "label": "Calorie Restriction", "value": -5.1 }
+  ],
   "comparison": {
     "cr": {
       "title": "Calorie Restriction (Diet)",
