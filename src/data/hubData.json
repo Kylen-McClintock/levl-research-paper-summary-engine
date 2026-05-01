@@ -1,0 +1,20 @@
+[
+  {
+    "id": "organ-specific-aging-clocks",
+    "title": "Your Organs Are Aging at Different Rates.",
+    "journal": "Nature Aging",
+    "year": 2026,
+    "summary": "Proteomic aging clocks reveal that distinct organ systems age at different rates, predicting specific disease risks and overall longevity.",
+    "path": "/organ-specific-aging-clocks",
+    "accentColor": "cyan"
+  },
+  {
+    "id": "endogenous-metabolites-longevity",
+    "title": "Lifespan-Extending Endogenous Metabolites",
+    "journal": "Aging Cell",
+    "year": 2025,
+    "summary": "Targeting metabolic networks with endogenous compounds offers a safer, more integrated strategy to delay aging by simultaneously modulating core hallmarks.",
+    "path": "/endogenous-metabolites-longevity",
+    "accentColor": "magenta"
+  }
+]
