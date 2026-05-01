@@ -75,39 +75,81 @@ export const CrExWebpage = () => {
         </div>
 
         {/* Chart Visualization */}
-        <div className="max-w-4xl mx-auto bg-[var(--levl-panel-bg)] border border-[var(--levl-border)] rounded-2xl p-8 shadow-[0_20px_40px_rgba(0,0,0,0.2)]">
-          <h3 className="text-center font-bold text-lg mb-8 uppercase tracking-widest text-[var(--levl-text-secondary)]">
-            PhenoAge Biological Age Reduction
-          </h3>
-          <div className="flex flex-col gap-6">
+        <div className="max-w-4xl mx-auto bg-[var(--levl-panel-bg)] border border-[var(--levl-border)] rounded-3xl p-10 md:p-14 shadow-[0_30px_60px_rgba(0,0,0,0.4)] relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-green-500 opacity-[0.03] blur-[100px] rounded-full pointer-events-none"></div>
+          
+          <div className="flex items-center justify-between mb-12 border-b border-[var(--levl-border)] pb-6 relative z-10">
+            <div>
+              <h3 className="text-xl font-bold text-white mb-1">Biological Age Reduction</h3>
+              <p className="text-sm text-[var(--levl-text-secondary)] font-light">PhenoAge variation vs. Chronological Age</p>
+            </div>
+            <div className="flex gap-4 text-[10px] uppercase tracking-widest font-bold">
+               <div className="flex items-center gap-2 text-cyan-400"><div className="w-2 h-2 rounded-full bg-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)]"></div> Exercise</div>
+               <div className="flex items-center gap-2 text-green-400"><div className="w-2 h-2 rounded-full bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.8)]"></div> Diet</div>
+            </div>
+          </div>
+
+          <div className="relative z-10 flex flex-col gap-10">
+            {/* Background Grid Lines */}
+            <div className="absolute inset-0 left-[180px] right-[60px] pointer-events-none">
+              <div className="w-full h-full border-l border-r border-[var(--levl-border)] border-opacity-30 relative flex justify-between">
+                <div className="w-px h-full bg-[var(--levl-border)] bg-opacity-30"></div>
+                <div className="w-px h-full bg-[var(--levl-border)] bg-opacity-30"></div>
+                <div className="w-px h-full bg-[var(--levl-border)] bg-opacity-30"></div>
+                <div className="w-px h-full bg-[var(--levl-border)] bg-opacity-30"></div>
+              </div>
+              <div className="flex justify-between text-[10px] text-[var(--levl-text-muted)] font-mono mt-2 absolute w-full -bottom-6">
+                <span>0 yr</span>
+                <span>-1.5 yr</span>
+                <span>-3.0 yr</span>
+                <span>-4.5 yr</span>
+                <span>-6.0 yr</span>
+              </div>
+            </div>
+
             {data.chartData.map((bar, idx) => {
-               // Calculate width percentage relative to max value (5.1)
-               const maxAbs = 5.1;
-               const widthPct = bar.value === 0 ? 2 : Math.abs(bar.value) / maxAbs * 100;
-               let barColor = "bg-[var(--levl-border)]";
-               if (bar.label === "Endurance Exercise") barColor = "bg-cyan-500 shadow-[0_0_15px_rgba(14,165,233,0.4)]";
-               if (bar.label === "Calorie Restriction") barColor = "bg-green-500 shadow-[0_0_15px_rgba(34,197,94,0.4)]";
+               const maxAbs = 6.0; // scale to 6.0 for grid alignment
+               const widthPct = bar.value === 0 ? 0 : Math.abs(bar.value) / maxAbs * 100;
+               
+               let gradient = "from-[#2A2A2A] to-[#3A3A3A]";
+               let shadow = "shadow-none";
+               if (bar.label === "Endurance Exercise") {
+                 gradient = "from-cyan-900 via-cyan-500 to-cyan-300";
+                 shadow = "shadow-[0_0_25px_rgba(34,211,238,0.4)]";
+               }
+               if (bar.label === "Calorie Restriction") {
+                 gradient = "from-green-900 via-green-500 to-green-300";
+                 shadow = "shadow-[0_0_25px_rgba(74,222,128,0.4)]";
+               }
                
                return (
-                 <div key={idx} className="flex items-center gap-4">
-                   <div className="w-48 text-right text-sm font-semibold text-[var(--levl-text-secondary)] tracking-wide">
+                 <div key={idx} className="flex items-center gap-6 relative z-10">
+                   <div className="w-[160px] text-right text-sm font-semibold text-[var(--levl-text-secondary)] tracking-wide flex-shrink-0">
                      {bar.label}
                    </div>
-                   <div className="flex-1 bg-white bg-opacity-5 h-8 rounded overflow-hidden flex items-center relative">
+                   
+                   <div className="flex-1 h-12 relative flex items-center pr-[60px]">
+                      {/* Empty track */}
+                      <div className="absolute inset-y-2 left-0 right-[60px] bg-black bg-opacity-40 rounded-r-full border border-[var(--levl-border)] border-opacity-50"></div>
+                      
+                      {/* Fill bar */}
                       <div 
-                        className={`h-full ${barColor} transition-all duration-1000 ease-out`}
+                        className={`h-8 rounded-r-full bg-gradient-to-r ${gradient} ${shadow} relative flex items-center justify-end pr-4 transition-all duration-1000 ease-out border border-white border-opacity-20`}
                         style={{ width: `${widthPct}%` }}
-                      ></div>
-                   </div>
-                   <div className="w-16 text-left font-mono font-bold text-white">
-                     {bar.value < 0 ? `${bar.value} yr` : '-'}
+                      >
+                         {bar.value < 0 && (
+                           <span className="text-black font-bold font-mono text-xs mix-blend-overlay">
+                             {bar.value} yr
+                           </span>
+                         )}
+                      </div>
                    </div>
                  </div>
                );
             })}
           </div>
-          <p className="text-center text-[10px] text-[var(--levl-text-muted)] mt-6 italic">
-            *Data reflects the average reduction in PhenoAge biomarkers compared to chronological age.
+          <p className="text-center text-[10px] text-[var(--levl-text-muted)] mt-16 italic opacity-60">
+            *Data represents the mean reduction in multi-omic biological age (PhenoAge) across test groups.
           </p>
         </div>
       </section>
