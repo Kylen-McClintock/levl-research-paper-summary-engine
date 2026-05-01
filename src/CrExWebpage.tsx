@@ -204,7 +204,7 @@ export const CrExWebpage = () => {
           
           <div className="relative h-[300px] md:h-[400px] flex items-center justify-center overflow-visible">
             {/* Left Circle (Green - Diet) */}
-            <div className="absolute left-[5%] md:left-[15%] w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-green border-opacity-50 bg-green-500 bg-opacity-10 mix-blend-screen flex items-center justify-start pl-8 md:pl-12 shadow-[0_0_50px_rgba(34,197,94,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10">
+            <div className="absolute left-[10%] md:left-[25%] w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-green border-opacity-50 bg-green-500 bg-opacity-10 mix-blend-screen flex items-center justify-start pl-8 md:pl-12 shadow-[0_0_50px_rgba(34,197,94,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10">
               <div className="text-left w-24 md:w-32">
                 <span className="block text-green font-bold text-lg md:text-xl mb-1">Calorie<br/>Restriction</span>
                 <span className="text-[10px] md:text-xs text-green opacity-80 leading-tight block">Microbiome & Metabolism</span>
@@ -212,7 +212,7 @@ export const CrExWebpage = () => {
             </div>
             
             {/* Right Circle (Cyan - Exercise) */}
-            <div className="absolute right-[5%] md:right-[15%] w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-cyan border-opacity-50 bg-cyan-500 bg-opacity-10 mix-blend-screen flex items-center justify-end pr-8 md:pr-12 shadow-[0_0_50px_rgba(14,165,233,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10">
+            <div className="absolute right-[10%] md:right-[25%] w-[220px] h-[220px] md:w-[320px] md:h-[320px] rounded-full border border-cyan border-opacity-50 bg-cyan-500 bg-opacity-10 mix-blend-screen flex items-center justify-end pr-8 md:pr-12 shadow-[0_0_50px_rgba(14,165,233,0.15)] transition-transform hover:scale-105 hover:bg-opacity-20 z-10">
               <div className="text-right w-24 md:w-32">
                 <span className="block text-cyan font-bold text-lg md:text-xl mb-1">Endurance<br/>Exercise</span>
                 <span className="text-[10px] md:text-xs text-cyan opacity-80 leading-tight block">Epigenetics & Tissue</span>
