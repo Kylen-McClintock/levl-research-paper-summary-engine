@@ -3,6 +3,7 @@ import { ResearchHub } from './ResearchHub';
 import { AgingClocksWebpage } from './AgingClocksWebpage';
 import { MetabolitesWebpage } from './MetabolitesWebpage';
 import { CrExWebpage } from './CrExWebpage';
+import { IL11Webpage } from './IL11Webpage';
 import App from './App';
 
 export const Router = () => {
@@ -16,6 +17,7 @@ export const Router = () => {
         <Route path="/organ-specific-aging-clocks" element={<AgingClocksWebpage />} />
         <Route path="/endogenous-metabolites-longevity" element={<MetabolitesWebpage />} />
         <Route path="/diet-vs-exercise-aging" element={<CrExWebpage />} />
+        <Route path="/il-11-lifespan-extension" element={<IL11Webpage />} />
         
         {/* Original Poster Generatory */}
         <Route path="/poster" element={<App />} />

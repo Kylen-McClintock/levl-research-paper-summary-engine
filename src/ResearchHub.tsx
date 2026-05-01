@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Zap, BookOpen } from 'lucide-react';
 import hubData from './data/hubData.json';
+import { Footer } from './components/Footer';
 
 export const ResearchHub = () => {
   return (
@@ -65,14 +66,7 @@ export const ResearchHub = () => {
       </section>
 
       {/* Footer */}
-      <footer className="max-w-7xl mx-auto px-6 py-12 border-t border-[var(--levl-border)] border-opacity-40 flex flex-col md:flex-row items-center justify-between gap-6 opacity-80">
-         <div className="w-24">
-            <img src="/src/assets/levl-logo.png" alt="LEVL Logo" className="w-full h-auto object-contain filter grayscale invert opacity-50" />
-         </div>
-         <div className="text-xs font-light text-[var(--levl-text-muted)] text-center md:text-right">
-           © {new Date().getFullYear()} LEVL Health. All rights reserved.
-         </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
