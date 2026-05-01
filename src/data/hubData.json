@@ -61,5 +61,14 @@
     "summary": "Aging is a loss of epigenetic software, not a hardware mutation. And using OSK factors, this software can be rebooted.",
     "path": "/epigenetic-reprogramming",
     "accentColor": "emerald"
+  },
+  {
+    "id": "rapamycin-mtor",
+    "title": "The Pharmacological Holy Grail",
+    "journal": "Nature",
+    "year": 2009,
+    "summary": "The landmark study proving that pharmacological inhibition of mTOR using Rapamycin extends maximum lifespan in mammals, even when started in old age.",
+    "path": "/rapamycin-mtor",
+    "accentColor": "indigo"
   }
 ]

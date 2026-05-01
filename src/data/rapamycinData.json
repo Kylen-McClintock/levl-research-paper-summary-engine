@@ -1,0 +1,53 @@
+{
+  "titleBlock": {
+    "headline": "Rapamycin fed late in life extends lifespan in genetically heterogeneous mice",
+    "authors": "Harrison, D.E., Strong, R., Sharp, Z.D., et al.",
+    "journal": "Nature",
+    "year": 2009,
+    "doi": "10.1038/nature08221"
+  },
+  "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
+  "whatIsMtor": [
+    "What is mTOR?",
+    "mTOR (mechanistic Target of Rapamycin) is a master nutrient-sensing protein in our cells. It acts like a switch controlling the balance between cellular growth and cellular repair.",
+    "The Biological Seesaw",
+    "When food is plentiful, mTOR turns ON, driving growth, muscle building, and reproduction. When food is scarce, mTOR turns OFF, triggering 'autophagy'—a cellular recycling process that cleans out damaged proteins and repairs the cell.",
+    "What did this study discover?",
+    "Historically, we thought you couldn't reverse aging once it had taken hold. This landmark study proved that giving Rapamycin (an mTOR inhibitor) to old mice tricked their cells into a state of deep repair, significantly extending their maximum lifespan."
+  ],
+  "studyOverview": [
+    { "label": "Objective", "value": "Test if pharmacological inhibition of mTOR can extend lifespan in mammals." },
+    { "label": "The Intervention", "value": "Rapamycin administered at 600 days of age (equivalent to a 60-year-old human)." },
+    { "label": "Female Result", "value": "14% increase in maximum lifespan." },
+    { "label": "Male Result", "value": "9% increase in maximum lifespan." }
+  ],
+  "mechanismDescription": "By suppressing the mTOR signaling pathway, Rapamycin acts as a caloric restriction mimetic. It tricks the body into thinking it is starving, which pauses cellular replication and initiates deep cellular maintenance and autophagy, thereby slowing the accumulation of age-related damage.",
+  "seesawStates": {
+    "mtorOn": {
+      "title": "mTOR ON",
+      "subtitle": "(Nutrient Abundance)",
+      "attributes": ["Protein Synthesis", "Cellular Proliferation", "Muscle Hypertrophy", "Accelerated Aging"]
+    },
+    "mtorOff": {
+      "title": "mTOR OFF",
+      "subtitle": "(Rapamycin / Fasting)",
+      "attributes": ["Autophagy & Cleanup", "DNA Repair", "Stem Cell Maintenance", "Lifespan Extension"]
+    }
+  },
+  "keyFindings": [
+    { "title": "Late-Life Efficacy", "desc": "The most profound finding was that the intervention worked even when started in late middle age (600 days). This proved that longevity drugs don't need to be taken from birth to be effective." },
+    { "title": "Maximum Lifespan Extension", "desc": "Unlike many interventions that merely prevent early death, Rapamycin successfully increased the maximum lifespan of the species, pushing the absolute biological limit of the mice." },
+    { "title": "Cancer Delay", "desc": "Because mTOR drives cellular growth, its inhibition via Rapamycin significantly delayed the onset and progression of age-related cancers, which are the primary cause of death in these mice." },
+    { "title": "Reproducibility", "desc": "This was the first time a pharmacological agent was proven to extend lifespan across three independent test sites simultaneously, cementing Rapamycin as the gold standard in longevity research." }
+  ],
+  "conclusions": [
+    "Pharmacological inhibition of the mTOR pathway extends lifespan in mammalian species.",
+    "Lifespan extension can be achieved even if the intervention is initiated late in life.",
+    "Rapamycin remains the most robust and reproducible life-extending drug ever discovered."
+  ],
+  "protocolRecommendations": [
+    "Rapamycin is an FDA-approved immunosuppressant (often used for organ transplants). Its off-label use for longevity is currently experimental.",
+    "Modern longevity physicians often prescribe 'pulsed' or transient Rapamycin dosing (e.g., once weekly) to achieve the autophagy benefits without suppressing the immune system.",
+    "Natural ways to inhibit mTOR include prolonged fasting, severe caloric restriction, and deep endurance exercise."
+  ]
+}
