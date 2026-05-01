@@ -70,5 +70,14 @@
     "summary": "The landmark study proving that pharmacological inhibition of mTOR using Rapamycin extends maximum lifespan in mammals, even when started in old age.",
     "path": "/rapamycin-mtor",
     "accentColor": "indigo"
+  },
+  {
+    "id": "urolithin-a-mitophagy",
+    "title": "Mitochondrial Rejuvenation",
+    "journal": "Nature Medicine",
+    "year": 2016,
+    "summary": "The discovery of a microbiome-derived metabolite that triggers mitophagy, clearing dead mitochondria and extending lifespan.",
+    "path": "/urolithin-a-mitophagy",
+    "accentColor": "orange"
   }
 ]

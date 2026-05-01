@@ -8,6 +8,7 @@ import { CarTWebpage } from './CarTWebpage';
 import { Pf4Webpage } from './Pf4Webpage';
 import { EpigeneticWebpage } from './EpigeneticWebpage';
 import { RapamycinWebpage } from './RapamycinWebpage';
+import { UrolithinWebpage } from './UrolithinWebpage';
 import App from './App';
 
 export const Router = () => {
@@ -26,6 +27,7 @@ export const Router = () => {
         <Route path="/pf4-systemic-rejuvenation" element={<Pf4Webpage />} />
         <Route path="/epigenetic-reprogramming" element={<EpigeneticWebpage />} />
         <Route path="/rapamycin-mtor" element={<RapamycinWebpage />} />
+        <Route path="/urolithin-a-mitophagy" element={<UrolithinWebpage />} />
         
         {/* Original Poster Generatory */}
         <Route path="/poster" element={<App />} />

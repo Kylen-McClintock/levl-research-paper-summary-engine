@@ -1,0 +1,47 @@
+{
+  "titleBlock": {
+    "headline": "Urolithin A induces mitophagy and prolongs lifespan in C. elegans and increases muscle function in rodents",
+    "authors": "Ryu, D., Mouchiroud, L., Andreux, P.A., et al.",
+    "journal": "Nature Medicine",
+    "year": 2016,
+    "doi": "10.1038/nm.4132"
+  },
+  "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
+  "whatIsMitophagy": [
+    "The Cellular Powerhouse",
+    "Mitochondria are the 'batteries' of your cells, generating the energy required for life. As we age, these batteries become damaged, leak toxic free radicals, and lose their ability to produce energy.",
+    "What is Mitophagy?",
+    "Mitophagy is the cellular quality control process of identifying dead or damaged mitochondria and destroying them so fresh, healthy ones can take their place. In aging, this cleanup process fails.",
+    "What did this study discover?",
+    "Researchers discovered that a specific molecule, Urolithin A, is a potent activator of mitophagy. Supplementing with Urolithin A cleared out dead mitochondria, extended lifespan in worms by 45%, and significantly increased muscle endurance in older mice."
+  ],
+  "studyOverview": [
+    { "label": "Objective", "value": "Identify a natural compound capable of restoring age-related decline in mitochondrial function." },
+    { "label": "The Compound", "value": "Urolithin A (a gut-microbiome metabolite)." },
+    { "label": "Lifespan Result", "value": "Extended lifespan in C. elegans by 45%." },
+    { "label": "Muscle Result", "value": "Increased running endurance by 42% in aged mice." }
+  ],
+  "mechanismDescription": "Urolithin A acts as a molecular trigger that forces the cell to execute 'mitophagy'. By clearing out the defective, energy-draining mitochondria, the cell is forced to biogenize new, highly efficient mitochondria, drastically improving tissue function and stamina.",
+  "gutBottleneck": [
+    { "step": "1. The Precursor", "desc": "You consume Ellagitannins (polyphenols found heavily in Pomegranates, walnuts, and berries)." },
+    { "step": "2. The Bottleneck", "desc": "Humans cannot naturally extract Urolithin A. You must have specific, rare gut bacteria to perform the conversion." },
+    { "step": "3. The Output", "desc": "If you have the right microbiome, the bacteria synthesize Urolithin A into your bloodstream." },
+    { "step": "4. Mitophagy", "desc": "Urolithin A reaches your cells, clears out dead mitochondria, and restores youthful energy." }
+  ],
+  "keyFindings": [
+    { "title": "A First-In-Class Mitophagy Activator", "desc": "Urolithin A was identified as the first natural, dietary-derived compound with a conserved ability to stimulate mitophagy across multiple species (from worms to mammals)." },
+    { "title": "Prevention of Sarcopenia", "desc": "In aged mice (equivalent to 70-year-old humans), Urolithin A treatment reversed the age-related decline in muscle function (sarcopenia) without any exercise training, purely by upgrading mitochondrial quality." },
+    { "title": "The Microbiome Lottery", "desc": "Clinical follow-ups revealed that only ~30-40% of the human population possesses the precise gut microbiota required to naturally produce Urolithin A from a healthy diet." },
+    { "title": "Safety Profile", "desc": "Because it is a downstream metabolite of a widely consumed food (pomegranate), Urolithin A demonstrated an exceptional safety profile, leading to rapid human clinical trials in the years following this publication." }
+  ],
+  "conclusions": [
+    "Mitochondrial dysfunction is a primary driver of muscle aging and lifespan reduction.",
+    "Urolithin A is a highly conserved, potent activator of mitophagy that clears defective mitochondria.",
+    "Direct supplementation bypasses the 'microbiome bottleneck', providing systemic mitochondrial rejuvenation."
+  ],
+  "protocolRecommendations": [
+    "Drinking pomegranate juice or eating walnuts is not sufficient for most people, as only ~30% of humans have the required gut bacteria to convert ellagitannins into Urolithin A.",
+    "Direct Urolithin A supplementation (often sold as Mitopure) is currently the only way to guarantee a clinical dose reaches the bloodstream.",
+    "Zone 2 cardiovascular exercise is the most effective natural, non-pharmacological way to stimulate mitophagy and mitochondrial biogenesis."
+  ]
+}
