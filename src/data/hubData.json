@@ -25,5 +25,32 @@
     "summary": "Calorie restriction and endurance exercise both reduce biological age, but through entirely distinct mechanisms—from microbiome remodeling to epigenetic reversal.",
     "path": "/diet-vs-exercise-aging",
     "accentColor": "green"
+  },
+  {
+    "id": "il11-lifespan-extension",
+    "title": "IL-11 Inhibition Extends Lifespan by 25%",
+    "journal": "Nature",
+    "year": 2024,
+    "summary": "Targeting the pro-inflammatory cytokine IL-11 in aged mice reverses physical frailty, restores metabolic function, and extends median lifespan by 25%.",
+    "path": "/il-11-lifespan-extension",
+    "accentColor": "rose"
+  },
+  {
+    "id": "car-t-senolytics",
+    "title": "Immune Cells Engineered to Hunt Aging",
+    "journal": "Nature Aging",
+    "year": 2024,
+    "summary": "Repurposing CAR T-cell therapy to hunt and destroy 'zombie' senescent cells provides a long-lasting, vaccine-like shield against age-related decline.",
+    "path": "/car-t-senolytics",
+    "accentColor": "amber"
+  },
+  {
+    "id": "pf4-systemic-rejuvenation",
+    "title": "The Unified Theory of Rejuvenation",
+    "journal": "Nature",
+    "year": 2023,
+    "summary": "Three independent longevity interventions—Young Blood, Klotho, and Exercise—all converge on a single blood factor (PF4) to reverse brain aging.",
+    "path": "/pf4-systemic-rejuvenation",
+    "accentColor": "red"
   }
 ]

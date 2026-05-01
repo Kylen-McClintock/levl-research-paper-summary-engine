@@ -4,6 +4,8 @@ import { AgingClocksWebpage } from './AgingClocksWebpage';
 import { MetabolitesWebpage } from './MetabolitesWebpage';
 import { CrExWebpage } from './CrExWebpage';
 import { IL11Webpage } from './IL11Webpage';
+import { CarTWebpage } from './CarTWebpage';
+import { Pf4Webpage } from './Pf4Webpage';
 import App from './App';
 
 export const Router = () => {
@@ -18,6 +20,8 @@ export const Router = () => {
         <Route path="/endogenous-metabolites-longevity" element={<MetabolitesWebpage />} />
         <Route path="/diet-vs-exercise-aging" element={<CrExWebpage />} />
         <Route path="/il-11-lifespan-extension" element={<IL11Webpage />} />
+        <Route path="/car-t-senolytics" element={<CarTWebpage />} />
+        <Route path="/pf4-systemic-rejuvenation" element={<Pf4Webpage />} />
         
         {/* Original Poster Generatory */}
         <Route path="/poster" element={<App />} />
