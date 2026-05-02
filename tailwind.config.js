@@ -17,5 +17,10 @@ export default {
       }
     },
   },
+  safelist: [
+    {
+      pattern: /(bg|text|border|hover:border|group-hover:bg)-(blue|fuchsia|emerald|rose|amber|red|indigo|orange|cyan|yellow|slate)(-500)?/,
+    }
+  ],
   plugins: [],
 }
