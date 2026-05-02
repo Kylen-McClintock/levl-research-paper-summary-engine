@@ -36,8 +36,8 @@ export const MetforminWebpage = () => {
             <Shield className="w-4 h-4" /> {data.titleBlock.journal} Study ({data.titleBlock.year})
           </a>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4 leading-[1.1] text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60">
-            The Billion Dose<br />
-            <span className="text-[32px] md:text-[42px] text-transparent bg-clip-text bg-gradient-to-r from-slate-400 to-gray-300 font-medium tracking-tight">Longevity Titan</span>
+            Targeting Aging<br />
+            <span className="text-[32px] md:text-[42px] text-transparent bg-clip-text bg-gradient-to-r from-slate-400 to-gray-300 font-medium tracking-tight">With Metformin</span>
           </h1>
           <p className="max-w-2xl text-center text-[var(--levl-text-secondary)] font-light text-sm italic mb-8">
             "{data.titleBlock.headline}"
