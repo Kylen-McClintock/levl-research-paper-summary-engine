@@ -1,0 +1,60 @@
+{
+  "titleBlock": {
+    "headline": "Metformin improves healthspan and lifespan in mice",
+    "authors": "Martin-Montalvo, A., Mercken, E.M., Mitchell, S.J. et al.",
+    "journal": "Nature Communications",
+    "year": 2014,
+    "doi": "10.1038/ncomms4192"
+  },
+  "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
+  "whatIsMetformin": [
+    "A 60-Year-Old Titan",
+    "Metformin is a first-line medication for the treatment of type 2 diabetes. It is a derivative of the French lilac plant and has been safely prescribed to over 150 million people worldwide.",
+    "The Epidemic Finding",
+    "Large-scale epidemiological studies revealed a shocking trend: Type 2 diabetics taking Metformin were living longer than healthy, non-diabetic individuals who were not taking the drug.",
+    "What did this study discover?",
+    "This 2014 Nature Communications study proved that the longevity effect wasn't just a statistical anomaly. Metformin actually mimics the biological effects of caloric restriction, extending lifespan and delaying aging in mammals."
+  ],
+  "studyOverview": [
+    { "label": "Objective", "value": "Determine if Metformin extends lifespan in non-diabetic mammals." },
+    { "label": "The Intervention", "value": "Supplementing the diets of middle-aged male mice with Metformin (0.1% w/w)." },
+    { "label": "Lifespan Result", "value": "Extended median lifespan by ~6%." },
+    { "label": "Metabolic Result", "value": "Increased physical performance and delayed cataract formation." }
+  ],
+  "mechanismDescription": "Metformin acts as a mild metabolic stressor. It slightly inhibits Complex I in the mitochondria, which causes a minor drop in cellular energy (ATP). This drop sounds an alarm, activating AMPK (the cell's fuel gauge). AMPK then turns off mTOR (the growth switch), forcing the cell to stop dividing, burn fat, and begin deep repair.",
+  "ampkPathway": {
+    "step1": {
+      "title": "Mitochondrial Stress",
+      "desc": "Metformin mildly inhibits Complex I, creating a temporary, safe drop in cellular ATP levels."
+    },
+    "step2": {
+      "title": "AMPK Activation",
+      "desc": "The low energy state triggers AMPK, the master 'fuel gauge' of the cell, signaling that nutrients are scarce."
+    },
+    "step3": {
+      "title": "mTOR Inhibition",
+      "desc": "AMPK forcefully shuts down the mTOR pathway, pausing growth and activating autophagy and DNA repair."
+    }
+  },
+  "keyFindings": [
+    { "title": "Caloric Restriction Mimetic", "desc": "Metformin triggers the exact same genetic pathways as fasting or severe caloric restriction, without requiring the subject to eat any less food." },
+    { "title": "Delaying Age-Related Disease", "desc": "Beyond just lifespan, the mice exhibited a significant delay in the onset of age-related phenotypes, including maintaining higher physical stamina and delaying vision loss (cataracts)." },
+    { "title": "The Goldilocks Dose", "desc": "The study revealed that higher doses of Metformin were actually toxic and shortened lifespan, proving that 'more is not always better' when it comes to longevity pharmacology." },
+    { "title": "The Foundation for TAME", "desc": "These findings provided the critical animal data needed to justify the historic $70 million TAME (Targeting Aging with Metformin) clinical trial in humans." }
+  ],
+  "tameTrial": {
+    "title": "The TAME Trial",
+    "subtitle": "Targeting Aging with Metformin",
+    "description": "Led by Dr. Nir Barzilai at AFAR, the TAME trial is a historic, $70M clinical trial tracking 3,000 humans over 6 years. Its goal is not just to prove Metformin works, but to force the FDA to recognize 'Aging' as a treatable medical indication—paving the way for the entire longevity industry."
+  },
+  "conclusions": [
+    "Metformin is a safe, widely available compound that extends healthspan and lifespan in non-diabetic mammals.",
+    "It works by activating AMPK and acting as a mild stressor (hormesis), mimicking the effects of caloric restriction.",
+    "It is currently the prime candidate for the first FDA-approved anti-aging therapeutic."
+  ],
+  "protocolRecommendations": [
+    "Metformin is a prescription drug and should only be taken under the guidance of a physician.",
+    "While it extends lifespan, some recent studies show it can blunt the muscular adaptation to intense exercise (hypertrophy), leading many longevity doctors to advise skipping it on heavy workout days.",
+    "Berberine is a natural, over-the-counter compound that activates AMPK in a similar (though less clinically proven) manner to Metformin."
+  ]
+}

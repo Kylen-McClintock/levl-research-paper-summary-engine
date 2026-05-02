@@ -97,5 +97,14 @@
     "summary": "The discovery that a cheap, orally available cocktail of Dasatinib and Quercetin can hunt and destroy toxic zombie cells to extend lifespan.",
     "path": "/dq-senolytics",
     "accentColor": "yellow"
+  },
+  {
+    "id": "metformin-tame",
+    "title": "The Billion Dose Titan",
+    "journal": "Nature Communications",
+    "year": 2014,
+    "summary": "The landmark animal data that launched the TAME clinical trial, proving the 60-year-old diabetes drug Metformin mimics caloric restriction.",
+    "path": "/metformin-tame",
+    "accentColor": "slate"
   }
 ]
