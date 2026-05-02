@@ -10,6 +10,7 @@ import { EpigeneticWebpage } from './EpigeneticWebpage';
 import { RapamycinWebpage } from './RapamycinWebpage';
 import { UrolithinWebpage } from './UrolithinWebpage';
 import { NadWebpage } from './NadWebpage';
+import { SenolyticsWebpage } from './SenolyticsWebpage';
 import App from './App';
 
 export const Router = () => {
@@ -30,6 +31,7 @@ export const Router = () => {
         <Route path="/rapamycin-mtor" element={<RapamycinWebpage />} />
         <Route path="/urolithin-a-mitophagy" element={<UrolithinWebpage />} />
         <Route path="/nad-communication" element={<NadWebpage />} />
+        <Route path="/dq-senolytics" element={<SenolyticsWebpage />} />
         
         {/* Original Poster Generatory */}
         <Route path="/poster" element={<App />} />

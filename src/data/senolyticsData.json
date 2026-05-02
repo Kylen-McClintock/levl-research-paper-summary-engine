@@ -1,0 +1,53 @@
+{
+  "titleBlock": {
+    "headline": "Senolytics improve physical function and increase lifespan in old age",
+    "authors": "Xu, M., Pirtskhalava, T., Farr, J.N., Kirkland, J.L. et al.",
+    "journal": "Nature Medicine",
+    "year": 2018,
+    "doi": "10.1038/s41591-018-0092-9"
+  },
+  "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
+  "whatAreSenolytics": [
+    "Zombie Cells",
+    "As we age, some cells suffer DNA damage but refuse to die. They enter a state called 'senescence'. They sit in your tissues, secreting toxic chemicals (SASP) that cause inflammation and accelerate aging.",
+    "The Cure",
+    "Senolytics are a new class of drugs designed specifically to hunt down and force these zombie cells to undergo apoptosis (programmed cell death) without harming healthy cells.",
+    "The D+Q Cocktail",
+    "Researchers discovered that combining Dasatinib (a leukemia drug) and Quercetin (an apple/onion flavonoid) creates a potent senolytic cocktail that dramatically extends healthspan and lifespan."
+  ],
+  "studyOverview": [
+    { "label": "Objective", "value": "Determine if clearing senescent cells with small molecules extends lifespan." },
+    { "label": "The Intervention", "value": "Intermittent dosing of Dasatinib + Quercetin (D+Q) in aged mice." },
+    { "label": "Physical Function", "value": "Treated mice showed massive improvements in grip strength and treadmill endurance." },
+    { "label": "Lifespan Result", "value": "Extended remaining lifespan by 36%." }
+  ],
+  "mechanismDescription": "Senescent cells secrete a toxic cocktail of inflammatory cytokines called the Senescence-Associated Secretory Phenotype (SASP). This poisons neighboring cells, turning them into zombies too. The D+Q cocktail disables the 'anti-death' pathways that these zombie cells rely on, causing them to self-destruct and halting the spread of inflammation.",
+  "hitAndRunProtocol": {
+    "title": "The Hit-and-Run Protocol",
+    "description": "Unlike traditional drugs (like blood pressure medication) which must be taken every day, Senolytics use a 'Hit-and-Run' approach. Because senescent cells take weeks or months to accumulate, you only need to take the drug intermittently (e.g., 3 days a month).",
+    "hit": {
+      "title": "The Hit (Days 1-3)",
+      "desc": "High dose of D+Q clears out the accumulated senescent cells."
+    },
+    "run": {
+      "title": "The Run (Days 4-30)",
+      "desc": "No drugs are taken. Inflammation drops, tissues heal, and side effects are avoided."
+    }
+  },
+  "keyFindings": [
+    { "title": "Reversing Frailty", "desc": "When D+Q was given to naturally aged, 20-month-old mice (equivalent to 65-year-old humans), it rapidly improved walking speed, hanging endurance, and grip strength." },
+    { "title": "The 36% Extension", "desc": "Treatment initiated in very old age extended the remaining lifespan of the mice by 36% and delayed the onset of age-related fatal diseases." },
+    { "title": "Stopping the Spread", "desc": "The study proved that injecting just a small number of senescent cells into young mice was enough to make them frail. Clearing them with D+Q halted this infectious spread." },
+    { "title": "Intermittent Efficacy", "desc": "Continuous dosing was not required. Because the drugs clear the cells, the benefits persist long after the drug has left the bloodstream." }
+  ],
+  "conclusions": [
+    "Senescent cells are a primary driver of physical frailty and decreased survival in old age.",
+    "The Dasatinib + Quercetin (D+Q) combination is a highly potent, orally bioavailable senolytic therapy.",
+    "Intermittent 'hit-and-run' dosing is sufficient to clear cells, extend lifespan, and minimize off-target toxicity."
+  ],
+  "protocolRecommendations": [
+    "Dasatinib is a prescription chemotherapy drug and carries significant side effects. It is not currently recommended for off-label longevity use without strict physician oversight.",
+    "However, this study launched dozens of human clinical trials testing D+Q for conditions like Alzheimer's, osteoarthritis, and chronic kidney disease.",
+    "Fisetin (a flavonoid found in strawberries) is currently being studied as a natural, over-the-counter alternative to Dasatinib with senolytic properties."
+  ]
+}

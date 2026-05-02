@@ -88,5 +88,14 @@
     "summary": "Declining NAD+ levels break the vital communication network between the nucleus and mitochondria, driving rapid cellular aging.",
     "path": "/nad-communication",
     "accentColor": "cyan"
+  },
+  {
+    "id": "dq-senolytics",
+    "title": "Small-Molecule Senolytics",
+    "journal": "Nature Medicine",
+    "year": 2018,
+    "summary": "The discovery that a cheap, orally available cocktail of Dasatinib and Quercetin can hunt and destroy toxic zombie cells to extend lifespan.",
+    "path": "/dq-senolytics",
+    "accentColor": "yellow"
   }
 ]
