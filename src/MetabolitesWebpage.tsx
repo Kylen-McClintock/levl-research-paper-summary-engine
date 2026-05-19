@@ -1,3 +1,4 @@
+import { Header } from './components/Header';
 import data from './data/metabolitesData.json';
 import { ShieldCheck, Target, Globe, Activity, ArrowRight, Zap, CheckCircle, Search, Beaker, Dna, HeartPulse, Users } from 'lucide-react';
 import { Footer } from './components/Footer';
@@ -23,6 +24,7 @@ export const MetabolitesWebpage = () => {
 
   return (
     <div id="infographic" className="min-h-screen bg-[var(--levl-bg)] text-white font-inter selection:bg-cyan-500 selection:text-white pb-24">
+      <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       {/* 1. Hero Cover */}
       <section className="relative w-full min-h-[70vh] flex flex-col items-center justify-center text-center px-6 border-b border-[var(--levl-border)] overflow-hidden">

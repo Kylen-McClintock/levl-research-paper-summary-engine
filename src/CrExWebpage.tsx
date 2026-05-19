@@ -1,3 +1,4 @@
+import { Header } from './components/Header';
 import data from './data/crExData.json';
 import { ShieldCheck, Target, Globe, Activity, Zap, CheckCircle, Search, Dna, FileText, Utensils, Footprints, Layers } from 'lucide-react';
 import { Footer } from './components/Footer';
@@ -23,6 +24,7 @@ export const CrExWebpage = () => {
 
   return (
     <div id="infographic" className="min-h-screen bg-[var(--levl-bg)] text-white font-inter selection:bg-cyan-500 selection:text-white pb-24">
+      <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       
       {/* 1. Hero Cover */}

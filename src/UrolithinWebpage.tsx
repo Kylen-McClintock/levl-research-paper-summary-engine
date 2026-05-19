@@ -1,3 +1,4 @@
+import { Header } from './components/Header';
 import data from './data/urolithinData.json';
 import { ShieldCheck, Target, Activity, CheckCircle, ArrowRight, Database, BatteryCharging, Apple } from 'lucide-react';
 import { Footer } from './components/Footer';
@@ -23,6 +24,7 @@ export const UrolithinWebpage = () => {
 
   return (
     <div id="infographic" className="min-h-screen bg-[var(--levl-bg)] text-white font-inter selection:bg-orange-500 selection:text-white pb-24 relative overflow-hidden">
+      <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       
       {/* 1. Hero Cover */}

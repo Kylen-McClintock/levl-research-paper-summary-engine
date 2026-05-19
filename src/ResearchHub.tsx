@@ -1,3 +1,4 @@
+import { Header } from './components/Header';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Zap, BookOpen } from 'lucide-react';
 import hubData from './data/hubData.json';
@@ -6,6 +7,7 @@ import { Footer } from './components/Footer';
 export const ResearchHub = () => {
   return (
     <div className="min-h-screen bg-[var(--levl-bg)] text-white font-inter selection:bg-cyan-500 selection:text-white pb-24">
+      <Header />
       {/* Hero Section */}
       <section className="relative w-full pt-32 pb-24 px-6 border-b border-[var(--levl-border)] overflow-hidden flex flex-col items-center text-center">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-cyan-500 opacity-[0.05] blur-[150px] rounded-full pointer-events-none"></div>

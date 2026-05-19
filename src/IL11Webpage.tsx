@@ -1,3 +1,4 @@
+import { Header } from './components/Header';
 import data from './data/il11Data.json';
 import { ShieldCheck, Target, Activity, Zap, CheckCircle, Flame, HeartPulse, Dna, ArrowRight } from 'lucide-react';
 
@@ -24,6 +25,7 @@ export const IL11Webpage = () => {
 
   return (
     <div id="infographic" className="min-h-screen bg-[var(--levl-bg)] text-white font-inter selection:bg-rose-500 selection:text-white pb-24">
+      <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       
       {/* 1. Hero Cover */}

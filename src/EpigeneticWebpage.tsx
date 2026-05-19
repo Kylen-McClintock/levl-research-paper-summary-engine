@@ -1,3 +1,4 @@
+import { Header } from './components/Header';
 import data from './data/epigeneticData.json';
 import { Activity, Zap, CheckCircle, Dna, Cpu, Terminal, Sparkles, Database, Power } from 'lucide-react';
 import { Footer } from './components/Footer';
@@ -23,6 +24,7 @@ export const EpigeneticWebpage = () => {
 
   return (
     <div id="infographic" className="min-h-screen bg-[#050f0a] text-white font-inter selection:bg-emerald-500 selection:text-black pb-24 relative overflow-hidden">
+      <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       
       {/* Matrix-like background grid */}

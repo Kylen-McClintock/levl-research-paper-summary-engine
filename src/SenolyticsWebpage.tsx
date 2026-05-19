@@ -1,3 +1,4 @@
+import { Header } from './components/Header';
 import data from './data/senolyticsData.json';
 import { ShieldCheck, Target, Activity, CheckCircle, Skull, Zap, Play, Pause, FlaskConical, ArrowRight } from 'lucide-react';
 import { Footer } from './components/Footer';
@@ -23,6 +24,7 @@ export const SenolyticsWebpage = () => {
 
   return (
     <div id="infographic" className="min-h-screen bg-[var(--levl-bg)] text-white font-inter selection:bg-yellow-500 selection:text-black pb-24 relative overflow-hidden">
+      <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       
       {/* 1. Hero Cover */}
