@@ -1,0 +1,168 @@
+{
+  "titleBlock": {
+    "headline": "DO-HEALTH Trial: Omega-3, Vitamin D & Exercise Additively Slow Human Epigenetic Aging",
+    "authors": "Bischoff-Ferrari, H.A., Gängler, S., Wieczorek, M., Belsky, D.W., Ryan, J., Kressig, R.W., Stähelin, H.B., Theiler, R., Dawson-Hughes, B., Rizzoli, R., Vellas, B., Rouch, L., Guyonnet, S., Egli, A., Orav, E.J., Willett, W. & Horvath, S.",
+    "journal": "Nature Aging",
+    "year": "2025",
+    "doi": "10.1038/s43587-024-00793-y",
+    "pmid": "39900648",
+    "pmcid": "PMC11922767",
+    "nct": "NCT01745263",
+    "summary": "In a 3-year multicenter 2×2×2 factorial randomized controlled trial of 777 generally healthy older adults (aged ≥70 years) from the DO-HEALTH cohort, marine algae omega-3 supplementation (1 g/day: 330 mg EPA + 660 mg DHA) alone significantly slowed three next-generation DNA methylation clocks (PC-PhenoAge, GrimAge2, and DunedinPACE), while combining omega-3 with vitamin D3 (2,000 IU/day) and strength-based home exercise (3×30 min/week) additively slowed PC-PhenoAge by 2.9 to 3.8 months over 3 years."
+  },
+  "studyOverview": [
+    {
+      "title": "The Question",
+      "content": "Can safe, scalable, low-cost public health interventions—marine omega-3 fatty acids, vitamin D3, and regular home strength exercise—slow biological aging at the molecular level in older adults aged 70+, and do their distinct mechanisms combine additively?"
+    },
+    {
+      "title": "What They Did",
+      "content": "Conducted a pre-specified 3-year longitudinal epigenetic bio-age analysis in n = 777 Swiss participants (mean age 75.0 yr, 59% women, 53% Nurse's Health Study healthy agers) from the 2,157-person European DO-HEALTH 2×2×2 factorial RCT across 8 randomized arms: Omega-3 (1 g/day algae oil: 330 mg EPA + 660 mg DHA), Vitamin D3 (2,000 IU/day), and SHEP Home Exercise (3×30 min/week strength vs. joint flexibility control), profiling blood Illumina EPIC (>850k CpG) DNA methylation at baseline and 36 months."
+    },
+    {
+      "title": "What They Found",
+      "content": "Omega-3 alone slowed 3 of 4 primary biological clocks (PC-PhenoAge d = -0.16, GrimAge2 d = -0.32, DunedinPACE d = -0.17) and lowered 3 GrimAge plasma protein surrogates (PAI-1, Leptin, TIMP-1). Combining Omega-3 + Vitamin D3 + Exercise produced significant additive slowing on PC-PhenoAge (d = -0.24 to -0.32, equal to -2.9 to -3.8 months over 3 years), translating into clinical reductions in infections (-13%), falls (-10%), pre-frailty (-39%), and invasive cancer (-61%) in the full trial."
+    }
+  ],
+  "interventions": [
+    {
+      "id": "omega3_alone",
+      "label": "Omega-3 Alone",
+      "dose": "1,000 mg/day Marine Algae Oil (330 mg EPA + 660 mg DHA)",
+      "badge": "Strongest Single Agent",
+      "summary": "Significantly slowed 3 of 4 primary next-generation epigenetic clocks (PC-PhenoAge, GrimAge2, DunedinPACE) and reduced 3 pro-inflammatory/metabolic GrimAge plasma protein surrogates (PAI-1, Leptin, TIMP-1). Effects were most pronounced in individuals with lower baseline blood EPA+DHA (<100 ng/mL).",
+      "clocks": [
+        { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.16, "ci": "-0.30 to -0.02", "monthsSaved": -1.9, "significant": true },
+        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.32, "ci": "-0.59 to -0.06", "monthsSaved": -3.8, "significant": true },
+        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.17, "ci": "-0.31 to -0.04", "monthsSaved": -1.1, "significant": true },
+        { "clock": "PC-GrimAge", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.08, "ci": "-0.17 to +0.01", "monthsSaved": -1.0, "significant": false }
+      ],
+      "proteins": [
+        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis)", "cohensD": -0.33, "significant": true },
+        { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker", "cohensD": -0.42, "significant": true },
+        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis)", "cohensD": -0.31, "significant": true },
+        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker", "cohensD": -0.14, "significant": false },
+        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging)", "cohensD": -0.18, "significant": false }
+      ]
+    },
+    {
+      "id": "omega3_vitd",
+      "label": "Omega-3 + Vitamin D3",
+      "dose": "1 g/day Omega-3 + 2,000 IU/day Cholecalciferol",
+      "badge": "Dual Nutrient Synergy",
+      "summary": "Combining marine omega-3 with 2,000 IU/day vitamin D3 amplified the slowing of PC-PhenoAge (d = -0.27) and DunedinPACE (d = -0.20) while additively suppressing DNAm PAI-1, TIMP-1, and Beta-2 Microglobulin (B2M).",
+      "clocks": [
+        { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.27, "ci": "-0.49 to -0.05", "monthsSaved": -3.2, "significant": true },
+        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.28, "ci": "-0.55 to -0.01", "monthsSaved": -3.4, "significant": true },
+        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.20, "ci": "-0.36 to -0.04", "monthsSaved": -1.3, "significant": true },
+        { "clock": "PC-GrimAge", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.16, "ci": "-0.32 to 0.00", "monthsSaved": -1.9, "significant": true }
+      ],
+      "proteins": [
+        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis)", "cohensD": -0.36, "significant": true },
+        { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker", "cohensD": -0.35, "significant": true },
+        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis)", "cohensD": -0.44, "significant": true },
+        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker", "cohensD": -0.22, "significant": false },
+        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging)", "cohensD": -0.39, "significant": true }
+      ]
+    },
+    {
+      "id": "omega3_ex",
+      "label": "Omega-3 + Exercise",
+      "dose": "1 g/day Omega-3 + 3×30 min/wk Strength SHEP",
+      "badge": "Metabolic + Mechanical",
+      "summary": "Pairing omega-3 supplementation with structured home strength training (SHEP) significantly slowed PC-PhenoAge (d = -0.26) and PC-GrimAge (d = -0.18) while reducing PAI-1, TIMP-1, and B2M surrogates.",
+      "clocks": [
+        { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.26, "ci": "-0.48 to -0.04", "monthsSaved": -3.1, "significant": true },
+        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.25, "ci": "-0.52 to +0.02", "monthsSaved": -3.0, "significant": false },
+        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.16, "ci": "-0.31 to -0.01", "monthsSaved": -1.1, "significant": true },
+        { "clock": "PC-GrimAge", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.18, "ci": "-0.34 to -0.02", "monthsSaved": -2.2, "significant": true }
+      ],
+      "proteins": [
+        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis)", "cohensD": -0.34, "significant": true },
+        { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker", "cohensD": -0.29, "significant": true },
+        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis)", "cohensD": -0.38, "significant": true },
+        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker", "cohensD": -0.21, "significant": false },
+        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging)", "cohensD": -0.32, "significant": true }
+      ]
+    },
+    {
+      "id": "triple_combo",
+      "label": "Triple Combination (All 3)",
+      "dose": "Omega-3 (1 g/d) + Vitamin D3 (2,000 IU/d) + Exercise (3×30 min/wk)",
+      "badge": "Maximum Additive Benefit (-3.8 mo)",
+      "summary": "The full triple combination achieved the largest biological age deceleration on PC-PhenoAge (d = -0.24 in factorial model; d = -0.32 in direct treatment-arm comparison vs. triple placebo, equivalent to -2.9 to -3.8 months over 3 years), preserved epigenetic telomere length (PC-DNAmTL d = +0.33), and suppressed 4 GrimAge plasma protein surrogates including GDF-15 and B2M.",
+      "clocks": [
+        { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.32, "ci": "-0.59 to -0.06", "monthsSaved": -3.8, "significant": true },
+        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.24, "ci": "-0.50 to +0.02", "monthsSaved": -2.9, "significant": false },
+        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.18, "ci": "-0.34 to -0.02", "monthsSaved": -1.2, "significant": true },
+        { "clock": "PC-GrimAge", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.19, "ci": "-0.36 to -0.02", "monthsSaved": -2.3, "significant": true }
+      ],
+      "proteins": [
+        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis)", "cohensD": -0.31, "significant": true },
+        { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker", "cohensD": -0.24, "significant": false },
+        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis)", "cohensD": -0.53, "significant": true },
+        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker", "cohensD": -0.26, "significant": true },
+        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging)", "cohensD": -0.44, "significant": true }
+      ]
+    }
+  ],
+  "clinicalOutcomes": [
+    {
+      "endpoint": "Incident Invasive Cancer",
+      "arm": "Omega-3 + Vitamin D3 + Exercise",
+      "reduction": "-61%",
+      "detail": "Hazard Ratio 0.39 over 3 years in the full DO-HEALTH cohort (N = 2,157) when all three interventions were combined."
+    },
+    {
+      "endpoint": "Incident Pre-Frailty",
+      "arm": "Omega-3 + Vitamin D3 + Exercise",
+      "reduction": "-39%",
+      "detail": "Odds Ratio 0.61 for progression from robust status to Fried pre-frailty across the 3-year follow-up."
+    },
+    {
+      "endpoint": "Total Infections",
+      "arm": "Omega-3 (1 g/day) Monotherapy",
+      "reduction": "-13%",
+      "detail": "Incidence Rate Ratio 0.87 for total verified infections (particularly upper respiratory and urinary tract infections)."
+    },
+    {
+      "endpoint": "Rate of Total Falls",
+      "arm": "Omega-3 (1 g/day) Monotherapy",
+      "reduction": "-10%",
+      "detail": "Incidence Rate Ratio 0.90 for total falls in community-dwelling adults aged 70+."
+    }
+  ],
+  "keyFindings": [
+    {
+      "title": "2nd/3rd-Gen Clocks Outperform 1st-Gen Chronological Clocks",
+      "desc": "While 1st-generation chronological clocks (Horvath 2013, Hannum 2013) were insensitive to 3-year interventions, mortality- and pace-trained clocks (PC-PhenoAge, GrimAge2, DunedinPACE) detected consistent biological age slowing."
+    },
+    {
+      "title": "Baseline Omega-3 Deficiency Amplifies Epigenetic Response",
+      "desc": "Subgroup stratification revealed that participants with lower baseline circulating EPA+DHA (<100 ng/mL) experienced significantly greater slowing of DunedinPACE and GrimAge2 upon 1 g/day algae omega-3 supplementation."
+    },
+    {
+      "title": "Suppression of Senescence & Fibrosis Surrogates (PAI-1, TIMP-1, GDF-15)",
+      "desc": "Deconstructing GrimAge into its constituent plasma protein surrogates showed that omega-3 and the triple combination specifically lowered DNAm PAI-1 (a core SASP/thrombotic factor), TIMP-1, B2M, and GDF-15."
+    },
+    {
+      "title": "Orthogonal Mechanisms Combine Additively",
+      "desc": "Because omega-3 resolves lipid-mediated inflammation (resolvins/protectins), vitamin D3 modulates VDR immune/autophagy transcription, and exercise stimulates myokine and mitochondrial remodeling, their effects stacked additively on PC-PhenoAge (-2.9 to -3.8 months)."
+    }
+  ],
+  "conclusions": [
+    {
+      "title": "Direct Randomized Proof in Older Humans (Aged 70+)",
+      "content": "DO-HEALTH provides the largest 3-year randomized factorial dataset showing that biological aging clocks remain malleable well into the eighth decade of human life, even among baseline-healthy community-dwelling older adults."
+    },
+    {
+      "title": "Modest Annual Epigenetic Shifts Compound into Major Clinical Protection",
+      "content": "Although a 2.9 to 3.8-month slowing of PC-PhenoAge over 36 months (~8–11% slower biological aging rate) appears numerically modest, it tracked alongside a 39% reduction in pre-frailty and a 61% reduction in invasive cancer across the 2,157-person parent trial."
+    },
+    {
+      "title": "Biomarker-Guided Personalization via Baseline Omega-3 Index",
+      "content": "The pronounced response in participants with baseline plasma EPA+DHA ≤100 ng/mL establishes that correcting subclinical omega-3 insufficiency is one of the highest-yield, lowest-risk geroprotective interventions available."
+    }
+  ],
+  "protocolImplications": "Translational takeaway: The DO-HEALTH protocol uses highly accessible, clinician-verifiable daily doses—1,000 mg/day marine algae omega-3 (330 mg EPA + 660 mg DHA), 2,000 IU/day vitamin D3, and 3×30 minutes/week of progressive resistance exercise. Tracking baseline blood EPA+DHA (Omega-3 Index), 25(OH)D levels, and 2nd/3rd-generation epigenetic clocks (DunedinPACE, PC-PhenoAge, GrimAge2) allows objective quantification of individual biological response."
+}

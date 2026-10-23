@@ -1,88 +1,140 @@
 {
   "titleBlock": {
-    "headline": "Lifespan-Extending Endogenous Metabolites",
-    "authors": "Jiang, Y. & Han, J.D.J.",
+    "headline": "How Declining Endogenous Metabolites Influence Aging and What Replenishment Can Achieve",
+    "authors": "Jiang, N. & Han, J.-D.J.",
     "journal": "Aging Cell",
-    "year": 2025,
+    "year": 2026,
     "doi": "10.1111/acel.70371",
-    "pmid": "39563510",
+    "pmid": "41527327",
     "pmcid": "PMC12796513",
     "source": "Aging Cell"
   },
   "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
   "whatIsClock": [
-    "What are endogenous metabolites?",
-    "They are naturally occurring small molecules—intermediates and end products of metabolism—that reflect and drive cellular health.",
+    "What are endogenous longevity metabolites?",
+    "They are naturally occurring small molecules—intermediates of the TCA cycle, amino acid metabolism, polyamines, and ketone bodies—whose intracellular and circulating levels decline with age and directly govern cellular homeostasis.",
     "Why do they matter?",
-    "Unlike synthetic drugs, these metabolites integrate naturally into biological networks. They act as cofactors for epigenetic enzymes and regulators of nutrient-sensing pathways, making them powerful, multi-target geroprotectors.",
+    "Unlike synthetic xenobiotics, endogenous metabolites act as native cofactors for chromatin-modifying enzymes (such as sirtuins and TET/JMJD demethylases) and allosteric regulators of nutrient-sensing hubs (AMPK, mTOR, IIS, FOXO).",
     "What does this study investigate?",
-    "This review synthesizes evidence across model organisms showing how specific metabolites (like AKG, Spermidine, and NAD+) extend lifespan by modulating core aging pathways."
+    "This 2026 Aging Cell review synthesizes cross-species evidence across C. elegans, Drosophila, mice, and human trials for 9 core endogenous metabolites—distinguishing those with proven mammalian lifespan extension (AKG, Taurine, Spermidine) from those with invertebrate lifespan and mammalian healthspan evidence."
   ],
   "studyOverview": [
-    { "label": "Objective", "value": "Evaluate the lifespan-extending effects and mechanisms of key endogenous metabolites." },
-    { "label": "Design", "value": "Comprehensive literature review and mechanistic synthesis." },
-    { "label": "Scope", "value": "In vivo models including C. elegans, Drosophila, mice, and human translational data." },
-    { "label": "Key Focus", "value": "Metabolite integration with nutrient sensing, epigenetics, and autophagy." }
+    { "label": "Objective", "value": "Synthesize mechanisms, cross-species lifespan data, and clinical translation challenges of declining endogenous longevity metabolites." },
+    { "label": "Design", "value": "Systems-biology review of 9 endogenous metabolites across nutrient-sensing, epigenetic, and mitophagy networks." },
+    { "label": "Scope", "value": "C. elegans, Drosophila, murine lifespan/healthspan cohorts, and human clinical/epidemiological studies." },
+    { "label": "Key Focus", "value": "Cofactor roles in TET/JMJD/Sirtuin epigenetics, AMPK/mTOR/FOXO signaling, and mitochondrial quality control." }
+  ],
+  "scorecardOverview": [
+    {
+      "title": "The Question",
+      "content": "Why do specific endogenous metabolites systematically decline during aging—and to what extent can replenishing them extend lifespan or restore tissue function in mammals and humans?"
+    },
+    {
+      "title": "The Methodology",
+      "content": "Comprehensive cross-species synthesis (C. elegans, Drosophila, mice, non-human primates, and human trials) mapping 9 endogenous metabolites onto the hallmarks of aging and nutrient-sensing/epigenetic pathways."
+    },
+    {
+      "title": "The Breakthrough",
+      "content": "Clarifies the translational hierarchy: Ca-AKG, Taurine, and Spermidine extend both lifespan and healthspan in mice, whereas NAD+ precursors, BHB, OAA, Betaine, Myo-inositol, and H2S show invertebrate lifespan extension and potent mammalian healthspan rejuvenation."
+    }
   ],
   "reviewScope": [
-    { "title": "In Vivo Models", "desc": "C. elegans, Drosophila, & Murine" },
-    { "title": "Human Translation", "desc": "Evaluating biocompatibility & dosing" },
-    { "title": "Mechanistic Pathways", "desc": "IIS, mTOR, Sirtuins, & Autophagy" }
+    { "title": "Mammalian Lifespan Proof", "desc": "Ca-AKG, Taurine & Spermidine in Mice" },
+    { "title": "Human Clinical Trials", "desc": "Healthspan, Muscle, Vascular & Epigenetic Biomarkers" },
+    { "title": "Core Signaling Nodes", "desc": "AMPK, mTORC1, Sirtuins, TET/JMJD & Autophagy" }
   ],
-  "mechanismDescription": "Endogenous metabolites act as physical messengers, translating environmental nutrient cues into deep epigenetic and transcriptional changes that directly govern cellular aging and longevity.",
+  "mechanismDescription": "Endogenous metabolites serve as direct physical links between metabolic flux and the epigenome—acting as obligate cosubstrates (e.g., NAD+ for Sirtuins/PARPs, AKG for TET/JMJD demethylases, SAM/Betaine for methyltransferases) and allosteric switches for AMPK, mTOR, and FOXO.",
   "translationalChallenges": [
-    "While invertebrate data for lifespan extension is compelling, mammalian evidence is currently limited to improvements in healthspan metrics.",
-    "Translating these preclinical findings into human applications requires establishing optimal dosing, timing of intervention, and long-term safety profiles.",
-    "The full mechanistic understanding remains incomplete, highlighting the complexity of metabolic networks."
+    "Species gap in lifespan proof: While Ca-AKG (Asadi Shahmirzadi et al., 2020), Taurine (Singh et al., 2023), and Spermidine (Eisenberg et al., 2016) extend both lifespan and healthspan in mice, other metabolites (OAA, H2S, Myo-inositol, Trehalose) currently have lifespan proof only in invertebrates, and human clinical trials remain limited to healthspan and biomarker endpoints.",
+    "Context-dependent pleiotropy & biomarker controversies: For example, while Taurine supplementation extended mouse lifespan by 10–12% (Singh et al., 2023), longitudinal human cohort analyses (Fernandez et al., 2025) revealed complex age- and context-dependent trajectories of circulating taurine.",
+    "Bioavailability, tissue targeting, and dosing windows: Endogenous metabolites undergo rapid gut/hepatic clearance and feedback regulation, requiring optimized precursor selection (e.g., Ca-AKG sustained-release, NMN/NR) and precision dosing."
   ],
   "keyFindings": [
-    { "title": "Multi-Pathway Modulators", "desc": "Metabolites concurrently influence multiple aging hallmarks like mTOR inhibition, AMPK activation, and redox homeostasis, offering a systems-level defense against aging." },
-    { "title": "Epigenetic Regulation", "desc": "Metabolites act as essential cofactors for chromatin-modifying enzymes, directly translating nutritional states into longevity-promoting gene expression." },
-    { "title": "High Biocompatibility", "desc": "As natural cellular components, these molecules generally exhibit higher biocompatibility and lower toxicity profiles compared to synthetic single-target drugs." },
-    { "title": "Conserved Mechanisms", "desc": "The geroprotective effects of key metabolites are evolutionarily conserved across species, underscoring their fundamental role in biology." }
+    { "title": "Multi-Pathway Network Modulators", "desc": "Endogenous metabolites simultaneously modulate AMPK activation, mTORC1 restraint, autophagy/mitophagy, and redox balance—avoiding the single-pathway escape common to synthetic drugs." },
+    { "title": "Direct Epigenetic Cosubstrates", "desc": "AKG serves as the obligate cofactor for TET DNA demethylases and JMJD histone demethylases, NAD+ powers Sirtuin deacetylases, BHB inhibits HDACs, and Betaine supplies SAM for methylation." },
+    { "title": "Mammalian Lifespan vs. Healthspan Hierarchy", "desc": "Ca-AKG (+12% median lifespan and -46% frailty in female mice), Taurine (+10–12% mouse lifespan), and Spermidine (+10% late-life mouse survival) lead mammalian longevity evidence." },
+    { "title": "Evolutionary Conservation", "desc": "Pathways linking TCA intermediates (AKG, OAA), polyamines (Spermidine), and sulfur amino acids (Taurine, H2S) to stress resistance are conserved from nematodes to mammals." }
   ],
-  "findingsCallout": "By acting as direct allosteric modulators and cofactors, endogenous metabolites physically link the cell's metabolic state to its lifespan-regulating transcriptional programs.",
-  "keyTakeaway": "Targeting metabolic networks with endogenous compounds offers a safer, more integrated strategy to delay aging and extend healthspan by simultaneously modulating multiple core hallmarks of aging.",
+  "findingsCallout": "By acting as direct allosteric modulators and enzymatic cosubstrates, endogenous metabolites physically link the cell's bioenergetic state to its chromatin architecture and lifespan-regulating transcriptional programs.",
+  "keyTakeaway": "Replenishing age-depleted endogenous metabolites offers a biocompatible, multi-hallmark strategy to restore youthful epigenetic and nutrient-sensing states—with Ca-AKG, Taurine, and Spermidine demonstrating both lifespan and healthspan extension in mice.",
   "protocolRecommendations": [
-    "Consider multi-pathway approaches to aging rather than relying on synthetic single-target drugs.",
-    "Supplementation with key metabolic precursors (like NAD+ boosters or AKG) may help restore youthful epigenetic and nutrient-sensing states.",
-    "Dietary and lifestyle interventions should be optimized to naturally upregulate these endogenous geroprotective networks."
+    "Prioritize multi-pathway metabolic replenishment (combining TCA/epigenetic cofactors like Ca-AKG with NAD+ precursors or autophagy inducers like Spermidine) rather than relying on isolated single-target compounds.",
+    "Match metabolite selection to validated biological endpoints: use Ca-AKG, Taurine, and NAD+ precursors to support mitochondrial OXPHOS, epigenetic maintenance, and inflammatory restraint.",
+    "Pair endogenous supplementation with exercise and fasting/circadian nutrition, which naturally elevate endogenous BHB, AKG, NAD+/NADH ratios, and spermidine-driven autophagy."
   ],
   "topMetabolites": [
     {
-      "name": "α-Ketoglutarate (AKG)",
-      "mechanism": "Inhibits ATP synthase & activates autophagy",
-      "effect": "Extends lifespan by ~50% in C. elegans and delays age-related functional decline."
-    },
-    {
-      "name": "Spermidine",
-      "mechanism": "Induces PINK1-dependent mitophagy",
-      "effect": "Prevents neurodegeneration and increases mitochondrial respiratory capacity."
+      "name": "α-Ketoglutarate (Ca-AKG)",
+      "tier": "Mammalian Lifespan",
+      "mechanism": "Inhibits ATP synthase/mTOR, activates AMPK, and serves as obligate cofactor for TET DNA & JMJD histone demethylases.",
+      "effect": "Extends C. elegans lifespan by ~50% (Chin et al., 2014) and female mouse median lifespan by ~12% while compressing morbidity/frailty by >40% (Asadi Shahmirzadi et al., 2020)."
     },
     {
       "name": "Taurine",
-      "mechanism": "Supports mitochondrial function & redox balance",
-      "effect": "Demonstrates potent tissue-protective effects, including preserving epidermal moisture and reducing aging markers."
+      "tier": "Mammalian Lifespan",
+      "mechanism": "Supports mitochondrial tRNA taurine modification (5-taurinomethyluridine), Electron Transport Chain complex I, redox balance, and reduces senescence/DNA damage.",
+      "effect": "Daily supplementation extended mouse median lifespan by 10–12% and improved bone, muscle, brain, and immune healthspan in mice and monkeys (Singh et al., 2023; human biomarker nuances noted in Fernandez et al., 2025)."
     },
     {
-      "name": "NAD+ Precursors",
-      "mechanism": "Activates Sirtuins & PARPs",
-      "effect": "Reverses mitochondrial dysfunction and mitigates a wide range of chronic age-related disorders."
+      "name": "Spermidine",
+      "tier": "Mammalian Lifespan",
+      "mechanism": "Inhibits EP300 acetyltransferase and drives eIF5A hypusination/TFEB translation to induce autophagy and PINK1/Parkin mitophagy.",
+      "effect": "Extends lifespan across yeast, flies, worms, and mice (~10% late-life extension), reversing age-related cardiac hypertrophy and preserving diastolic function (Eisenberg et al., 2016)."
     },
     {
-      "name": "Betaine",
-      "mechanism": "Methyl-group donor for SAM",
-      "effect": "Regulates one-carbon metabolism and epigenetic networks, delaying aspects of aging in C. elegans."
+      "name": "NAD+ Precursors (NR / NMN)",
+      "tier": "Mammalian Healthspan",
+      "mechanism": "Replenishes nuclear and mitochondrial NAD+ pools to activate Sirtuins (SIRT1/SIRT3) and PARPs, reversing HIF-1α pseudohypoxia.",
+      "effect": "Restores youthful mitochondrial OXPHOS, vascular capillarity, and insulin sensitivity in aged mice; NR extended late-life mouse lifespan in Zhang et al. (2016), while ITP showed sex/dose nuances."
     },
     {
-      "name": "Trehalose",
-      "mechanism": "Cellular stress protectant",
-      "effect": "Upregulated under reduced insulin/IGF-1 signaling (IIS) to support extreme longevity and stress resistance."
+      "name": "β-Hydroxybutyrate (BHB)",
+      "tier": "Mammalian Healthspan",
+      "mechanism": "Endogenous ketone body that inhibits Class I HDACs, suppresses the NLRP3 inflammasome, and activates FOXO3a/Nrf2 antioxidant signaling.",
+      "effect": "Extends C. elegans lifespan by ~20% and in aged mice preserves mid-life survival, memory, and muscle mitochondrial function via ketogenic/ester protocols (Roberts et al., 2017)."
+    },
+    {
+      "name": "Betaine (Trimethylglycine)",
+      "tier": "Mammalian Healthspan",
+      "mechanism": "One-carbon methyl donor that regenerates methionine and S-adenosylmethionine (SAM), lowering homocysteine and activating AMPK.",
+      "effect": "Extends C. elegans lifespan and in aged mice attenuates inflammaging, hepatic steatosis, and skeletal muscle wasting; Identified as an exercise-induced renal mimetic."
+    },
+    {
+      "name": "Oxaloacetate (OAA)",
+      "tier": "Invertebrate Lifespan",
+      "mechanism": "TCA cycle intermediate whose cytosolic reduction to malate increases the NAD+/NADH ratio, activating AMPK and FOXO/DAF-16.",
+      "effect": "Extends C. elegans lifespan by ~25% (Williams et al., 2009) and improves brain bioenergetics and neurogenesis markers in preclinical rodent studies."
+    },
+    {
+      "name": "Myo-Inositol & Trehalose",
+      "tier": "Invertebrate Lifespan",
+      "mechanism": "Myo-inositol regulates PI3K/AKT/IIS and PTEN mitophagy; Trehalose acts as an mTOR-independent TFEB autophagy activator and chemical chaperone.",
+      "effect": "Both extend C. elegans lifespan (>30%) and protect against proteotoxic aggregation and metabolic insulin resistance in mammalian tissues."
+    },
+    {
+      "name": "Hydrogen Sulfide (H2S)",
+      "tier": "Invertebrate Lifespan",
+      "mechanism": "Endogenous gasotransmitter (via CBS/CSE/3-MST) mediating protein persulfidation (S-sulfhydration), SIRT1 stabilization, and mitochondrial bioenergetics.",
+      "effect": "Required for dietary restriction-mediated longevity across species; extends C. elegans lifespan up to 70% and protects aged mammalian vasculature."
     }
   ],
   "conclusions": [
-    "Endogenous metabolites are potent, multi-target modulators of longevity.",
-    "They bridge the gap between environmental nutrient sensing and deep epigenetic regulation.",
-    "Translating these findings to humans requires overcoming challenges in optimal dosing and context-specific metabolic states."
+    "Endogenous metabolites are native, multi-target modulators of longevity that physically couple cellular energy status to epigenetic maintenance.",
+    "Ca-AKG, Taurine, and Spermidine have demonstrated both lifespan and healthspan extension in mice, while NAD+ precursors, BHB, Betaine, OAA, Myo-inositol, and H2S show strong cross-species healthspan and mechanistic support.",
+    "Clinical translation to humans requires rigorous dose optimization, sustained-release formulations, and longitudinal biomarker validation."
+  ],
+  "structuredConclusions": [
+    {
+      "title": "Metabolism Directly Writes the Epigenome",
+      "content": "Age-related depletion of AKG, NAD+, BHB, and SAM/Betaine directly starves TET/JMJD demethylases, Sirtuins, and methyltransferases—meaning metabolic replenishment is required to sustain youthful gene expression."
+    },
+    {
+      "title": "Evidence Stratification Across Species",
+      "content": "While all 9 metabolites extend invertebrate lifespan, Ca-AKG (+12% female lifespan, -46% frailty), Taurine (+10–12% lifespan), and Spermidine (+10% survival) have established mammalian lifespan extension in mice."
+    },
+    {
+      "title": "Precision Dosing & Biomarker Nuances",
+      "content": "Human translation requires accounting for rapid pharmacokinetics, sex-specific responses, and longitudinal biomarker dynamics (such as context-dependent human taurine trajectories)."
+    }
   ]
 }

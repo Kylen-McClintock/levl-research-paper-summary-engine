@@ -1,52 +1,124 @@
 {
   "titleBlock": {
     "headline": "Multi-omic analysis of biological aging biomarkers in long-term calorie restriction and endurance exercise practitioners",
-    "authors": "Fiorito, G. et al.",
+    "authors": "Fiorito, G., Caini, S., Palli, D., Bendinelli, B., Saieva, C., Fontana, L. et al.",
     "journal": "Aging Cell",
     "year": 2025,
     "doi": "10.1111/acel.14442",
+    "pmid": "39692728",
+    "pmcid": "PMC11984672",
     "source": "Aging Cell"
   },
-  "keyTakeaway": "Long-term calorie restriction (CR) and endurance exercise (EX) both significantly reduce biological age compared to sedentary lifestyles, but they accomplish this through completely distinct molecular pathways.",
+  "keyTakeaway": "Long-term calorie restriction (CR) and endurance exercise (EX) are not biologically redundant: CR preferentially lowers systemic clinical blood PhenoAge acceleration (-2.96 years) and remodels ether lipids, bile acids, and gut microbiota, whereas endurance exercise uniquely reduces colon mucosal Horvath epigenetic age (-2.25 years) and stochastic epigenetic mutation load (-4.91 years).",
   "studyOverview": [
-    { "label": "Participants", "value": "41 CR practitioners, 41 endurance athletes, and 35 sedentary controls on a Western diet." },
-    { "label": "Methodology", "value": "Cross-sectional analysis using 'PhenoAge' composite scores and deep multi-omic profiling." },
-    { "label": "Primary Finding", "value": "Both interventions slowed physiological aging, but affected different tissues and biological layers." }
+    {
+      "label": "Participants",
+      "value": "Full blood cohort (n = 117): 41 long-term CR practitioners, 41 master endurance athletes (EX), and 35 age-matched Western Diet (WD) controls; plus a 6-layer multi-omic biopsy sub-cohort (n = 41: 12 CR, 11 EX, 12 WD, 6 young WD)."
+    },
+    {
+      "label": "Methodology",
+      "value": "Clinical blood Levine PhenoAge (9 biomarkers) in n = 117, paired with 6-layer multi-omics (sigmoid colon mucosa DNA methylation & RNA-seq, plasma proteomics, metabolomics, bile acids, and gut microbiome) in n = 41."
+    },
+    {
+      "label": "Primary Finding",
+      "value": "CR reduced clinical blood PhenoAge acceleration by -2.96 years (p = 0.003), while EX reduced colon mucosa Horvath DNAm age by -2.25 years (p = 0.04) and colon epigenetic mutation load by -4.91 years (p = 0.003)."
+    }
+  ],
+  "scorecardOverview": [
+    {
+      "title": "The Question",
+      "content": "Do long-term calorie restriction (CR) and chronic endurance exercise (EX) slow human biological aging through the same molecular pathways—or do they target distinct tissues and omic layers?"
+    },
+    {
+      "title": "The Methodology",
+      "content": "Investigated 117 humans (41 CR, 41 EX, 35 WD) for clinical blood PhenoAge, and performed 6-layer multi-omic profiling (colon biopsy DNAm & RNA-seq, plasma proteomics, metabolomics, bile acids, and gut microbiome) in a 41-subject subset."
+    },
+    {
+      "title": "The Breakthrough",
+      "content": "Diet and exercise act on complementary axes: CR significantly lowered systemic blood PhenoAge (-2.96 yr, p = 0.003) and reshaped lipid/microbiome metabolism, whereas EX uniquely rejuvenated colon tissue epigenetic clocks (-2.25 yr Horvath DNAmAA; -4.91 yr Epigenetic Mutation Load)."
+    }
   ],
   "multiOmics": [
-    { "title": "DNA Methylation", "desc": "Epigenetic clock measuring chemical tags on DNA.", "icon": "Dna" },
-    { "title": "Transcriptomics", "desc": "RNA sequencing of colon mucosa tissue.", "icon": "FileText" },
-    { "title": "Metabolomics", "desc": "Analysis of small molecules and metabolic byproducts in the blood.", "icon": "Activity" },
-    { "title": "Metagenomics", "desc": "Stool analysis evaluating the composition of the gut microbiome.", "icon": "Globe" }
+    { "title": "Colon DNA Methylation", "desc": "Illumina EPIC array on sigmoid colon mucosa biopsies measuring Horvath DNAmAA and stochastic Epigenetic Mutation Load (EML).", "icon": "Dna" },
+    { "title": "Colon Transcriptomics", "desc": "RNA-seq of colon mucosa identifying focal adhesion, ECM remodeling, and basal transcription shifts.", "icon": "FileText" },
+    { "title": "Plasma Proteomics & Metabolomics", "desc": "Targeted/untargeted blood profiling of apolipoproteins, ether lipids, and phosphatidylcholines.", "icon": "Activity" },
+    { "title": "Bile Acids & Gut Microbiome", "desc": "Serum bile acid quantification and 16S rRNA fecal metagenomics mapping host-microbe co-metabolism.", "icon": "Globe" }
   ],
-  "chartData": [
-    { "label": "Sedentary (WD)", "value": 0 },
-    { "label": "Endurance Exercise", "value": -4.8 },
-    { "label": "Calorie Restriction", "value": -5.1 }
+  "clockBenchmarks": [
+    {
+      "id": "eml",
+      "name": "Colon Epigenetic Mutation Load (EML_AA)",
+      "tissue": "Sigmoid Colon Mucosa Biopsy (Multi-Omic Sub-Cohort)",
+      "subtitle": "Stochastic epigenetic drift (log2 epigenetic mutations age acceleration vs. Western Diet)",
+      "bars": [
+        { "label": "Western Diet (Control)", "value": 0, "pVal": "Reference", "significant": false },
+        { "label": "Calorie Restriction (CR)", "value": -0.87, "pVal": "n.s. vs WD", "significant": false },
+        { "label": "Endurance Exercise (EX)", "value": -4.91, "pVal": "p = 0.003 vs WD (p = 0.02 vs CR)", "significant": true }
+      ],
+      "footnote": "In sensitivity analyses (Section 3.3), EX practitioners exhibited a -4.91 yr reduction in colon EML age acceleration vs. WD (p = 0.003) and -4.04 yr vs. CR (p = 0.02)."
+    },
+    {
+      "id": "pheno",
+      "name": "Clinical Blood PhenoAge Acceleration (PhenoAA)",
+      "tissue": "Systemic Venous Blood (Full Cohort, n = 117)",
+      "subtitle": "Levine 9-biomarker clinical chemistry & hematological biological age acceleration",
+      "bars": [
+        { "label": "Western Diet (Control)", "value": 0, "pVal": "Reference", "significant": false },
+        { "label": "Calorie Restriction (CR)", "value": -2.96, "pVal": "p = 0.003 vs WD", "significant": true },
+        { "label": "Endurance Exercise (EX)", "value": -0.65, "pVal": "n.s. vs WD", "significant": false }
+      ],
+      "footnote": "CR practitioners showed a statistically significant -2.96 yr reduction in clinical blood PhenoAge acceleration vs. WD (p = 0.003), driven by lower CRP, glucose, white blood cell count, and alkaline phosphatase."
+    },
+    {
+      "id": "horvath",
+      "name": "Colon Horvath Epigenetic Clock (DNAmAA)",
+      "tissue": "Sigmoid Colon Mucosa Biopsy (Multi-Omic Sub-Cohort)",
+      "subtitle": "Pan-tissue CpG methylation age acceleration in intestinal epithelium",
+      "bars": [
+        { "label": "Western Diet (Control)", "value": 0, "pVal": "Reference", "significant": false },
+        { "label": "Calorie Restriction (CR)", "value": -0.45, "pVal": "n.s. vs WD", "significant": false },
+        { "label": "Endurance Exercise (EX)", "value": -2.25, "pVal": "p = 0.04 vs WD", "significant": true }
+      ],
+      "footnote": "Endurance athletes demonstrated a significant -2.25 yr reduction in colon mucosa Horvath epigenetic age acceleration compared to sedentary Western Diet controls (p = 0.04)."
+    }
   ],
   "comparison": {
     "cr": {
       "title": "Calorie Restriction (Diet)",
-      "primaryMechanism": "Ether lipid metabolism and profound microbiome remodeling.",
-      "biomarkersImproved": "Drastic reductions in biological age observed in gut microbiome metagenomics and blood-derived metabolomics.",
+      "primaryMechanism": "Systemic metabolic efficiency, ether lipid & bile acid remodeling, and gut microbiome shifts.",
+      "biomarkersImproved": "Significantly reduced clinical blood PhenoAge (-2.96 yr, p = 0.003), lowered insulin/IGF-1 and systemic inflammation (hs-CRP), and enriched anti-inflammatory ether-linked phospholipids and secondary bile acid balance.",
       "color": "green"
     },
     "ex": {
       "title": "Endurance Exercise",
-      "primaryMechanism": "Oxidative stress reduction and deep epigenetic regulation.",
-      "biomarkersImproved": "Significant reductions in biological age observed in DNA methylation (epigenetics) and colon mucosa transcriptomics.",
+      "primaryMechanism": "Tissue-level epigenetic maintenance, reduced stochastic DNAm drift, and colon mucosal protection.",
+      "biomarkersImproved": "Significantly reduced colon mucosa Horvath DNAm age (-2.25 yr, p = 0.04) and stochastic Epigenetic Mutation Load (-4.91 yr, p = 0.003), while upregulating mitochondrial oxidative defense and ECM integrity.",
       "color": "cyan"
     }
   },
-  "sharedMechanisms": "While distinct in their primary pathways, both interventions shared common downstream effects, including the broad reduction of oxidative stress and the modulation of basal transcription rates.",
+  "sharedMechanisms": "While distinct in their primary tissue and omic signatures, both CR and EX converged on shared youthful features compared to Western Diet controls: attenuated oxidative stress, down-regulated basal transcriptional noise, and improved cardiometabolic risk profiles.",
   "conclusions": [
-    "Diet and exercise are not biologically redundant; they reverse aging through parallel, complementary mechanisms.",
-    "Calorie restriction heavily influences systemic metabolism and gut health.",
-    "Endurance exercise drives deep epigenetic and structural changes at the tissue level."
+    "Calorie restriction and endurance exercise are not biologically redundant; they decelerate human aging through parallel, complementary molecular pathways.",
+    "Calorie restriction predominantly improves systemic blood clinical chemistry (PhenoAA -2.96 yr), circulating ether lipids, bile acids, and gut microbiome architecture.",
+    "Endurance exercise uniquely preserves tissue-level epigenetic fidelity in colon mucosa, reducing Horvath DNAm age (-2.25 yr) and stochastic epigenetic mutation load (-4.91 yr)."
+  ],
+  "structuredConclusions": [
+    {
+      "title": "Distinct Clocks Respond to Diet vs. Exercise",
+      "content": "Clinical blood PhenoAge responded strongly to long-term Calorie Restriction (-2.96 years, p = 0.003), whereas tissue-level colon epigenetic clocks (Horvath DNAmAA -2.25 years; Epigenetic Mutation Load -4.91 years) responded specifically to Endurance Exercise."
+    },
+    {
+      "title": "Complementary 6-Omic Remodeling",
+      "content": "Multi-omic integration across colon biopsies, plasma, and stool showed that CR primarily reshapes circulating ether lipids, bile acids, and gut microbial taxa, while EX stabilizes mucosal DNA methylation and extracellular matrix transcription."
+    },
+    {
+      "title": "Synergistic Longevity Architecture",
+      "content": "Because neither intervention alone captured all youthful molecular signatures observed in young controls, combining nutritional moderation with aerobic exercise is required for comprehensive systemic and tissue-level rejuvenation."
+    }
   ],
   "protocolRecommendations": [
-    "Do not rely solely on diet or solely on exercise; because they operate on completely distinct molecular pathways, combining them is theoretically optimal for synergistic healthspan extension.",
-    "Optimize nutritional intake to support microbiome diversity and ether lipid metabolism (the Calorie Restriction axis).",
-    "Incorporate consistent aerobic endurance training to maintain youthful epigenetic expression (the Exercise axis)."
+    "Do not treat nutrition and exercise as interchangeable: combine caloric/nutritional quality optimization with regular endurance training to capture both systemic metabolic and tissue-epigenetic rejuvenation.",
+    "Target the Calorie Restriction axis via nutrient-dense, anti-inflammatory dietary patterns that lower fasting insulin/glucose, hs-CRP, and support ether-lipid and microbiome health.",
+    "Target the Endurance Exercise axis via consistent aerobic conditioning to suppress stochastic epigenetic mutation load (EML) and preserve mucosal tissue integrity."
   ]
 }

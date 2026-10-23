@@ -1,53 +1,93 @@
 {
   "titleBlock": {
     "headline": "Rapamycin fed late in life extends lifespan in genetically heterogeneous mice",
-    "authors": "Harrison, D.E., Strong, R., Sharp, Z.D., et al.",
+    "authors": "Harrison, D.E., Strong, R., Sharp, Z.D., Nelson, J.F., Astle, C.M., Flurkey, K., Nadon, N.L., Wilkinson, J.E., Frenkel, K., Carter, C.S., Pahor, M., Javors, M.A., Fernandez, E., Miller, R.A.",
     "journal": "Nature",
     "year": 2009,
-    "doi": "10.1038/nature08221"
+    "doi": "10.1038/nature08221",
+    "pmid": "19587680",
+    "pmcid": "PMC2786175"
   },
   "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
   "whatIsMtor": [
-    "What is mTOR?",
-    "mTOR (mechanistic Target of Rapamycin) is a master nutrient-sensing protein in our cells. It acts like a switch controlling the balance between cellular growth and cellular repair.",
-    "The Biological Seesaw",
-    "When food is plentiful, mTOR turns ON, driving growth, muscle building, and reproduction. When food is scarce, mTOR turns OFF, triggering 'autophagy'—a cellular recycling process that cleans out damaged proteins and repairs the cell.",
-    "What did this study discover?",
-    "Historically, we thought you couldn't reverse aging once it had taken hold. This landmark study proved that giving Rapamycin (an mTOR inhibitor) to old mice tricked their cells into a state of deep repair, significantly extending their maximum lifespan."
+    "What is mTOR (mTORC1 vs. mTORC2)?",
+    "The mechanistic Target of Rapamycin (mTOR) is an evolutionarily conserved serine/threonine kinase that integrates amino acid, insulin/IGF-1, and energy signals. It operates in two distinct complexes: mTORC1 (which drives protein translation via S6K1/4E-BP1 and suppresses ULK1/TFEB autophagy) and mTORC2 (which regulates Akt survival and glucose/lipid homeostasis).",
+    "The Anabolic Growth vs. Autophagic Repair Seesaw",
+    "When nutrients and amino acids (especially leucine) are abundant, mTORC1 turns ON to drive cellular hypertrophy and division while blocking recycling. When nutrients are scarce—or when rapamycin allosterically binds FKBP12 to inhibit mTORC1—cells switch into deep autophagic clearance and proteostatic maintenance.",
+    "What did this NIA ITP study discover?",
+    "Due to formulation delays, microencapsulated rapamycin (14 ppm in chow) was not started until mice were already 600 days old (~60 human years). Remarkably, late-life treatment extended remaining life expectancy from 600 days by +38% in females and +28% in males, and increased overall maximum lifespan (90th percentile) by +14% in females and +9% in males across all three independent test sites."
   ],
   "studyOverview": [
-    { "label": "Objective", "value": "Test if pharmacological inhibition of mTOR can extend lifespan in mammals." },
-    { "label": "The Intervention", "value": "Rapamycin administered at 600 days of age (equivalent to a 60-year-old human)." },
-    { "label": "Female Result", "value": "14% increase in maximum lifespan." },
-    { "label": "Male Result", "value": "9% increase in maximum lifespan." }
+    { "label": "Objective", "value": "Test whether pharmacological mTORC1 inhibition extends mammalian lifespan across three independent NIA Interventions Testing Program (ITP) laboratories." },
+    { "label": "The Intervention", "value": "Enteric-coated microencapsulated Rapamycin (eRapa, 14 ppm) initiated at 600 days of age (~60 human years) in n = 1,901 UM-HET3 mice." },
+    { "label": "Remaining Life Expectancy", "value": "+38% in females (from 600 days) and +28% in males (comparable to late-life D+Q senolytics at +36%)." },
+    { "label": "Maximum Lifespan (90th Pct)", "value": "+14% in females (1,094 -> 1,245 days) and +9% in males (1,078 -> 1,179 days), replicated at all 3 sites." }
   ],
-  "mechanismDescription": "By suppressing the mTOR signaling pathway, Rapamycin acts as a caloric restriction mimetic. It tricks the body into thinking it is starving, which pauses cellular replication and initiates deep cellular maintenance and autophagy, thereby slowing the accumulation of age-related damage.",
+  "scorecardOverview": [
+    {
+      "title": "The Question",
+      "content": "Can a pharmacological small molecule initiated late in middle age (600 days, equivalent to ~60 human years) reproducibly extend both median and maximum lifespan in genetically diverse mammals?"
+    },
+    {
+      "title": "The Methodology",
+      "content": "Evaluated microencapsulated rapamycin (14 ppm in food) across 1,901 genetically heterogeneous UM-HET3 mice tested simultaneously at three independent NIA ITP laboratories (Jackson Lab, Univ. of Michigan, UT Health San Antonio)."
+    },
+    {
+      "title": "The Breakthrough",
+      "content": "Late-life rapamycin increased remaining life expectancy after 600 days by +38% in females and +28% in males, and raised overall maximum lifespan (90th percentile age) by +14% in females and +9% in males."
+    }
+  ],
+  "mechanismDescription": "Rapamycin forms a gain-of-function complex with intracellular FKBP12 that allosterically inhibits mTORC1 (lowering ribosomal S6 phosphorylation), releasing the brake on ULK1/TFEB-driven macroautophagy, clearing damaged organelles, preserving stem cell quiescence, and delaying neoplasia.",
   "seesawStates": {
     "mtorOn": {
-      "title": "mTOR ON",
-      "subtitle": "(Nutrient Abundance)",
-      "attributes": ["Protein Synthesis", "Cellular Proliferation", "Muscle Hypertrophy", "Accelerated Aging"]
+      "title": "mTORC1 HYPERACTIVE",
+      "subtitle": "(Chronic Nutrient Abundance & Aging)",
+      "attributes": [
+        "Elevated S6K1 & 4E-BP1 Protein Translation",
+        "Suppression of ULK1 / TFEB Autophagy",
+        "Accumulation of Misfolded Protein Aggregates",
+        "Stem Cell Exhaustion & SASP Amplification"
+      ]
     },
     "mtorOff": {
-      "title": "mTOR OFF",
-      "subtitle": "(Rapamycin / Fasting)",
-      "attributes": ["Autophagy & Cleanup", "DNA Repair", "Stem Cell Maintenance", "Lifespan Extension"]
+      "title": "mTORC1 RESTRAINED",
+      "subtitle": "(Rapamycin / Caloric Restriction / Fasting)",
+      "attributes": [
+        "Activation of ULK1 & TFEB Macroautophagy",
+        "Enhanced Proteostasis & Organelle Recycling",
+        "Preserved Hematopoietic & Intestinal Stem Cells",
+        "+38% (F) / +28% (M) Remaining Life Expectancy"
+      ]
     }
   },
   "keyFindings": [
-    { "title": "Late-Life Efficacy", "desc": "The most profound finding was that the intervention worked even when started in late middle age (600 days). This proved that longevity drugs don't need to be taken from birth to be effective." },
-    { "title": "Maximum Lifespan Extension", "desc": "Unlike many interventions that merely prevent early death, Rapamycin successfully increased the maximum lifespan of the species, pushing the absolute biological limit of the mice." },
-    { "title": "Cancer Delay", "desc": "Because mTOR drives cellular growth, its inhibition via Rapamycin significantly delayed the onset and progression of age-related cancers, which are the primary cause of death in these mice." },
-    { "title": "Reproducibility", "desc": "This was the first time a pharmacological agent was proven to extend lifespan across three independent test sites simultaneously, cementing Rapamycin as the gold standard in longevity research." }
+    { "title": "Late-Life Efficacy (Started at 600 Days)", "desc": "Initiating rapamycin at 600 days of age (~60 human years) still captured the majority of the longevity benefit—extending remaining life expectancy by 38% in females and 28% in males." },
+    { "title": "True Maximum Lifespan Extension", "desc": "Evaluating the 90th percentile survival age (Wang/Allison test), rapamycin increased overall maximum lifespan from 1,094 to 1,245 days (+14%) in females and from 1,078 to 1,179 days (+9%) in males (p < 0.0001)." },
+    { "title": "Gold-Standard 3-Site Reproducibility", "desc": "Statistically significant survival extension was independently achieved in both sexes at all three NIA ITP centers (TJL, UM, UTHSCSA) in genetically heterogeneous four-way cross (UM-HET3) mice." },
+    { "title": "mTORC1 vs. mTORC2 Selectivity", "desc": "Follow-up work showed that rapamycin's longevity benefits come from acute mTORC1 inhibition, whereas chronic unpulsed exposure secondarily disrupts mTORC2 (causing insulin resistance and dyslipidemia)." }
   ],
   "conclusions": [
-    "Pharmacological inhibition of the mTOR pathway extends lifespan in mammalian species.",
-    "Lifespan extension can be achieved even if the intervention is initiated late in life.",
-    "Rapamycin remains the most robust and reproducible life-extending drug ever discovered."
+    "Pharmacological inhibition of mTORC1 extends both median and maximum lifespan in genetically heterogeneous mammals, even when started at 600 days of age.",
+    "Measured from treatment onset (600 days), rapamycin extends remaining life expectancy by +38% (females) and +28% (males)—providing a direct benchmark for late-life interventions.",
+    "Distinguishing mTORC1 restraint (autophagy/longevity) from chronic mTORC2 disruption underpins modern intermittent dosing protocols."
+  ],
+  "structuredConclusions": [
+    {
+      "title": "Late-Life Plasticity of Mammalian Aging",
+      "content": "Starting rapamycin at 600 days (~60 human years) extended remaining life expectancy by 38% in females and 28% in males, overturning the dogma that geroprotectors must be started in youth."
+    },
+    {
+      "title": "Multi-Site Genetic Heterogeneity Proof",
+      "content": "Tested across 1,901 genetically diverse UM-HET3 mice at three independent NIA ITP laboratories, rapamycin extended overall 90th-percentile maximum lifespan by +14% (females) and +9% (males)."
+    },
+    {
+      "title": "Pulsed mTORC1 Selectivity in Translation",
+      "content": "Because acute rapamycin inhibits mTORC1 while chronic daily exposure disrupts mTORC2, human clinical translation (e.g., Mannick et al., 2014/2018; PEARL trial) utilizes intermittent weekly dosing to enhance immune and autophagic function."
+    }
   ],
   "protocolRecommendations": [
-    "Rapamycin is an FDA-approved immunosuppressant (often used for organ transplants). Its off-label use for longevity is currently experimental.",
-    "Modern longevity physicians often prescribe 'pulsed' or transient Rapamycin dosing (e.g., once weekly) to achieve the autophagy benefits without suppressing the immune system.",
-    "Natural ways to inhibit mTOR include prolonged fasting, severe caloric restriction, and deep endurance exercise."
+    "Sirolimus (Rapamycin) is a prescription-only FDA-approved medication; human longevity trials (such as Mannick et al. with low-dose/intermittent mTOR inhibition and the PEARL trial) investigate weekly pulsed regimens to target mTORC1 while sparing mTORC2.",
+    "Notice the metric distinction when comparing papers: Rapamycin's +14% (F) / +9% (M) figure is total lifespan from birth, whereas its remaining life expectancy from treatment onset at 600 days is +38% (F) / +28% (M) (directly comparable to D+Q's +36% post-treatment survival).",
+    "Physiological protocols that transiently suppress mTORC1 and activate AMPK/ULK1 autophagy—including periodic fasting, caloric moderation (Fiorito et al., 2025), and endurance exercise—engage the same nutrient-sensing switch without pharmacological immunosuppression."
   ]
 }

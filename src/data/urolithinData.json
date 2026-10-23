@@ -1,47 +1,123 @@
 {
   "titleBlock": {
     "headline": "Urolithin A induces mitophagy and prolongs lifespan in C. elegans and increases muscle function in rodents",
-    "authors": "Ryu, D., Mouchiroud, L., Andreux, P.A., et al.",
+    "authors": "Ryu, D., Mouchiroud, L., Andreux, P.A., Katsyuba, E., Moullan, N., Nicolet-Dit-Félix, A.A., Williams, E.G., Jha, P., Lo Sasso, G., Huzwah, D., Imhof, A., Arguello, M., Rinsch, C., Auwerx, J. et al.",
     "journal": "Nature Medicine",
     "year": 2016,
-    "doi": "10.1038/nm.4132"
+    "doi": "10.1038/nm.4132",
+    "pmid": "27400137"
   },
   "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
-  "whatIsMitophagy": [
-    "The Cellular Powerhouse",
-    "Mitochondria are the 'batteries' of your cells, generating the energy required for life. As we age, these batteries become damaged, leak toxic free radicals, and lose their ability to produce energy.",
-    "What is Mitophagy?",
-    "Mitophagy is the cellular quality control process of identifying dead or damaged mitochondria and destroying them so fresh, healthy ones can take their place. In aging, this cleanup process fails.",
-    "What did this study discover?",
-    "Researchers discovered that a specific molecule, Urolithin A, is a potent activator of mitophagy. Supplementing with Urolithin A cleared out dead mitochondria, extended lifespan in worms by 45%, and significantly increased muscle endurance in older mice."
-  ],
   "studyOverview": [
-    { "label": "Objective", "value": "Identify a natural compound capable of restoring age-related decline in mitochondrial function." },
-    { "label": "The Compound", "value": "Urolithin A (a gut-microbiome metabolite)." },
-    { "label": "Lifespan Result", "value": "Extended lifespan in C. elegans by 45%." },
-    { "label": "Muscle Result", "value": "Increased running endurance by 42% in aged mice." }
+    {
+      "title": "The Question",
+      "content": "Can a naturally occurring, gut-microbiome-derived postbiotic metabolite selectively trigger the clearance of damaged mitochondria (mitophagy) to extend organismal lifespan and reverse age-related skeletal muscle decline?"
+    },
+    {
+      "title": "What They Did",
+      "content": "Researchers screened punicalagin-derived urolithin metabolites (UA, UB, UC, UD) in C. elegans, mammalian C2C12 myoblasts, young Wistar rats, and aged 22–24-month-old C57BL/6J mice (50 mg/kg/day oral Urolithin A for 6–34 weeks), mapping PINK1/Parkin-dependent mitophagy."
+    },
+    {
+      "title": "What They Found",
+      "content": "Urolithin A emerged as the most potent mitophagy activator: it extended C. elegans median lifespan by +45.4% (requiring pink-1, pdr-1, and dct-1), boosted running endurance by +42% and grip strength by +57% in aged mice, and catalysed multiple human Phase 1/2 RCTs."
+    }
   ],
-  "mechanismDescription": "Urolithin A acts as a molecular trigger that forces the cell to execute 'mitophagy'. By clearing out the defective, energy-draining mitochondria, the cell is forced to biogenize new, highly efficient mitochondria, drastically improving tissue function and stamina.",
+  "whatIsMitophagy": [
+    "Mitochondrial Quality Decay",
+    "With advancing age, damaged mitochondria accumulate in high-energy post-mitotic tissues like skeletal muscle and brain. These uncoupled organelles generate excess reactive oxygen species (ROS) while failing to maintain ATP synthesis.",
+    "PINK1/Parkin Mitophagy",
+    "Mitophagy is the selective autophagic clearance of depolarized mitochondria. PINK1 stabilizes on damaged outer mitochondrial membranes, recruiting the E3 ubiquitin ligase Parkin (pdr-1) and LC3/GABARAP adapters to engulf and recycle defective organelles.",
+    "Why Urolithin A stands out",
+    "Among all four urolithin isoforms (UA, UB, UC, UD), Urolithin A uniquely induced ubiquitination of mitochondrial proteins and autophagosome formation without collapsing membrane potential in healthy mitochondria."
+  ],
+  "mechanismDescription": "Dietary ellagitannins cannot be absorbed intact and require specific gut bacteria to be converted into Urolithin A. Once in circulation, Urolithin A activates PINK1/Parkin-dependent mitophagy to clear damaged, low-potential mitochondria and stimulate compensatory biogenesis of respiratory-competent organelles.",
   "gutBottleneck": [
-    { "step": "1. The Precursor", "desc": "You consume Ellagitannins (polyphenols found heavily in Pomegranates, walnuts, and berries)." },
-    { "step": "2. The Bottleneck", "desc": "Humans cannot naturally extract Urolithin A. You must have specific, rare gut bacteria to perform the conversion." },
-    { "step": "3. The Output", "desc": "If you have the right microbiome, the bacteria synthesize Urolithin A into your bloodstream." },
-    { "step": "4. Mitophagy", "desc": "Urolithin A reaches your cells, clears out dead mitochondria, and restores youthful energy." }
+    {
+      "step": "01. Dietary Precursor",
+      "title": "Ellagitannins & Punicalagins",
+      "desc": "Found in pomegranates, walnuts, raspberries, and strawberries. Hydrolyzed in the upper GI tract into free ellagic acid, which has poor systemic bioavailability on its own."
+    },
+    {
+      "step": "02. The Microbiome Bottleneck",
+      "title": "30–40% Converter Ceiling",
+      "desc": "Conversion of ellagic acid into Urolithin A requires specific gut Clostridiales species (e.g., Gordonibacter urolithinfaciens). Only ~30–40% of humans ('Metabotype A') possess this flora."
+    },
+    {
+      "step": "03. Direct Postbiotic Bypass",
+      "title": "Bioavailable Urolithin A",
+      "desc": "Direct oral Urolithin A supplementation (500–1,000 mg) bypasses microbiome variability entirely, producing >6-fold higher plasma UA glucuronide/sulfate levels than pomegranate juice."
+    },
+    {
+      "step": "04. Cellular Execution",
+      "title": "PINK1/Parkin Mitophagy",
+      "desc": "Clears damaged mitochondrial networks in skeletal muscle, restoring Complex I/II oxidative phosphorylation capacity and improving muscular endurance."
+    }
+  ],
+  "speciesTranslation": [
+    {
+      "model": "C. elegans (Nematode)",
+      "citation": "Ryu et al., 2016 (Nat. Med.)",
+      "dose": "50 μM Urolithin A",
+      "primaryMetric": "+45.4%",
+      "metricLabel": "Median Lifespan Extension",
+      "details": "Prevented age-related pharyngeal pumping decline and preserved muscle fiber integrity; completely abolished when mitophagy genes pink-1, pdr-1 (Parkin), or dct-1 were knocked down."
+    },
+    {
+      "model": "Aged C57BL/6J Mice (24 mo)",
+      "citation": "Ryu et al., 2016 (Nat. Med.)",
+      "dose": "50 mg/kg/day in chow",
+      "primaryMetric": "+42% / +57%",
+      "metricLabel": "Running Endurance / Grip Strength",
+      "details": "Aged mice ran 42% farther before exhaustion and showed 57% higher grip strength without changes in lean body mass, proving functional mitochondrial quality upgrade rather than hypertrophy."
+    },
+    {
+      "model": "Human Older Adults (65–90 yr)",
+      "citation": "Liu et al., 2022 (JAMA Netw. Open)",
+      "dose": "1,000 mg/day oral RCT (n = 66)",
+      "primaryMetric": "p < 0.03",
+      "metricLabel": "Hand & Leg Muscle Endurance",
+      "details": "4-month double-blind RCT significantly increased skeletal muscle contraction endurance (first dorsal interosseous & tibialis anterior) and lowered plasma acylcarnitines, ceramides, and CRP."
+    },
+    {
+      "model": "Human Middle-Aged Adults (40–64 yr)",
+      "citation": "Singh et al., 2022 (Cell Rep. Med.)",
+      "dose": "500–1,000 mg/day RCT (n = 88)",
+      "primaryMetric": "+12%",
+      "metricLabel": "Hamstring Muscle Strength",
+      "details": "4-month RCT in sedentary overweight adults significantly increased hamstring leg strength (+12% at 500 mg, +9.8% at 1,000 mg), improved aerobic VO2peak, and upregulated muscle mitophagy proteomes."
+    }
   ],
   "keyFindings": [
-    { "title": "A First-In-Class Mitophagy Activator", "desc": "Urolithin A was identified as the first natural, dietary-derived compound with a conserved ability to stimulate mitophagy across multiple species (from worms to mammals)." },
-    { "title": "Prevention of Sarcopenia", "desc": "In aged mice (equivalent to 70-year-old humans), Urolithin A treatment reversed the age-related decline in muscle function (sarcopenia) without any exercise training, purely by upgrading mitochondrial quality." },
-    { "title": "The Microbiome Lottery", "desc": "Clinical follow-ups revealed that only ~30-40% of the human population possesses the precise gut microbiota required to naturally produce Urolithin A from a healthy diet." },
-    { "title": "Safety Profile", "desc": "Because it is a downstream metabolite of a widely consumed food (pomegranate), Urolithin A demonstrated an exceptional safety profile, leading to rapid human clinical trials in the years following this publication." }
+    {
+      "title": "Genetic Proof of Mitophagy Dependency",
+      "desc": "Knockdown of pink-1 (PINK1), pdr-1 (Parkin), or beclin-1 (bec-1) completely abrogated Urolithin A's +45.4% lifespan extension in C. elegans, establishing that selective mitochondrial recycling—not generic antioxidant activity—drives the longevity effect."
+    },
+    {
+      "title": "Sarcopenia Reversal Without Hypertrophy",
+      "desc": "In 22.5-month-old C57BL/6J mice (~70 human years), 6 weeks of Urolithin A increased grip strength by 57% and running distance by 42% without increasing total muscle weight, demonstrating that clearing dysfunctional mitochondria restores force per unit of muscle."
+    },
+    {
+      "title": "The Gut Microbiome 'Metabotype' Lottery",
+      "desc": "Human clinical studies revealed three distinct urolithin metabotypes: Metabotype A (~30–40% who produce pure UA), Metabotype B (producing isourolithin A/UB), and Metabotype 0 (~30% non-producers). Direct postbiotic dosing equalizes blood levels across all three groups."
+    },
+    {
+      "title": "Validated in Human Randomized Controlled Trials",
+      "desc": "Unlike many preclinical geroprotectors, Urolithin A rapidly translated to human Phase 1/2 RCTs (Andreux et al., 2019; Liu et al., 2022; Singh et al., 2022), consistently lowering plasma acylcarnitines (markers of incomplete fatty-acid oxidation) and boosting muscle endurance."
+    }
   ],
   "conclusions": [
-    "Mitochondrial dysfunction is a primary driver of muscle aging and lifespan reduction.",
-    "Urolithin A is a highly conserved, potent activator of mitophagy that clears defective mitochondria.",
-    "Direct supplementation bypasses the 'microbiome bottleneck', providing systemic mitochondrial rejuvenation."
+    {
+      "title": "Mitophagy Is a Druggable Longevity Axis",
+      "content": "Ryu et al. (2016) provided the foundational proof that pharmacologically stimulating PINK1/Parkin-mediated mitophagy clears defective organelles, extends invertebrate lifespan by 45.4%, and restores mammalian skeletal muscle function in old age."
+    },
+    {
+      "title": "Postbiotics Bypass Microbiome Variability",
+      "content": "Because 60–70% of adults lack sufficient gut bacterial capacity to convert dietary pomegranate ellagitannins into Urolithin A at therapeutic levels, direct postbiotic supplementation is required for consistent systemic exposure."
+    },
+    {
+      "title": "Human Translation to Muscle Endurance",
+      "content": "Subsequent double-blind human RCTs at 500–1,000 mg/day confirmed that Urolithin A upregulates skeletal muscle mitochondrial gene signatures, decreases plasma acylcarnitines and C-reactive protein, and improves muscular strength and endurance."
+    }
   ],
-  "protocolRecommendations": [
-    "Drinking pomegranate juice or eating walnuts is not sufficient for most people, as only ~30% of humans have the required gut bacteria to convert ellagitannins into Urolithin A.",
-    "Direct Urolithin A supplementation (often sold as Mitopure) is currently the only way to guarantee a clinical dose reaches the bloodstream.",
-    "Zone 2 cardiovascular exercise is the most effective natural, non-pharmacological way to stimulate mitophagy and mitochondrial biogenesis."
-  ]
+  "protocolImplications": "In human randomized controlled trials, oral Urolithin A at 500 mg to 1,000 mg once daily for 4 months consistently reduced plasma acylcarnitines (biomarkers of mitochondrial beta-oxidation efficiency) and improved muscle endurance and leg strength, independent of baseline gut microbiome composition. Combining mitophagy activation with Zone 2 aerobic training and resistance exercise synergistically supports both mitochondrial clearance (mitophagy) and synthesis (biogenesis)."
 }

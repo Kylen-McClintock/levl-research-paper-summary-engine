@@ -1,0 +1,143 @@
+{
+  "titleBlock": {
+    "headline": "Trametinib + Rapamycin Combine Additively to Extend Mammalian Lifespan by Up to 34.9%",
+    "authors": "Gkioni, L., Nespital, T., Baghdadi, M., Monzó, C., Bali, J., Hendrich, O., Patil, S., Beyer, A., Grönke, S. & Partridge, L.",
+    "journal": "Nature Aging",
+    "year": "2025",
+    "doi": "10.1038/s43587-025-00876-4",
+    "pmid": "40437307",
+    "pmcid": "PMC12270913",
+    "summary": "By simultaneously targeting both arms of the insulin/IGF-1/growth factor signaling network—mTORC1 via intermittent rapamycin (42 mg/kg diet alternate weeks) and the Ras–MEK–ERK cascade via continuous trametinib (1.44 mg/kg diet)—in 875 C3B6F1 hybrid mice from 6 months of age, Gkioni & Partridge achieved truly additive lifespan extension (+34.9% female median, +27.4% male median) alongside liver/spleen tumor suppression and complete blockade of age-related brain glucose hypermetabolism."
+  },
+  "studyOverview": [
+    {
+      "title": "The Question",
+      "content": "Downstream of growth factor and insulin/IGF-1 receptors, signaling bifurcates into the PI3K–Akt–mTORC1 branch and the Ras–MEK–ERK branch. Does inhibiting MEK1/2 with the FDA-approved oncology drug trametinib extend mammalian lifespan on its own, and does combining it with mTORC1 inhibition (rapamycin) produce additive longevity and healthspan gains?"
+    },
+    {
+      "title": "What They Did",
+      "content": "Randomized n = 875 genetically identical F1 hybrid mice (C3B6F1, both males and females, ~100–121 mice per sex per arm) starting at 6 months of age into 4 arms: Control diet, Trametinib alone (1.44 mg/kg diet continuous), Rapamycin alone (42 mg/kg diet intermittent every other week), and Combined Trametinib + Rapamycin, paired with longitudinal 18F-FDG PET/CT brain imaging, histopathology, and multi-tissue RNA-seq."
+    },
+    {
+      "title": "What They Found",
+      "content": "Trametinib alone extended median lifespan by +7.2% (♀) and +10.2% (♂) without causing glucose intolerance. Rapamycin alone extended median lifespan by +17.4% (♀) and +16.6% (♂). Remarkably, the combination additively extended median lifespan by +34.9% in females (maximum +32.4%) and +27.4% in males (maximum +26.1%), while uniquely reducing liver/spleen tumors and blocking age-related brain neuroinflammation and glucose hypermetabolism."
+    }
+  ],
+  "arms": [
+    {
+      "id": "control",
+      "label": "Untreated Control",
+      "regimen": "Standard Purina 5053 Diet (From 6 Months)",
+      "sampleSize": "♀ n = 100 | ♂ n = 121",
+      "femaleMedianGain": 0,
+      "femaleMaxGain": 0,
+      "maleMedianGain": 0,
+      "maleMaxGain": 0,
+      "femaleHR": "1.00 (Ref)",
+      "maleHR": "1.00 (Ref)",
+      "glucoseEffect": "Normal baseline glucose tolerance",
+      "brainPetChange": "+11.5% to +14% pathological age-related rise in striatum/cortex 18F-FDG uptake from 12 to 24 mo",
+      "liverTumorRate": "Baseline high incidence of late-life liver & spleen neoplasia at 24 mo",
+      "microgliaStatus": "High Iba-1+ activated microglia & GFAP+ reactive astrocytes at 24 mo"
+    },
+    {
+      "id": "trametinib",
+      "label": "Trametinib Monotherapy",
+      "regimen": "1.44 mg/kg Diet Continuous (MEK1/2 Inhibitor)",
+      "sampleSize": "♀ n = 98 | ♂ n = 121",
+      "femaleMedianGain": 7.2,
+      "femaleMaxGain": 5.1,
+      "maleMedianGain": 10.2,
+      "maleMaxGain": 15.8,
+      "femaleHR": "0.69 (p = 0.0248)",
+      "maleHR": "0.53 (p < 0.0001)",
+      "glucoseEffect": "Neutral (No hyperglycemia, no insulin resistance, normal AST/ALP liver enzymes)",
+      "brainPetChange": "Partially attenuated age-related rise in brain glucose uptake",
+      "liverTumorRate": "Modest non-significant trend toward lower tumor burden",
+      "microgliaStatus": "Moderate reduction in striatal microglia density in females"
+    },
+    {
+      "id": "rapamycin",
+      "label": "Rapamycin Monotherapy",
+      "regimen": "42 mg/kg Diet Intermittent (Alternate Weeks, mTORC1 Inhibitor)",
+      "sampleSize": "♀ n = 98 | ♂ n = 120",
+      "femaleMedianGain": 17.4,
+      "femaleMaxGain": 16.5,
+      "maleMedianGain": 16.6,
+      "maleMaxGain": 18.3,
+      "femaleHR": "0.33 (p < 0.0001)",
+      "maleHR": "0.46 (p < 0.0001)",
+      "glucoseEffect": "Mild glucose intolerance (elevated GTT AUC due to partial mTORC2 sensitivity)",
+      "brainPetChange": "Partially attenuated age-related brain glucose hypermetabolism",
+      "liverTumorRate": "Did not significantly reduce 24-month liver tumor prevalence alone",
+      "microgliaStatus": "Reduced splenic enlargement and systemic pro-inflammatory cytokines"
+    },
+    {
+      "id": "combination",
+      "label": "Trametinib + Rapamycin",
+      "regimen": "1.44 mg/kg Continuous Trametinib + 42 mg/kg Alternate-Week Rapamycin",
+      "sampleSize": "♀ n = 98 | ♂ n = 120",
+      "femaleMedianGain": 34.9,
+      "femaleMaxGain": 32.4,
+      "maleMedianGain": 27.4,
+      "maleMaxGain": 26.1,
+      "femaleHR": "0.21 vs. Rapa (p < 0.0001)",
+      "maleHR": "0.55 vs. Rapa (p = 0.0003)",
+      "glucoseEffect": "No exacerbation of rapamycin glucose effect; normal liver transaminases (AST/ALP)",
+      "brainPetChange": "100% Blockade: Completely prevented age-related 18F-FDG hypermetabolism across striatum, cortex & cerebellum",
+      "liverTumorRate": "Significant reduction in 24-month liver tumors (♀ & ♂) and male spleen tumors",
+      "microgliaStatus": "Synergistic suppression of Iba-1+ microglia, GFAP+ astrocytes & renal/splenic inflammation"
+    }
+  ],
+  "doseOptimizationNote": "Crucial Dose-Window Discovery: In preliminary dosing trials, high doses of trametinib (5.76 and 11.52 mg/kg diet) caused weight loss, hepatic/splenic pathology, and shortened male lifespan. Titrating down to 1.44 mg/kg diet (~0.24 mg/kg/day body weight—roughly 10-fold below oncology dosing, achieving ~2.8 ng/mL plasma levels) unlocked clean lifespan extension without hematological or hepatic toxicity.",
+  "transcriptomics": [
+    {
+      "tissue": "Kidney & Spleen Transcriptome",
+      "finding": "Emergent Combinatorial Reprogramming",
+      "detail": "Over 80% of differentially expressed genes (DEGs) in the combined treatment arm were unique to the combination rather than present in single-drug arms—downregulating canonical NF-κB, IL-6/JAK/STAT3, complement cascade, and chemokine signaling while preserving mitochondrial OXPHOS."
+    },
+    {
+      "tissue": "Brain Striatum & Hippocampus",
+      "finding": "Glial Quiescence & Metabolic Homeostasis",
+      "detail": "In aged brains, pro-inflammatory microglia consume excessive glucose via aerobic glycolysis, driving an age-related surge in 18F-FDG PET signal. Dual MEK1/2 + mTORC1 blockade silenced microglial/astrocytic activation, keeping 24-month brain glucose metabolism indistinguishable from 12-month-old mice."
+    },
+    {
+      "tissue": "Cardiovascular & Locomotor Function",
+      "finding": "Attenuated Cardiac Electrical Aging",
+      "detail": "Longitudinal ECG and open-field monitoring showed that combined therapy blunted the age-related decline in resting heart rate, prevented pathological QT-interval prolongation at 24 months, and increased voluntary exploratory locomotion in aged mice."
+    }
+  ],
+  "keyFindings": [
+    {
+      "title": "First Mammalian Lifespan Extension by a Clinical MEK1/2 Inhibitor",
+      "desc": "Extends the Partridge Lab's earlier 2015 Drosophila discovery (Slack et al., Cell) into mammals: low-dose trametinib (1.44 mg/kg) extended mouse median lifespan by +7.2% (♀) and +10.2% (♂) and male maximum lifespan by +15.8%."
+    },
+    {
+      "title": "True Additive Synergy (+34.9% ♀ / +27.4% ♂ Median Lifespan)",
+      "desc": "Inhibiting both Ras–MEK–ERK and PI3K–mTORC1 branches of the nutrient/growth-factor network nearly doubled the lifespan benefit of intermittent rapamycin alone, pushing female maximum lifespan up by +32.4%."
+    },
+    {
+      "title": "Complete Blockade of Aged Brain Glucose Hypermetabolism (18F-FDG PET)",
+      "desc": "Contrary to human Alzheimer's hypometabolism, normal mouse brain aging exhibits glial-driven hyper-glycolysis (+11.5–14% FDG uptake from 12 to 24 mo); only the dual therapy completely abolished this neuroinflammatory metabolic shift."
+    },
+    {
+      "title": "Narrow Therapeutic Window Requires Sub-Oncology Microdosing",
+      "desc": "Whereas 5.76–11.52 mg/kg trametinib was toxic in males, 1.44 mg/kg (~2.8 ng/mL plasma concentration, well below the ~5.5–22 ng/mL human melanoma therapeutic range) was completely free of liver or metabolic toxicity."
+    }
+  ],
+  "conclusions": [
+    {
+      "title": "Poly-Pathway Network Targeting Overcomes Single-Drug Ceilings",
+      "content": "Because insulin/IGF-1 and receptor tyrosine kinases signal through parallel PI3K–mTORC1 and Ras–MEK–ERK cascades with cross-compensatory feedback, dual inhibition achieves a magnitude of mammalian lifespan extension (+34.9%) rarely seen outside radical genetic dwarfism or severe caloric restriction."
+    },
+    {
+      "title": "Intermittent Rapamycin + Continuous Low-Dose MEK Inhibition",
+      "content": "Delivering rapamycin intermittently (every other week) captured its full geroprotective benefit (~17% median extension) while pairing seamlessly with continuous low-dose trametinib without compounding metabolic side effects."
+    },
+    {
+      "title": "Convergent Link with Anti-IL-11 Longevity Signaling",
+      "content": "This study provides direct mechanistic synergy with Widjaja et al. (Nature 2024, Anti-IL-11), which demonstrated that age-related IL-11 signals precisely through the ERK–mTORC1 axis to drive multi-organ senescence and fibrosis."
+    }
+  ],
+  "protocolImplications": "Translational context: Both rapamycin (sirolimus) and trametinib (Mekinist) are FDA-approved human pharmaceuticals with extensive clinical pharmacology profiles. However, oncology doses of trametinib (2 mg/day in humans) cause significant rash, cardiomyopathy, and ocular toxicity. Gkioni et al. demonstrate that geroprotective efficacy in mammals occurs at roughly 1/5th to 1/10th of the oncology exposure (~2.8 ng/mL plasma), establishing a roadmap for ultra-low-dose combinatorial geroprotector clinical trials."
+}

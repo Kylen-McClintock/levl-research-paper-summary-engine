@@ -1,0 +1,148 @@
+{
+  "titleBlock": {
+    "headline": "CALERIE™ Phase 2 RCT: Two Years of Human Caloric Restriction Slows the DunedinPACE Aging Speedometer",
+    "authors": "Waziry, R., Ryan, C.P., Corcoran, D.L., Huffman, K.M., Kobor, M.S., Kothari, M., Graf, G.H., Kraus, V.B., Kraus, W.E., Lin, D.T.S., Pieper, C.F., Ramaker, M.E., Bhapkar, M., Das, S.K., Ferrucci, L., Hastings, W.J., Kebbe, M., Parker, D.C., Racette, S.B., Shalev, I., Schilling, B. & Belsky, D.W.",
+    "journal": "Nature Aging",
+    "year": "2023",
+    "doi": "10.1038/s43587-022-00357-y",
+    "pmid": "37118425",
+    "pmcid": "PMC10148951",
+    "nct": "NCT00427193",
+    "summary": "In the landmark NIH-funded CALERIE™ Phase 2 randomized controlled trial of 220 healthy non-obese adults over 24 months—with true energy intake quantified by Doubly Labeled Water (DLW)—long-term caloric restriction significantly slowed the 3rd-generation dynamic DunedinPACE epigenetic speedometer by 2–3% (d = -0.29 at 12 mo; d = -0.25 at 24 mo; d = -0.40 in 20% CR completers), corresponding to a 10–15% reduction in mortality risk."
+  },
+  "studyOverview": [
+    {
+      "title": "The Question",
+      "content": "Caloric restriction (CR) is the most reproducible intervention for extending lifespan in worms, flies, and rodents—but can sustained caloric restriction slow biological aging at the DNA methylation level in healthy, non-obese young and middle-aged humans in a randomized controlled trial?"
+    },
+    {
+      "title": "What They Did",
+      "content": "Randomized N = 220 healthy, non-obese adults (men 21–50 yr, premenopausal women 21–47 yr, BMI 22.0–27.9 kg/m², mean age 38 yr) 2:1 to 25% Caloric Restriction (n = 145) vs. Ad Libitum Control (n = 75) for 24 months across 3 US clinical centers (WashU, Pennington, Tufts). True % CR was measured objectively via Doubly Labeled Water (DLW), and blood Illumina EPIC (>850k CpG) DNAm was analyzed at baseline, 12, and 24 months (n = 197: 128 CR, 69 AL)."
+    },
+    {
+      "title": "What They Found",
+      "content": "CR significantly slowed the 3rd-generation dynamic pace-of-aging clock DunedinPACE at both 12 months (d = -0.29, p < 0.003) and 24 months (d = -0.25, p < 0.003), with a clear DLW dose-response: achieving >10% CR yielded d = -0.33, and Instrumental Variables (TOT) modeling for 20% CR yielded d = -0.43 (12 mo) and d = -0.40 (24 mo). In contrast, static 2nd-generation 'odometer' clocks (PC-PhenoAge, PC-GrimAge) were unchanged over 2 years."
+    }
+  ],
+  "speedometerVsOdometer": [
+    {
+      "id": "dunedinpace",
+      "name": "DunedinPACE",
+      "generation": "3rd-Generation Dynamic 'Speedometer'",
+      "metaphor": "Speedometer (Current Rate of Biological Aging per Year)",
+      "trainingTarget": "Trained on 20-year longitudinal within-person slopes across 19 organ-system biomarkers (cardiovascular, metabolic, renal, hepatic, immune, dental, pulmonary) in the Dunedin Birth Cohort (ages 26, 32, 38, 45).",
+      "effect12Mo": -0.29,
+      "ci12Mo": "-0.45 to -0.13",
+      "effect24Mo": -0.25,
+      "ci24Mo": "-0.41 to -0.09",
+      "pVal": "p < 0.003 (Significant)",
+      "interpretation": "Slowed pace of aging by 2–3% in Intent-to-Treat (and ~4% at 20% CR), an effect size associated in epidemiological cohorts with a 10–15% lower hazard of all-cause mortality—comparable to a smoking cessation intervention."
+    },
+    {
+      "id": "pcphenoage",
+      "name": "PC-PhenoAge",
+      "generation": "2nd-Generation Static 'Odometer'",
+      "metaphor": "Odometer (Cumulative Historical Biological Mileage)",
+      "trainingTarget": "Trained cross-sectionally on composite clinical chemistry mortality score (albumin, creatinine, glucose, CRP, lymphocyte %, mean cell volume, RDW, ALP, WBC) + chronological age.",
+      "effect12Mo": 0.01,
+      "ci12Mo": "-0.13 to +0.16",
+      "effect24Mo": 0.05,
+      "ci24Mo": "-0.11 to +0.20",
+      "pVal": "p > 0.50 (Null in 2-Yr RCT)",
+      "interpretation": "Because odometer clocks integrate decades of prior cumulative damage alongside chronological age, a 2–3% reduction in current aging speed over just 2 years produces too small a change in total cumulative mileage to register."
+    },
+    {
+      "id": "pcgrimage",
+      "name": "PC-GrimAge",
+      "generation": "2nd-Generation Static 'Odometer'",
+      "metaphor": "Odometer (Cumulative Mortality & Smoking Pack-Year Mileage)",
+      "trainingTarget": "Trained cross-sectionally on time-to-death, smoking pack-years, and 7 plasma protein surrogates + age and sex.",
+      "effect12Mo": -0.04,
+      "ci12Mo": "-0.16 to +0.08",
+      "effect24Mo": 0.05,
+      "ci24Mo": "-0.08 to +0.17",
+      "pVal": "p > 0.40 (Null in 2-Yr RCT)",
+      "interpretation": "Highly accurate for cross-sectional mortality risk stratification, but less sensitive than 3rd-generation longitudinal slope clocks for detecting short-term (12–24 month) lifestyle intervention velocity shifts in healthy younger adults."
+    }
+  ],
+  "doseResponse": [
+    {
+      "tier": "Ad Libitum Control",
+      "achievedCR": "~0% CR (n = 69)",
+      "d12Mo": 0.0,
+      "d24Mo": 0.0,
+      "paceReduction": "0% (Reference)",
+      "mortalityEquivalent": "Baseline Risk",
+      "note": "Participants maintained habitual caloric intake over 24 months."
+    },
+    {
+      "tier": "Low Adherence (<10% CR)",
+      "achievedCR": "Mean <10% DLW CR",
+      "d12Mo": -0.19,
+      "d24Mo": -0.14,
+      "paceReduction": "~1.4% Slower Pace",
+      "mortalityEquivalent": "~6–8% Lower Mortality Hazard",
+      "note": "Modest caloric reduction produced a smaller, attenuated slowing of DunedinPACE."
+    },
+    {
+      "tier": "Intent-to-Treat (All CR)",
+      "achievedCR": "Mean 11.9% DLW CR (n = 128)",
+      "d12Mo": -0.29,
+      "d24Mo": -0.25,
+      "paceReduction": "2–3% Slower Pace",
+      "mortalityEquivalent": "10–15% Lower Mortality Hazard",
+      "note": "Primary pre-registered RCT analysis across all participants randomized to the CR arm regardless of adherence."
+    },
+    {
+      "tier": "High Adherence (>10% CR)",
+      "achievedCR": "Mean >10% DLW CR",
+      "d12Mo": -0.33,
+      "d24Mo": -0.33,
+      "paceReduction": "~3.3% Slower Pace",
+      "mortalityEquivalent": "~15% Lower Mortality Hazard",
+      "note": "Sustained reduction at both 12 and 24 months among participants achieving >10% caloric restriction by Doubly Labeled Water."
+    },
+    {
+      "tier": "20% CR Effect-of-Treatment-on-Treated (TOT)",
+      "achievedCR": "20% DLW CR (Instrumental Variables)",
+      "d12Mo": -0.43,
+      "d24Mo": -0.40,
+      "paceReduction": "~4.0% Slower Pace",
+      "mortalityEquivalent": "~18–20% Lower Mortality Hazard",
+      "note": "Instrumental variable TOT estimate of the biological effect of achieving a full 20% caloric restriction (p < 0.005)."
+    }
+  ],
+  "keyFindings": [
+    {
+      "title": "First Gold-Standard RCT Proof That CR Slows Human Epigenetic Aging Pace",
+      "desc": "In healthy non-obese adults (mean age 38, BMI 22–27.9), 2 years of mild-to-moderate caloric restriction (11.9% average achieved via DLW) significantly slowed the DunedinPACE speedometer (d = -0.25 to -0.29)."
+    },
+    {
+      "title": "The 'Speedometer vs. Odometer' Paradigm for Longevity Trials",
+      "desc": "Establishes why 3rd-generation longitudinal rate clocks (DunedinPACE) detect 1–2 year geroprotective interventions while 1st/2nd-generation cross-sectional clocks (Horvath, PhenoAge, GrimAge) require multi-year cumulative divergence."
+    },
+    {
+      "title": "Strict Dose-Response Verified by Doubly Labeled Water (DLW)",
+      "desc": "Unlike self-reported food diaries, CALERIE quantified true energy expenditure and intake via isotopic Doubly Labeled Water, proving that >10% CR (d = -0.33) and 20% TOT CR (d = -0.40 to -0.43) progressively slow biological aging."
+    },
+    {
+      "title": "Weight-Loss Phase (0–12 mo) vs. Weight-Maintenance Phase (12–24 mo)",
+      "desc": "Most weight loss (~7.5 kg) occurred in Year 1 while Year 2 was weight maintenance, yet DunedinPACE remained significantly slowed at 24 months—confirming sustained metabolic reprogramming rather than acute negative energy balance alone."
+    }
+  ],
+  "conclusions": [
+    {
+      "title": "Moderate (~12%) Caloric Restriction Is Sufficient in Non-Obese Humans",
+      "content": "Although prescribed 25% CR, participants achieved an average of 11.9% CR over 2 years—demonstrating that extreme starvation is unnecessary to achieve a clinically meaningful 2–3% slowing in the pace of aging (equivalent to a 10–15% mortality risk reduction)."
+    },
+    {
+      "title": "Complementary With Long-Term Observational CR Cohorts",
+      "content": "While 2 years of CR in CALERIE did not yet shift cumulative 'odometer' clocks (PC-PhenoAge), Fiorito & Fontana (Aging Cell 2025) showed that humans practicing CR for ~9.6 years exhibit a -2.96 year reduction in blood PhenoAge acceleration—confirming that sustained speedometer slowing eventually lowers odometer mileage."
+    },
+    {
+      "title": "DunedinPACE as a Validated Surrogate Endpoint for Geroprotectors",
+      "content": "Following CALERIE (2023) and DO-HEALTH (2025), DunedinPACE has emerged as the premier responsive epigenetic biomarker for 12-to-36-month human clinical longevity trials."
+    }
+  ],
+  "protocolImplications": "Translational takeaway: In non-obese adults (BMI 22–27.9 kg/m²), a sustainable 10–15% reduction in caloric intake—paired with adequate micronutrient density and resistance exercise to protect lean mass and bone mineral density—slows the DunedinPACE rate of aging within 12 months. When evaluating short-term (6–24 month) longevity protocols, clinicians and individuals should track dynamic rate biomarkers (DunedinPACE, fasting insulin, hs-CRP, T3, leptin) alongside cumulative multi-year clocks."
+}

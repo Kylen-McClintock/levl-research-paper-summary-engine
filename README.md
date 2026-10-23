@@ -1,73 +1,23 @@
-# React + TypeScript + Vite
+# LEVL Longevity Research Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive, peer-reviewed research paper summaries covering biomarkers, epigenetic reprogramming, senolytics, mitophagy, and metabolic longevity interventions.
 
-Currently, two official plugins are available:
+## Project Standards & Adding New Papers
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+See [`AGENTS.md`](./AGENTS.md) for the complete **Scientific Verification Checklist**, **TypeScript & JSON Data Schemas**, and **Shared UI Component Architecture** (`<Header />`, `<StudyScorecard />`, `<ConclusionsSection />`) required for all current and future research summaries.
 
-## React Compiler
+### Key Architectural Files
+- [`src/types/paper.ts`](./src/types/paper.ts): TypeScript interfaces (`HubPaper`, `EvidenceTier`, `ResearchCategory`, `StudyOverviewItem`, `ConclusionItem`) and the static `ACCENT_STYLES` Tailwind lookup map.
+- [`src/data/hubData.json`](./src/data/hubData.json): Central registry of all 16 studies with verified DOIs, PMIDs, model systems, sample sizes, evidence tiers, hero metrics, and related study IDs.
+- [`src/components/Header.tsx`](./src/components/Header.tsx): Global navigation bar with automatic sticky paper sub-header (scroll progress bar, Evidence Tier badge, and direct PubMed/DOI links).
+- [`src/components/StudyScorecard.tsx`](./src/components/StudyScorecard.tsx): Standardized Evidence & Methodology Scorecard and 3-pillar Study Overview (`The Question`, `What They Did`, `What They Found`).
+- [`src/components/ConclusionsSection.tsx`](./src/components/ConclusionsSection.tsx): Standardized Key Takeaways, Translational Protocol Context, and Related Research cross-navigation.
+- [`src/components/LineChart.tsx`](./src/components/LineChart.tsx): Accessible SVG hazard-ratio line chart with `viewBox="0 0 100 100"`, `vectorEffect="non-scaling-stroke"`, and screen-reader `<table className="sr-only">` fallback.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Development & Build
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
+npm run build
 ```

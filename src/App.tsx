@@ -2,6 +2,7 @@ import React from 'react';
 import { StudyOverview } from './components/StudyOverview';
 import { Panel } from './components/Panel';
 import data from './data/metabolitesData.json';
+import levlLogo from './assets/levl-logo.png';
 import { Target, Users, Search, CheckCircle, ShieldCheck, Activity, Globe, ArrowRight, Zap, RefreshCw, Shield, HeartPulse, Dna } from 'lucide-react';
 
 function App() {
@@ -223,7 +224,7 @@ function App() {
               </div>
               <div className="flex flex-col">
                  <h3 className="text-green uppercase tracking-widest font-semibold mb-2">LEVL Interpretation / Future Protocol Implication</h3>
-                 <p className="text-xs text-[var(--levl-text-secondary)] leading-relaxed opacity-90 pr-4">If validated clinically, organ-specific proteomic aging tests could help prioritize more targeted prevention strategies.</p>
+                 <p className="text-xs text-[var(--levl-text-secondary)] leading-relaxed opacity-90 pr-4">Replenishing declining endogenous metabolites offers a physiological, multi-hallmark strategy to restore cellular energy and resilience.</p>
               </div>
            </div>
            <ul className="text-[11px] font-light text-[var(--levl-text-primary)] pl-6 space-y-4 list-outside list-disc marker:text-green opacity-90">
@@ -246,7 +247,7 @@ function App() {
       <div className="mt-2 pt-6 border-t border-[var(--levl-border)] border-opacity-40 flex items-center justify-between text-xs">
          <div className="flex gap-6 items-center">
             <div className="w-[140px] ml-2">
-               <img src="/src/assets/levl-logo.png" alt="LEVL Logo" className="w-full h-auto opacity-90 object-contain" />
+               <img src={levlLogo} alt="LEVL Logo" className="w-full h-auto opacity-90 object-contain" />
             </div>
             <div className="font-light tracking-wide text-[var(--levl-text-secondary)]">
                 At LEVL, we translate cutting-edge longevity science into actionable strategies for real human health.<br/>

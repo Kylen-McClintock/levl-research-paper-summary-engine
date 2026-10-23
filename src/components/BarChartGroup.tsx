@@ -2,11 +2,27 @@ import React from 'react';
 import { Panel } from './Panel';
 import { Shirt, Activity, Droplet, Dumbbell, BrainCircuit, Heart } from 'lucide-react';
 
-export const BarChartGroup: React.FC<{ data: any, title?: string }> = ({ data, title }) => {
+export interface BarChartItem {
+  title: string;
+  bar1: number;
+  bar2: number;
+  minY: number;
+  maxY: number;
+  step?: number;
+  unit?: string;
+  asterisk1?: string;
+  icon?: string;
+  label1?: string;
+  label2?: string;
+  legend1?: string;
+  legend2?: string;
+}
+
+export const BarChartGroup: React.FC<{ data: BarChartItem[]; title?: string }> = ({ data, title }) => {
   return (
     <Panel title={title || "Select Outcomes"} borderColor="none">
       <div className="grid grid-cols-3 gap-x-8 gap-y-12 mt-4 px-2 pb-6">
-        {data.map((chart: any, index: number) => {
+        {data.map((chart: BarChartItem, index: number) => {
           const { title, bar1, bar2, minY, maxY, step, unit, asterisk1, icon, label1, label2 } = chart;
           const range = maxY - minY;
           const zeroY = 100 - ((0 - minY) / range) * 100;

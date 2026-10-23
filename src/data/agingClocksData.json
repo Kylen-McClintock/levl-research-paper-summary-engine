@@ -11,70 +11,217 @@
   },
   "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
   "whatIsClock": [
-    "An organ-specific aging clock is a tool that measures the biological age of individual organs using proteins found in the blood. Unlike chronological age (years alive), biological age reflects how well an organ functions.",
+    "An organ-specific aging clock quantifies the biological age of an individual organ using organ-enriched proteins circulating in blood plasma (annotated via GTEx tissue expression with >=4-fold organ enrichment). Unlike chronological age, the 'organ age gap' reflects whether a specific organ is biologically older or younger than same-aged peers.",
     "Why does this matter?",
-    "Different organs in the same person can age at different rates. Knowing which organs are aging fastest can predict specific diseases before symptoms appear, allowing for highly targeted preventative interventions.",
+    "Pairwise correlations between organ age gaps within the same person are weak (mean r = 0.16 in UKB), proving that human organs age asynchronously. Relying solely on a whole-body clock obscures critical organ-specific vulnerabilities.",
     "What does this study investigate?",
-    "Researchers analyzed blood plasma proteins to develop clocks for overall aging and 10 specific organs. They validated these clocks across tens of thousands of people from the UK, China, and the USA to see if accelerated organ aging predicts disease and mortality."
+    "Researchers profiled 2,916 plasma proteins (Olink Explore 3072) to train LightGBM models for 1 organismal clock (240 proteins) and 10 organ-specific clocks across 48,393 participants in the UK Biobank (n = 43,616), China Kadoorie Biobank (n = 3,977), and US Nurses' Health Study (n = 800)."
   ],
   "studyOverview": [
-    { "label": "Objective", "value": "Develop and validate organ-specific proteomic aging clocks to predict disease and mortality." },
-    { "label": "Design", "value": "Machine learning analysis of plasma proteomics across diverse cohorts." },
-    { "label": "Participants", "value": "UK Biobank (n=43,616), China (n=3,977), USA (n=800)." },
-    { "label": "Assessments", "value": "Proteomic profiling, clinical health records, mortality tracking, genomic data." }
+    { "label": "Objective", "value": "Develop and externally validate 10 organ-specific and 1 organismal proteomic aging clocks to predict incident chronic diseases, multimorbidity, and mortality." },
+    { "label": "Design", "value": "LightGBM + Boruta feature selection on 2,916 Olink plasma proteins (418 organ-enriched via GTEx)." },
+    { "label": "Participants", "value": "n = 48,393 total: UK Biobank (n = 43,616), China CKB (n = 3,977), and US NHS (n = 800)." },
+    { "label": "Assessments", "value": "Plasma proteomics, brain MRI structure, GWAS (29,629 participants), lifestyle factors, and 11–30 yr disease/mortality follow-up." }
+  ],
+  "scorecardOverview": [
+    {
+      "title": "The Question",
+      "content": "Can a single blood draw resolve the independent biological aging rates of 10 distinct human organ systems—and do organ-specific clocks outperform whole-body clocks across diverse global populations?"
+    },
+    {
+      "title": "The Methodology",
+      "content": "Using Olink Explore 3072 plasma proteomics (2,916 proteins) and GTEx tissue mapping, the authors trained LightGBM clocks in the UK Biobank (n = 43,616) and externally validated them in China (CKB, n = 3,977) and the USA (NHS, n = 800), achieving cross-cohort r = 0.98 and 0.93."
+    },
+    {
+      "title": "The Breakthrough",
+      "content": "Organ age gaps are weakly correlated (mean r = 0.16) and strongly predict organ-matched and systemic diseases. Having 5+ extremely aged organs raises mortality risk 7.8-fold, whereas 5+ super-youthful organs cuts mortality by 60% and dementia risk by 75%."
+    }
   ],
   "keyFindings": [
-    { "title": "Predictive Power", "desc": "Organ-specific clocks added predictive value beyond established clinical and genetic risk factors." },
-    { "title": "Brain Aging Risk", "desc": "The brain aging clock had the strongest link to mortality and could accurately stratify Alzheimer's risk even among high-risk APOE4 carriers." },
-    { "title": "Diverse Validation", "desc": "The models were proven highly accurate across three distinct global populations (UK, China, USA), ensuring broad applicability." },
-    { "title": "Genetic & Lifestyle Links", "desc": "Organ aging trajectories are shaped by both inherited genetic factors and modifiable environmental/lifestyle habits." }
+    { "title": "Predictive Power", "desc": "Organ-specific age gaps significantly predicted 121 of 187 organ-disease pairs (65% after FDR correction), outperforming whole-body organismal clocks and established clinical risk scores." },
+    { "title": "Brain Aging & APOE4 Resilience", "desc": "The brain aging clock had the strongest link to all-cause mortality (HR = 1.44 per 1-SD) and stratified Alzheimer's risk across APOE haplotypes—with a super-youthful brain conferring resilience even in APOE4 carriers." },
+    { "title": "Cross-Ancestry Robustness", "desc": "Validated across UK (n = 43,616), Chinese (n = 3,977), and US (n = 800) cohorts with cross-cohort correlation r = 0.93–0.98, plus parsimonious 5–20 protein panels for clinical translation." },
+    { "title": "Genetic & Lifestyle Modifiability", "desc": "GWAS mapped brain aging to 38 SNPs (including GABBR1 and ECM1), while healthy sleep, physical activity, oily fish, and non-smoking significantly decelerated brain, intestine, and pancreas aging." }
   ],
-  "findingsCallout": "Individuals with super-youthful brain ageotypes showed lower dementia risk, suggesting possible resilience even in genetically higher-risk groups.",
-  "keyTakeaway": "Measuring the biological age of individual organs via blood proteins can accurately predict disease onset and mortality risk, offering a powerful tool for personalized, preventative longevity interventions.",
+  "organProfiles": [
+    {
+      "id": "brain",
+      "name": "Brain Clock",
+      "proteins": "117 enriched proteins (e.g., APOD, GFAP, NEFL, BCAN)",
+      "primaryMetric": "1.88x",
+      "primaryLabel": "All-Cause Dementia Risk (per 1-SD)",
+      "secondaryMetrics": [
+        "1.44x All-Cause Mortality Risk (strongest of all organs, q = 3.35e-74)",
+        "1.89x Progression from MCI to Dementia (q = 3.23e-8)",
+        "1.52x Multiple Sclerosis Risk & 1.30x Parkinson's Disease Risk",
+        "Independent predictor of 14 out of 17 neuropsychiatric & physical outcomes"
+      ],
+      "mechanism": "Links synaptic loss, glial activation, and GABBR1/ECM1 genetic pathways to cortical atrophy and cognitive decline; super-youthful brain ageotype buffers APOE4 genetic risk."
+    },
+    {
+      "id": "kidney",
+      "name": "Kidney Clock",
+      "proteins": "Organ-enriched renal filtration & tubular proteins",
+      "primaryMetric": "2.08x",
+      "primaryLabel": "Type 2 Diabetes Risk (per 1-SD)",
+      "secondaryMetrics": [
+        "1.78x Chronic Kidney Disease (CKD) Risk (q = 3.31e-78)",
+        "2.08x Type 2 Diabetes (T2D) Risk (q = 5.93e-152)",
+        "Explains 38% of multi-organ association with T2D and 17% with CKD",
+        "Strongly linked to hypertension, BUN, and creatinine elevation"
+      ],
+      "mechanism": "Captures early glomerular and tubular proteostasis decline years prior to clinical eGFR drop, acting as a central hub for cardio-renal-metabolic multimorbidity."
+    },
+    {
+      "id": "intestine",
+      "name": "Intestine Clock",
+      "proteins": "Mucosal barrier & enteroendocrine enriched proteins",
+      "primaryMetric": "1.93x",
+      "primaryLabel": "Chronic Kidney Disease Risk (per 1-SD)",
+      "secondaryMetrics": [
+        "1.93x Chronic Kidney Disease Risk (q = 1.45e-98)",
+        "1.54x Type 2 Diabetes Risk (q = 4.47e-65)",
+        "Top driver of combined physical + neuropsychiatric multimorbidity",
+        "Significantly decelerated by healthy dietary habits (vegetables, oily fish)"
+      ],
+      "mechanism": "Reflects intestinal barrier integrity and gut-organ axis signaling; accelerated intestinal aging drives systemic endotoxemia, renal inflammation, and insulin resistance."
+    },
+    {
+      "id": "artery",
+      "name": "Artery Clock",
+      "proteins": "Vascular endothelial & extracellular matrix proteins",
+      "primaryMetric": "High HR",
+      "primaryLabel": "Myocardial Infarction, Stroke & Vascular Dementia",
+      "secondaryMetrics": [
+        "Second strongest correlation with systemic organismal aging (despite only 4% protein overlap)",
+        "Independently predicts incident dementia and cognitive decline alongside the Brain clock",
+        "Replicated associations with myocardial infarction and hypertension in UKB, CKB, and NHS"
+      ],
+      "mechanism": "Tracks arterial stiffening, endothelial dysfunction, and blood-brain barrier breakdown, bridging cardiovascular pathology and neurodegenerative white-matter injury."
+    },
+    {
+      "id": "heart",
+      "name": "Heart Clock",
+      "proteins": "Cardiomyocyte & natriuretic signaling proteins (parsimonious 5-AP model)",
+      "primaryMetric": "5 APs",
+      "primaryLabel": "Ultra-Compact Cardiac Aging Signature",
+      "secondaryMetrics": [
+        "Strongly predicts incident heart failure, atrial fibrillation, and myocardial infarction",
+        "Independently associated with cognitive decline and incident dementia",
+        "Cross-organ link to chronic liver and renal disease progression"
+      ],
+      "mechanism": "Quantifies myocardial remodeling, natriuretic stress, and microvascular perfusion deficits with as few as 5 age-related proteins."
+    },
+    {
+      "id": "immune",
+      "name": "Immune System Clock",
+      "proteins": "109 enriched proteins (76 age-related proteins in final clock)",
+      "primaryMetric": "76 APs",
+      "primaryLabel": "Systemic Immunosenescence & Inflammaging",
+      "secondaryMetrics": [
+        "Second largest organ-enriched proteome pool (109 GTEx-enriched proteins)",
+        "Predicts all-cause mortality, severe infections, and multi-organ chronic disease",
+        "Correlates with systemic C-reactive protein (CRP) and shorter leukocyte telomeres"
+      ],
+      "mechanism": "Measures thymic involution, myeloid skewing, and chronic sterile inflammation that accelerate aging across peripheral solid organs."
+    }
+  ],
+  "findingsCallout": "Individuals with super-youthful brain ageotypes showed lower dementia risk, suggesting possible resilience even in genetically higher-risk APOE4 groups.",
+  "keyTakeaway": "Measuring the biological age of individual organs via blood proteins accurately predicts disease onset, progression, and mortality across diverse global populations—proving that multi-organ extreme aging compounds mortality 7.8-fold while super-youthful organs confer profound protection.",
   "protocolRecommendations": [
-    "Monitor organ-specific biological age (via emerging proteomic tests) rather than relying solely on whole-body clocks to identify specific aging vulnerabilities.",
-    "Target interventions specifically to accelerated organs (e.g., vascular protocols for an aging artery clock, neuro-protective habits for an aging brain clock).",
-    "Leverage lifestyle modifications, as organ aging was shown to be influenced by environmental and lifestyle factors, not just genetics."
+    "Monitor organ-specific biological age (via emerging proteomic panels) rather than relying solely on whole-body clocks to identify your fastest-aging 'weakest link' organ.",
+    "Target preventative protocols to accelerated organ systems (e.g., vascular & blood-pressure optimization for an aging artery/heart clock; sleep, exercise, and omega-3s for an aging brain clock).",
+    "Protect multiple organ systems simultaneously through modifiable lifestyle habits (non-smoking, restorative sleep, regular physical activity, and whole-food/oily-fish nutrition), which significantly decelerated brain, pancreas, and intestinal clocks."
   ],
   "mortalityLineChart": {
-    "title": "Mortality Risk by Extremely Aged Organs",
+    "title": "Mortality Risk by Extremely Aged Organs (> +1.5 SD)",
     "yLabel": "Mortality Risk",
-    "unit": "Hazard Ratio",
+    "unit": "(Hazard Ratio)",
     "minY": 0,
     "maxY": 8,
     "step": 2,
     "points": [
-      { "label": "0 Organs", "y": 1.0 },
-      { "label": "1-2\nOrgans", "y": 1.7, "asterisk": "*" },
-      { "label": "3-4\nOrgans", "y": 3.8, "asterisk": "*" },
-      { "label": "5+\nOrgans", "y": 7.8, "asterisk": "*" }
+      { "label": "0 Aged\nOrgans", "y": 1.0 },
+      { "label": "1-2\nOrgans", "y": 1.7, "asterisk": "***" },
+      { "label": "3-4\nOrgans", "y": 3.8, "asterisk": "***" },
+      { "label": "5+\nOrgans", "y": 7.8, "asterisk": "***" }
     ],
     "callout": {
-      "messages": ["Participants with 5+ extremely aged organs face a 7.8-fold higher mortality risk."],
-      "legend": ["* p < 0.05"]
+      "messages": ["Participants with 5+ extremely aged organs face a 7.8-fold higher all-cause mortality risk."],
+      "legend": ["*** q < 0.001"]
     }
   },
   "dementiaLineChart": {
-    "title": "Dementia Risk by Extremely Aged Organs",
+    "title": "Dementia Risk by Extremely Aged Organs (> +1.5 SD)",
     "yLabel": "Dementia Risk",
-    "unit": "Hazard Ratio",
+    "unit": "(Hazard Ratio)",
     "minY": 0,
     "maxY": 5,
     "step": 1,
     "points": [
-      { "label": "0 Organs", "y": 1.0 },
-      { "label": "1-2\nOrgans", "y": 1.4, "asterisk": "*" },
-      { "label": "3-4\nOrgans", "y": 2.4, "asterisk": "*" },
-      { "label": "5+\nOrgans", "y": 4.1, "asterisk": "*" }
+      { "label": "0 Aged\nOrgans", "y": 1.0 },
+      { "label": "1-2\nOrgans", "y": 1.4, "asterisk": "***" },
+      { "label": "3-4\nOrgans", "y": 2.4, "asterisk": "***" },
+      { "label": "5+\nOrgans", "y": 4.1, "asterisk": "***" }
     ],
     "callout": {
-      "messages": ["Having 5+ extremely aged organs increases dementia risk by 4.1-fold."],
-      "legend": ["* p < 0.05"]
+      "messages": ["Having 5+ extremely aged organs increases incident dementia risk by 4.1-fold."],
+      "legend": ["*** q < 0.001"]
+    }
+  },
+  "youthfulMortalityLineChart": {
+    "title": "Mortality Protection by Super-Youthful Organs (< -1.5 SD)",
+    "yLabel": "Mortality HR",
+    "unit": "(Hazard Ratio)",
+    "minY": 0,
+    "maxY": 1.2,
+    "step": 0.3,
+    "points": [
+      { "label": "0 Youthful\nOrgans", "y": 1.0 },
+      { "label": "1-2\nOrgans", "y": 0.75, "asterisk": "-25%" },
+      { "label": "3-4\nOrgans", "y": 0.60, "asterisk": "-40%" },
+      { "label": "5+\nOrgans", "y": 0.40, "asterisk": "-60%" }
+    ],
+    "callout": {
+      "messages": ["Participants with 5+ super-youthful organs experience a 60% reduction in all-cause mortality (HR = 0.40)."],
+      "legend": ["q < 0.001"]
+    }
+  },
+  "youthfulDementiaLineChart": {
+    "title": "Dementia Protection by Super-Youthful Organs (< -1.5 SD)",
+    "yLabel": "Dementia HR",
+    "unit": "(Hazard Ratio)",
+    "minY": 0,
+    "maxY": 1.2,
+    "step": 0.3,
+    "points": [
+      { "label": "0 Youthful\nOrgans", "y": 1.0 },
+      { "label": "1-2\nOrgans", "y": 0.81, "asterisk": "-19%" },
+      { "label": "3-4\nOrgans", "y": 0.51, "asterisk": "-49%" },
+      { "label": "5+\nOrgans", "y": 0.25, "asterisk": "-75%" }
+    ],
+    "callout": {
+      "messages": ["Having 5+ super-youthful organs reduces incident dementia risk by 75% (HR = 0.25)."],
+      "legend": ["q < 0.001"]
     }
   },
   "conclusions": [
-    "Organ-specific aging clocks provide a high-resolution map of an individual's biological health.",
-    "Brain aging showed the strongest association with mortality and neurodegenerative disease, while artery and other organ clocks contributed to broader disease-risk patterns.",
-    "The framework is robust, biologically interpretable, and applicable across diverse global populations."
+    "Organ-specific proteomic aging clocks provide a high-resolution, noninvasive map of biological aging across 10 major human organ systems.",
+    "Brain aging showed the strongest independent association with all-cause mortality (HR = 1.44) and neurodegenerative disease (dementia HR = 1.88), while super-youthful brain ageotypes buffered genetic APOE4 risk.",
+    "Multi-organ extreme aging compounds disease and mortality risk exponentially (up to 7.8x mortality risk for 5+ aged organs), whereas maintaining super-youthful organs cuts mortality by 60% and dementia risk by 75%."
+  ],
+  "structuredConclusions": [
+    {
+      "title": "Asynchronous Organ Aging Is the Norm",
+      "content": "Pairwise correlations among the 10 organ age gaps are weak (mean r = 0.16 in UKB, 0.19 in CKB, 0.10 in NHS), proving that a single whole-body biological age score masks organ-specific disease trajectories."
+    },
+    {
+      "title": "Brain & Vascular Clocks Govern Survival",
+      "content": "Brain aging independently predicted 14 of 17 health outcomes and exhibited the strongest mortality association (HR = 1.44 per 1-SD), while super-youthful brain proteomes conferred resilience against APOE4-driven Alzheimer's risk."
+    },
+    {
+      "title": "Dose-Dependent Risk vs. Youthful Resilience",
+      "content": "Accumulating 1–2, 3–4, or 5+ extremely aged organs raises mortality risk 1.7x, 3.8x, and 7.8x; conversely, having 1–2, 3–4, or 5+ super-youthful organs lowers mortality by 25%, 40%, and 60% and dementia by 19%, 49%, and 75%."
+    }
   ]
 }
