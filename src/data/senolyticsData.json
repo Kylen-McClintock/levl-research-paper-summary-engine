@@ -50,7 +50,7 @@
       "title": "Arm 3: Late-Life Survival (24–27-Month Mice)",
       "cohort": "Very Old Mice (~75–90 Human Year Equivalent)",
       "metric": "+36%",
-      "metricLabel": "Post-Treatment Lifespan Extension (HR 0.35)",
+      "metricLabel": "Post-Treatment Lifespan Extension (HR 0.65)",
       "summary": "Biweekly 3-day oral pulses of D+Q initiated at 24–27 months extended median post-treatment survival by 36% (p < 0.01) while preserving late-life physical function—extending healthspan rather than prolonging frail morbidity."
     }
   ],
@@ -73,7 +73,7 @@
     },
     {
       "title": "+36% Post-Treatment Survival in 75–90-Year-Equivalent Mice",
-      "desc": "Initiating biweekly oral D+Q at 24–27 months of age increased remaining median survival by 36% (mortality hazard ratio 0.35) without increasing late-life physical morbidity in the final weeks of life."
+      "desc": "Initiating biweekly oral D+Q at 24–27 months of age increased remaining median survival by 36% (mortality hazard ratio 0.65) without increasing late-life physical morbidity in the final weeks of life."
     },
     {
       "title": "Direct Validation in Human Tissue Explants",

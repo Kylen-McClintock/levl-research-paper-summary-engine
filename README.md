@@ -8,7 +8,7 @@ See [`AGENTS.md`](./AGENTS.md) for the complete **Scientific Verification Checkl
 
 ### Key Architectural Files
 - [`src/types/paper.ts`](./src/types/paper.ts): TypeScript interfaces (`HubPaper`, `EvidenceTier`, `ResearchCategory`, `StudyOverviewItem`, `ConclusionItem`) and the static `ACCENT_STYLES` Tailwind lookup map.
-- [`src/data/hubData.json`](./src/data/hubData.json): Central registry of all 16 studies with verified DOIs, PMIDs, model systems, sample sizes, evidence tiers, hero metrics, and related study IDs.
+- [`src/data/hubData.json`](./src/data/hubData.json): Central registry of all 21 studies with verified DOIs, PMIDs, model systems, sample sizes, evidence tiers, hero metrics, and related study IDs.
 - [`src/components/Header.tsx`](./src/components/Header.tsx): Global navigation bar with automatic sticky paper sub-header (scroll progress bar, Evidence Tier badge, and direct PubMed/DOI links).
 - [`src/components/StudyScorecard.tsx`](./src/components/StudyScorecard.tsx): Standardized Evidence & Methodology Scorecard and 3-pillar Study Overview (`The Question`, `What They Did`, `What They Found`).
 - [`src/components/ConclusionsSection.tsx`](./src/components/ConclusionsSection.tsx): Standardized Key Takeaways, Translational Protocol Context, and Related Research cross-navigation.

@@ -1,0 +1,127 @@
+{
+  "titleBlock": {
+    "headline": "Spermidine & eIF5A Hypusination Are Essential for Fasting-Mediated Autophagy and Longevity Across Species and Humans",
+    "authors": "Hofer, S.J., Daskalaki, I., Bergmann, M., Friscic, J., Zimmermann, A., Mueller, M.I., Abdellatif, M., Nicastro, R., Masser, S., Durand, S., Niso-Santano, M., ... De Virgilio, C., Hoffmann, M.H., Eisenberg, T., Tavernarakis, N., Sedej, S., Carmona-Gutierrez, D., Kroemer, G. & Madeo, F.",
+    "journal": "Nature Cell Biology",
+    "year": "2024",
+    "doi": "10.1038/s41556-024-01468-x",
+    "pmid": "39117797",
+    "pmcid": "PMC11392820",
+    "summary": "While caloric restriction and intermittent fasting are known to induce autophagy and extend lifespan, the conserved metabolic trigger linking nutrient deprivation to autophagic flux remained unknown. Hofer, Kroemer & Madeo demonstrate across yeast, fruit flies, nematodes, mice, and 4 independent human fasting cohorts that fasting triggers a systemic surge (~40–50%) in the endogenous polyamine spermidine—and that blocking spermidine synthesis or eIF5A hypusination completely abolishes fasting-induced TFEB translation, autophagy, cardioprotection, and lifespan extension."
+  },
+  "studyOverview": [
+    {
+      "title": "The Question",
+      "content": "Exogenous spermidine supplementation is known to mimic caloric restriction by inducing autophagy and extending lifespan—but is endogenous polyamine biosynthesis actually required for intermittent fasting and caloric restriction to activate autophagy and extend life?"
+    },
+    {
+      "title": "What They Did",
+      "content": "Measured targeted polyamine metabolomics (ornithine, putrescine, spermidine, spermine, and acetylated derivatives) during fasting across 4 human fasting studies (including Buchinger therapeutic fasting, alternate-day fasting, and water-only fasting), C57BL/6J mice, Drosophila, C. elegans, and S. cerevisiae—then used pharmacological (DFMO, GC7) and genetic (ODC1, SPE1/2, DOHH/DHS) knockdowns to test whether fasting still induces autophagy and extends lifespan without spermidine."
+    },
+    {
+      "title": "What They Found",
+      "content": "Fasting elevated endogenous spermidine by ~40–50% across human serum/PBMCs and model organisms. Crucially, inhibiting ornithine decarboxylase (with DFMO) or deoxyhypusine synthase (with GC7) or knocking down polyamine genes completely abolished fasting-mediated autophagy, prevented eIF5A hypusination and TFEB translation, eliminated fasting-induced lifespan extension in yeast, worms, and flies, and abrogated fasting's cardioprotective and anti-inflammatory effects in mice."
+    }
+  ],
+  "pathwaySteps": [
+    {
+      "step": "01",
+      "node": "Nutrient Deprivation / Intermittent Fasting",
+      "enzymeOrTarget": "Ornithine Decarboxylase (ODC1) & Spermidine Synthase (SRM)",
+      "action": "Activates De Novo Polyamine Biosynthesis",
+      "detail": "Fasting stimulates conversion of L-ornithine → putrescine (via ODC1) → spermidine (via SRM), raising intracellular and circulating spermidine by ~40–50% in humans and mice.",
+      "inhibitor": "Blocked by DFMO (α-difluoromethylornithine, irreversible ODC1 inhibitor)"
+    },
+    {
+      "step": "02",
+      "node": "Deoxyhypusine Synthase (DHPS) & DOHH",
+      "enzymeOrTarget": "Post-Translational Hypusination of eIF5A (Lys50)",
+      "action": "Transfers 4-Aminobutyl Moiety of Spermidine to eIF5A",
+      "detail": "Spermidine is the sole biochemical substrate in eukaryotes capable of donating the aminobutyl group to hypusinate eukaryotic translation initiation factor 5A (eIF5A).",
+      "inhibitor": "Blocked by GC7 (N1-guanyl-1,7-diaminoheptane, DHPS inhibitor)"
+    },
+    {
+      "step": "03",
+      "node": "Hypusinated eIF5A (eIF5A-Hyp)",
+      "enzymeOrTarget": "Polyproline-Motif Ribosomal Translation",
+      "action": "Unlocks Translation of Master Autophagy Factor TFEB",
+      "detail": "Transcription Factor EB (TFEB) contains triproline (PPP) motifs that cause ribosomal stalling unless resolved by hypusinated eIF5A, alongside EP300 acetyltransferase inhibition.",
+      "inhibitor": "Loss of eIF5A-Hyp halts TFEB protein synthesis during starvation"
+    },
+    {
+      "step": "04",
+      "node": "Autophagic Flux, Cardioprotection & Longevity",
+      "enzymeOrTarget": "ATG Genes, Lysosomal Biogenesis & Mitophagy",
+      "action": "Systemic Geroprotection & Lifespan Extension",
+      "detail": "Drives autophagosome-lysosome fusion (LC3-II flux), clears damaged mitochondria, suppresses cardiac hypertrophy/diastolic dysfunction, and extends organismal survival.",
+      "inhibitor": "Completely abrogated when polyamine synthesis is blocked during IF"
+    }
+  ],
+  "speciesEvidence": [
+    {
+      "id": "humans",
+      "organism": "Humans (4 Independent Fasting Cohorts)",
+      "protocol": "Short-Term Water Fasting, Alternate-Day Fasting (ADF) & Buchinger Fasting (7–10 Days)",
+      "spermidineChange": "+40% to +50%",
+      "autophagyEffect": "Increased PBMC eIF5A hypusination, TFEB nuclear translocation, and LC3B-II autophagic flux in human leukocytes.",
+      "blockadeResult": "Ex vivo treatment of human PBMCs with DFMO or GC7 blocked starvation-induced autophagy flux."
+    },
+    {
+      "id": "mice",
+      "organism": "Mice (C57BL/6J Cardiac & Inflammatory Models)",
+      "protocol": "Intermittent Fasting (IF) ± Oral DFMO (Polyamine Synthesis Inhibitor)",
+      "spermidineChange": "+45% Tissue Surge",
+      "autophagyEffect": "IF strongly induced myocardial and hepatic autophagic flux, reversed age-related cardiac hypertrophy, and suppressed collagen-induced arthritis.",
+      "blockadeResult": "Co-administering DFMO in drinking water completely abolished IF-induced cardiac autophagy, cardioprotection, and anti-arthritic protection."
+    },
+    {
+      "id": "flies_worms",
+      "organism": "Drosophila melanogaster & C. elegans",
+      "protocol": "Intermittent Fasting / Dietary Restriction ± Odc1 /odc-1 RNAi or DFMO",
+      "spermidineChange": "+35% to +60%",
+      "autophagyEffect": "IF extended median and maximum lifespan while maintaining climbing/locomotor healthspan and intestinal barrier integrity.",
+      "blockadeResult": "Pharmacological (DFMO) or genetic (odc-1, spds-1, dohh-1) polyamine depletion completely eliminated the lifespan extension of intermittent fasting."
+    },
+    {
+      "id": "yeast",
+      "organism": "Saccharomyces cerevisiae (Chronological Aging)",
+      "protocol": "Caloric Restriction (0.5% vs 2% Glucose) in WT vs. spe1Δ / spe2Δ Mutants",
+      "spermidineChange": "+50% Intracellular",
+      "autophagyEffect": "CR robustly extended chronological survival and Atg8 vacuolar autophagy in wild-type yeast.",
+      "blockadeResult": "Polyamine-deficient spe1Δ and spe2Δ mutants failed to induce autophagy or extend lifespan under CR unless rescued with exogenous spermidine."
+    }
+  ],
+  "keyFindings": [
+    {
+      "title": "Spermidine Is an Indispensable Mediator—Not Just a Mimetic—of Fasting",
+      "desc": "Upends the view of spermidine as merely an exogenous supplement: organisms cannot execute the autophagy or longevity program of fasting without synthesizing endogenous spermidine."
+    },
+    {
+      "title": "Conserved Across 4 Human Fasting Trials",
+      "desc": "Whether humans practiced intermittent fasting, 24–48 hr water fasting, or 7–10 day clinical Buchinger fasting, serum and PBMC spermidine consistently rose by ~40–50%."
+    },
+    {
+      "title": "The eIF5A Hypusination → TFEB Translation Bottleneck",
+      "desc": "Explains why AMPK and mTORC1 inhibition alone are insufficient during starvation: cells also require spermidine-dependent eIF5A hypusination to translate polyproline-rich TFEB."
+    },
+    {
+      "title": "Cardioprotective & Anti-Inflammatory Benefits of IF Require Polyamines",
+      "desc": "In aged and arthritic mice, blocking ornithine decarboxylase with DFMO erased both the diastolic cardiac rejuvenation and joint inflammation resolution of intermittent fasting."
+    }
+  ],
+  "conclusions": [
+    {
+      "title": "Triad of Autophagy Control: AMPK + mTORC1 + Spermidine/eIF5A",
+      "content": "Hofer et al. establish the spermidine → eIF5A-hypusination → TFEB axis as the third fundamental pillar of starvation-induced autophagy alongside AMPK activation and mTORC1 inhibition."
+    },
+    {
+      "title": "Why Fasting Efficacy Declines With Age—And How to Rescue It",
+      "content": "Because endogenous polyamine biosynthesis and gut microbial polyamine production decline in late life, older adults may experience blunted autophagic responses to fasting that can be restored via dietary spermidine."
+    },
+    {
+      "title": "Synergy With Epidemiological Human Survival Data (Bruneck Study)",
+      "content": "Directly explains the prospective Bruneck cohort finding (Kiechl et al., Am J Clin Nutr 2018) that humans in the highest tertile of dietary spermidine intake experience a ~5.7-year survival advantage and lower cardiovascular mortality."
+    }
+  ],
+  "protocolImplications": "Translational takeaway: To maximize autophagic flux and cardiovascular rejuvenation, pair intermittent fasting or time-restricted feeding (14–16 hr overnight fasts or periodic 24 hr fasts) with spermidine-rich whole foods—wheat germ, natto (fermented soybeans), aged cheeses, shiitake/maitake mushrooms, green peas, and legumes—targeting ≥15–20 mg/day of dietary spermidine."
+}

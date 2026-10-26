@@ -1,5 +1,125 @@
 [
   {
+    "id": "taurine-aging",
+    "path": "/taurine-deficiency-aging",
+    "title": "Taurine Deficiency & Longevity",
+    "subtitle": "Circulating Taurine Decline as a Conserved Driver of Aging Across Worms, Mice, Monkeys, and Humans",
+    "summary": "Circulating taurine drops by ~80% in elderly humans. Restoring youthful taurine levels (1,000 mg/kg/day) in middle-aged mice extended median lifespan by 10–12% and life expectancy at 28 months by 18–25%, improved bone, metabolic, and immune health in rhesus monkeys, and inversely tracked with diabetes, obesity, and inflammation across 11,966 humans.",
+    "journal": "Science",
+    "year": "2023",
+    "authors": "Singh, P. et al. (Yadav Lab)",
+    "doi": "10.1126/science.abn9257",
+    "pmid": "37289866",
+    "url": "https://doi.org/10.1126/science.abn9257",
+    "tag": "Semi-Essential Amino Sulfonic Acid",
+    "category": "Metabolic & Mitochondrial",
+    "evidenceTier": "Tier 2: Mammalian Lifespan",
+    "modelSystem": "C57BL/6J Mice, Rhesus Monkeys & n = 11,966 Humans",
+    "sampleSize": "Multi-Species Lifespan + EPIC-Norfolk Human Cohort",
+    "heroMetric": {
+      "value": "+10–12%",
+      "label": "Median Mouse Lifespan (+18–25% at 28 mo)"
+    },
+    "accentColor": "rose",
+    "relatedIds": ["metabolites", "glynac-rct", "urolithin"]
+  },
+  {
+    "id": "genetics-diet-dr",
+    "path": "/dietary-restriction-genetic-diversity",
+    "title": "Genetics vs. Caloric Restriction & Fasting",
+    "subtitle": "Dietary Restriction Impacts Health and Lifespan of 960 Genetically Diverse Mice",
+    "summary": "Comparing Ad Libitum, 1-day/week IF, 2-day/week IF, 20% CR, and 40% CR across 960 genetically diverse Diversity Outbred mice reveals that genetics explains ~3x more lifespan variance (23.6%) than diet (~7.4–8.4%), 40% CR extends median lifespan by +36.3% (+9.2 months) at the cost of lean mass and immunity, and stress resilience—not weight loss—predicts longevity.",
+    "journal": "Nature",
+    "year": "2024",
+    "authors": "Di Francesco, A. et al. (Churchill Lab)",
+    "doi": "10.1038/s41586-024-08026-3",
+    "pmid": "39385029",
+    "url": "https://doi.org/10.1038/s41586-024-08026-3",
+    "tag": "CR vs. IF in Genetic Diversity",
+    "category": "Nutrient Sensing & Autophagy",
+    "evidenceTier": "Tier 2: Mammalian Lifespan",
+    "modelSystem": "Diversity Outbred (DO) Female Mice (5 Diet Arms)",
+    "sampleSize": "n = 960 Genetically Diverse Mice",
+    "heroMetric": {
+      "value": "+36.3%",
+      "label": "40% CR Lifespan (Genetics = 3x Diet Effect)"
+    },
+    "accentColor": "amber",
+    "relatedIds": ["calerie-pace", "spermidine-fasting", "cr-ex"]
+  },
+  {
+    "id": "vo2max-mortality",
+    "path": "/vo2max-cardiorespiratory-mortality",
+    "title": "VO2max & Long-Term All-Cause Mortality",
+    "subtitle": "Cardiorespiratory Fitness Exhibits an Inverse, Dose-Dependent Mortality Reduction With No Upper Ceiling in 122,007 Adults",
+    "summary": "In 122,007 adults undergoing symptom-limited exercise treadmill testing over 1.1 million person-years of follow-up, cardiorespiratory fitness showed a progressive survival advantage with no upper limit of harm: Low fitness (<25th percentile) carried a 5.04x higher mortality risk than Elite fitness (≥97.7th percentile, HR 0.20)—outweighing smoking, diabetes, or coronary artery disease.",
+    "journal": "JAMA Network Open",
+    "year": "2018",
+    "authors": "Mandsager, K. et al. (Jaber Lab, Cleveland Clinic)",
+    "doi": "10.1001/jamanetworkopen.2018.3605",
+    "pmid": "30646255",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2018.3605",
+    "tag": "Cardiorespiratory Fitness & Survival",
+    "category": "Biomarkers & Multi-Omics",
+    "evidenceTier": "Tier 1: Human RCT / Biobank",
+    "modelSystem": "Human Exercise Treadmill Cohort (Ages 18–80+)",
+    "sampleSize": "N = 122,007 Adults (8.4-Yr Median Follow-Up)",
+    "heroMetric": {
+      "value": "5.04x",
+      "label": "Mortality Risk (Low vs. Elite VO2max)"
+    },
+    "accentColor": "blue",
+    "relatedIds": ["cr-ex", "do-health", "aging-clocks"]
+  },
+  {
+    "id": "spermidine-fasting",
+    "path": "/spermidine-fasting-autophagy",
+    "title": "Spermidine & Fasting-Induced Autophagy",
+    "subtitle": "Endogenous Spermidine and eIF5A Hypusination Are Essential for Fasting-Mediated Autophagy and Longevity",
+    "summary": "Across yeast, flies, mice, and 4 human fasting cohorts, caloric restriction and intermittent fasting surge endogenous polyamine spermidine levels (~40–50%). Blocking polyamine synthesis (via DFMO or genetics) abolishes fasting-induced autophagy, TFEB translation, cardioprotection, and lifespan extension—proving spermidine→eIF5A hypusination is the master metabolic switch of fasting.",
+    "journal": "Nature Cell Biology",
+    "year": "2024",
+    "authors": "Hofer, S.J. et al. (Madeo & Kroemer Labs)",
+    "doi": "10.1038/s41556-024-01468-x",
+    "pmid": "39117797",
+    "url": "https://doi.org/10.1038/s41556-024-01468-x",
+    "tag": "Polyamines & eIF5A Hypusination",
+    "category": "Nutrient Sensing & Autophagy",
+    "evidenceTier": "Tier 1: Human RCT / Biobank",
+    "modelSystem": "4 Human Fasting Cohorts + Mice, Flies, Worms & Yeast",
+    "sampleSize": "Multi-Species Lifespan + Human Fasting Trials",
+    "heroMetric": {
+      "value": "eIF5A→TFEB",
+      "label": "Master Polyamine Switch for Fasting"
+    },
+    "accentColor": "teal",
+    "relatedIds": ["genetics-diet-dr", "metabolites", "calerie-pace"]
+  },
+  {
+    "id": "glynac-rct",
+    "path": "/glynac-glutathione-rct",
+    "title": "GlyNAC RCT: Glutathione & Mitophagy",
+    "subtitle": "Supplementing Glycine and N-Acetylcysteine in Older Adults Restores Glutathione, Mitophagy, and Physical Function",
+    "summary": "In a 16-week double-blind placebo-controlled human RCT, oral GlyNAC (100 mg/kg/day each of glycine and N-acetylcysteine) restored intracellular RBC glutathione by +164%, lowered lipid peroxidation (TBARS) by -72% and insulin resistance (HOMA-IR) by -64%, rescued mitochondrial fatty-acid oxidation, and improved gait speed to young-adult levels.",
+    "journal": "J. Gerontol. A Biol. Sci. Med. Sci.",
+    "year": "2023",
+    "authors": "Kumar, P. et al. (Sekhar Lab, Baylor)",
+    "doi": "10.1093/gerona/glac135",
+    "pmid": "35975308",
+    "url": "https://doi.org/10.1093/gerona/glac135",
+    "tag": "Glutathione & Redox Homeostasis",
+    "category": "Metabolic & Mitochondrial",
+    "evidenceTier": "Tier 1: Human RCT / Biobank",
+    "modelSystem": "Human Double-Blind Placebo-Controlled RCT (Ages 61–80)",
+    "sampleSize": "n = 24 Older Adults (16 Wk) + n = 12 Young Controls",
+    "heroMetric": {
+      "value": "+164%",
+      "label": "RBC Glutathione Restoration (-72% OxS)"
+    },
+    "accentColor": "emerald",
+    "relatedIds": ["taurine-aging", "urolithin", "nad"]
+  },
+  {
     "id": "do-health",
     "path": "/do-health-omega3-clocks",
     "title": "DO-HEALTH: Omega-3, Vitamin D & Exercise",
@@ -21,7 +141,7 @@
       "label": "Additive Bio-Age Slowing (3 Years)"
     },
     "accentColor": "cyan",
-    "relatedIds": ["calerie-pace", "cr-ex", "aging-clocks"]
+    "relatedIds": ["calerie-pace", "vo2max-mortality", "aging-clocks"]
   },
   {
     "id": "rapamycin-trametinib",

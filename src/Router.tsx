@@ -17,6 +17,11 @@ import { DoHealthWebpage } from './DoHealthWebpage';
 import { RapaTramWebpage } from './RapaTramWebpage';
 import { NonlinearAgingWebpage } from './NonlinearAgingWebpage';
 import { CalerieWebpage } from './CalerieWebpage';
+import { TaurineWebpage } from './TaurineWebpage';
+import { GeneticsDietWebpage } from './GeneticsDietWebpage';
+import { Vo2maxWebpage } from './Vo2maxWebpage';
+import { SpermidineWebpage } from './SpermidineWebpage';
+import { GlynacWebpage } from './GlynacWebpage';
 import App from './App';
 
 function ScrollToTop() {
@@ -36,6 +41,11 @@ export const Router = () => {
         <Route path="/" element={<ResearchHub />} />
         
         {/* Individual Paper Summaries */}
+        <Route path="/taurine-deficiency-aging" element={<TaurineWebpage />} />
+        <Route path="/dietary-restriction-genetic-diversity" element={<GeneticsDietWebpage />} />
+        <Route path="/vo2max-cardiorespiratory-mortality" element={<Vo2maxWebpage />} />
+        <Route path="/spermidine-fasting-autophagy" element={<SpermidineWebpage />} />
+        <Route path="/glynac-glutathione-rct" element={<GlynacWebpage />} />
         <Route path="/do-health-omega3-clocks" element={<DoHealthWebpage />} />
         <Route path="/trametinib-rapamycin-combination" element={<RapaTramWebpage />} />
         <Route path="/nonlinear-multiomic-aging-waves" element={<NonlinearAgingWebpage />} />
