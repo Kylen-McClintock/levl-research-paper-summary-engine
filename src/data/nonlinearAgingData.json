@@ -34,7 +34,7 @@
       "id": "wave_44",
       "age": "Age ~44 Crest",
       "subtitle": "Mid-Adulthood Metabolic, Lipid, Alcohol/Caffeine & Structural Matrix Shift",
-      "sexDistribution": "Confirmed in BOTH Men & Women via sex-stratified clustering (ruling out female perimenopause as sole driver)",
+      "sexDistribution": "Identified after adjusting for sex, BMI, insulin resistance & ethnicity in DE-SWAN (confirming it is not driven solely by female perimenopause)",
       "dominantOmics": ["Plasma Lipidomics", "Metabolomics", "Proteomics", "Skin/Muscle ECM"],
       "keyPathways": [
         {
@@ -45,9 +45,9 @@
         },
         {
           "pathway": "Caffeine & Alcohol Metabolism",
-          "direction": "Significant Decline in Clearance",
+          "direction": "Significant Shift in Clearance",
           "molecules": "Hepatic xenobiotic, cytochrome P450, and alcohol/caffeine catabolic metabolites",
-          "clinicalImpact": "Explains why physiological tolerance to alcohol and late-day caffeine drops noticeably in the mid-40s."
+          "clinicalImpact": "Explains why physiological tolerance to alcohol and late-day caffeine shifts noticeably in the mid-40s."
         },
         {
           "pathway": "Cardiovascular & Coagulation Signaling",
@@ -67,51 +67,51 @@
       "id": "wave_60",
       "age": "Age ~60 Crest",
       "subtitle": "Late-Adulthood Immune Senescence, Renal Decline, Glycemic & Oxidative Inflection",
-      "sexDistribution": "Systemic Multi-Organ Inflection Across Both Sexes",
+      "sexDistribution": "Confirmed in Both Men & Women via Sex-Stratified Clustering (~Age 55–60 Inflection) & DE-SWAN",
       "dominantOmics": ["Transcriptomics", "Cytokines & Immune", "Clinical Chemistry", "Proteomics & Microbiome"],
       "keyPathways": [
         {
           "pathway": "Immune Regulation & Inflammaging",
           "direction": "Sharp Inflection (Immunosenescence + SASP)",
-          "molecules": "Acute-phase signaling, MCP-1 (CCL2), CXCL5, pro-inflammatory cytokines, and declining adaptive lymphocyte modules",
+          "molecules": "Acute-phase signaling, MCP-1 (CCL2, Cluster 4), CXCL5 (Cluster 2), pro-inflammatory cytokines, and declining adaptive lymphocyte modules",
           "clinicalImpact": "Explains the exponential rise in severe infection vulnerability, autoimmune flares, and cancer incidence after age 60."
         },
         {
-          "pathway": "Kidney Function & Nitrogen Clearance",
-          "direction": "Sharp Upward Inflection (Cluster 4)",
-          "molecules": "Blood Urea Nitrogen (BUN), serum creatinine, and renal filtration metabolites",
-          "clinicalImpact": "Marks a critical decline in glomerular filtration efficiency, increasing drug/toxin retention and hypertension risk."
+          "pathway": "Kidney Function & Phenylalanine Metabolism",
+          "direction": "Sharp Upward Inflection (Cluster 2)",
+          "molecules": "Blood Urea Nitrogen (BUN), phenylalanine accumulation, GTPase activity, and histone modification transcripts",
+          "clinicalImpact": "Marks a critical decline in glomerular filtration efficiency and cardiac/vascular stress after age 55–60."
         },
         {
           "pathway": "Carbohydrate Metabolism & Glycemic Control",
           "direction": "Accelerated Insulin Resistance (Cluster 2)",
-          "molecules": "Plasma glucose, HbA1c, glycolysis/gluconeogenesis transcripts, and insulin signaling intermediates",
+          "molecules": "Serum/plasma glucose, HbA1c, glycolysis/gluconeogenesis transcripts, and insulin signaling intermediates",
           "clinicalImpact": "Directly parallels the sharp clinical peak in incident Type 2 Diabetes diagnosis in the early 60s."
         },
         {
-          "pathway": "Cardiovascular, Phenylalanine & Oxygen Transport",
-          "direction": "Vascular + Erythrocyte Stress",
-          "molecules": "Phenylalanine accumulation (Cluster 5, linked to cardiac aging), mean corpuscular hemoglobin (MCH), RDW, and oxidative stress markers",
-          "clinicalImpact": "Drives steep exponential acceleration in heart failure, atrial fibrillation, and cerebrovascular disease."
+          "pathway": "Autophagy, Erythrocyte & Antioxidant Shifts",
+          "direction": "Cluster 5 Surge & Cluster 4 Decline",
+          "molecules": "Sharp surge in mRNA stability, autophagy, MCH, and RDW (Cluster 5) paired with rapid decline in oxygen carrier/peroxidase activity and unsaturated fatty acids (Cluster 4)",
+          "clinicalImpact": "Drives steep exponential acceleration in heart failure, anemia/erythrocyte heterogeneity, and oxidative tissue damage."
         }
       ]
     }
   ],
   "trajectoryClusters": [
     {
-      "cluster": "Cluster 2 (Monotonic Acceleration After ~55–60)",
-      "signature": "Plasma Glucose, BUN & Cardiovascular Transcripts",
-      "description": "Remains relatively stable through young and middle adulthood before exhibiting a steep upward acceleration around age 60, enriched for carbohydrate metabolism and vascular pathology."
+      "cluster": "Cluster 2 (Accelerating Increase After ~55–60)",
+      "signature": "Plasma Glucose, BUN, Phenylalanine & CXCL5",
+      "description": "Increases gradually through young and middle adulthood before accelerating sharply after age 55–60; enriched for clinical glucose and blood urea nitrogen (BUN), plasma phenylalanine metabolism, chemokine CXCL5, and transcriptomic GTPase/histone modification."
     },
     {
-      "cluster": "Cluster 4 (Stepwise Late-Life Surge)",
-      "signature": "Autophagy, mRNA Stability & Renal Stress Markers",
-      "description": "Stays flat until the late 50s, then surges sharply after age 60 as cellular proteostasis, mRNA surveillance, and kidney filtration compensatory pathways are strained."
+      "cluster": "Cluster 4 (Stable Until ~60, Then Rapid Decline)",
+      "signature": "Oxygen Carrier/Peroxidase Activity, Unsaturated Fatty Acids & Caffeine",
+      "description": "Remains stable through middle adulthood before dropping sharply around age 60; encompasses transcriptomic cellular response to oxidative stress, oxygen carrier and peroxidase activity, unsaturated fatty acid/linolenic acid biosynthesis, caffeine metabolism, and MCP-1 (CCL2)."
     },
     {
-      "cluster": "Cluster 5 (Mid-Life Inflection & Progressive Rise)",
-      "signature": "Unsaturated Fatty Acids & Phenylalanine Catabolism",
-      "description": "Inflects upward in the mid-40s and continues rising past age 60; plasma phenylalanine accumulation is an established independent predictor of mammalian cardiac aging and mortality."
+      "cluster": "Cluster 5 (Sharp Nonlinear Surge Around ~55–60)",
+      "signature": "Autophagy, mRNA Stability, MCH & RDW",
+      "description": "Stays flat until age 55–60, then surges abruptly; enriched for transcriptomic mRNA processing/stability and autophagy pathways alongside clinical erythrocyte markers mean corpuscular hemoglobin (MCH) and red cell distribution width (RDW)."
     },
     {
       "cluster": "Cluster 11 (Biphasic DNA Repair Drop at Ages 50–56)",
@@ -119,15 +119,15 @@
       "description": "Increases modestly until ~age 50 (compensatory DNA repair), drops precipitously between ages 50 and 56, and stabilizes at a lower baseline—creating a mid-50s window of heightened genomic instability."
     }
   ],
-  "methodologicalNote": "Methodological & Statistical Context: The authors used Differential Expression Sliding Window Analysis (DE-SWAN,originally developed by Lehallier et al. 2019 Nature Medicine for plasma proteomics) across ages 40–65. While DE-SWAN peak prominence near cohort boundaries can be sensitive to sample density and window width (noted in subsequent methodological discussions in Nature Aging), the biological pathways at ages ~44 and ~60 were independently corroborated by unsupervised trajectory clustering (c-means Clusters 1–11) and clinical chemistry trajectories.",
+  "methodologicalNote": "Methodological & Statistical Context: The authors used Differential Expression Sliding Window Analysis (DE-SWAN, originally developed by Lehallier et al. 2019 Nature Medicine for plasma proteomics) across ages 40–65 after adjusting for sex, BMI, insulin resistance, and ethnicity. While DE-SWAN peak prominence near cohort boundaries can be sensitive to sample density and window width, the late-50s/age-60 inflection was independently corroborated by sex-stratified unsupervised fuzzy c-means clustering (Clusters 2, 4, and 5) and clinical chemistry trajectories.",
   "keyFindings": [
     {
       "title": "Human Aging Is Overwhelmingly Nonlinear (81.03% vs. 6.6%)",
       "desc": "Modeling human biomarkers as straight lines misses over 80% of age-associated molecular changes, which occur in discrete waves, plateaus, and inflection points."
     },
     {
-      "title": "The Age-44 Wave Occurs in Both Men and Women",
-      "desc": "Although often attributed solely to female perimenopause, separate sex-stratified multi-omic clustering proved that men experience an equally large molecular transition around age 44 driven by lipid, alcohol, caffeine, and ECM pathways."
+      "title": "Sex-Adjusted Wave 1 (~Age 44) & Sex-Stratified Clustering (~Age 55–60)",
+      "desc": "Adjusting for sex, BMI, and insulin resistance in DE-SWAN confirmed that the age-44 transition (lipid, alcohol/caffeine, CVD, and skin/muscle ECM pathways) is systemic across both sexes rather than solely female perimenopause, while separate male/female c-means clustering confirmed the ~55–60-year inflection."
     },
     {
       "title": "The Age-60 Wave Targets Immunity, Kidneys, and Glucose",

@@ -5,14 +5,14 @@
     "journal": "Nature / Nature Aging / Nature Communications",
     "year": 2023,
     "doi": "10.1038/s41586-023-06436-3",
-    "pmid": "37587341",
+    "pmid": "37587343",
     "companionPapers": [
       {
         "title": "Platelet factors attenuate inflammation and rescue cognition in ageing",
         "authors": "Schroer, A.B. et al. (Villeda Lab, UCSF)",
         "journal": "Nature (2023)",
         "doi": "10.1038/s41586-023-06436-3",
-        "pmid": "37587341",
+        "pmid": "37587343",
         "focus": "Young Blood & Peripheral CXCR3 Immune Rejuvenation"
       },
       {
@@ -20,7 +20,7 @@
         "authors": "Park, C. et al. (Dubal Lab, UCSF)",
         "journal": "Nature Aging (2023)",
         "doi": "10.1038/s43587-023-00468-0",
-        "pmid": "37587308",
+        "pmid": "37587231",
         "focus": "Klotho-Induced Platelet Activation & Hippocampal LTP"
       },
       {
@@ -28,7 +28,7 @@
         "authors": "Leiter, O. et al. (Walker Lab, Univ. of Queensland)",
         "journal": "Nature Communications (2023)",
         "doi": "10.1038/s41467-023-39873-9",
-        "pmid": "37587139",
+        "pmid": "37587147",
         "focus": "Exercise-Induced CXCL4/PF4 & Dentate Gyrus Neurogenesis"
       }
     ]
@@ -40,7 +40,7 @@
     "The August 16, 2023 Nature Portfolio Triad",
     "Three independent laboratories discovered that three of the most reproducibly validated brain-rejuvenating interventions—Young Blood/Parabiosis (Villeda lab, Nature), the longevity hormone Klotho (Dubal lab, Nature Aging), and Aerobic Exercise (Walker lab, Nature Communications)—all converge on elevating circulating platelet-derived PF4.",
     "How does PF4 rejuvenate the brain from the bloodstream?",
-    "Crucially, Schroer et al. showed that peripheral PF4 does not appreciably cross the blood-brain barrier. Instead, it acts via the CXCR3 chemokine receptor on peripheral myeloid and lymphoid immune cells, dampening systemic pro-aging immune factors, calming hippocampal microglial inflammation, and restoring CREB-dependent synaptic plasticity and neurogenesis."
+    "The triad revealed complementary peripheral and central mechanisms: Schroer et al. showed that peripheral PF4 acts via the CXCR3 chemokine receptor on peripheral myeloid and lymphoid immune cells to dampen systemic pro-aging immune factors and calm hippocampal microglial inflammation, while Park et al. detected systemic His-tagged PF4 crossing into brain parenchyma to directly enhance synaptic NMDAR/LTP signaling (whereas Klotho itself does not cross the blood-brain barrier)."
   ],
   "studyOverview": [
     { "label": "Objective", "value": "Identify the shared circulating blood factor uniting Young Blood, Klotho, and Endurance Exercise in reversing cognitive aging." },
@@ -65,18 +65,18 @@
   "mechanismDescription": "Circulating PF4 levels decline with age in both mice and humans. When elevated by young platelet transfusions, Klotho signaling, or aerobic exercise, PF4 engages CXCR3 receptors to reprogram peripheral myeloid immunity, lowering neurovascular inflammation and unlocking CREB-driven synaptic plasticity and hippocampal neurogenesis.",
   "pathways": [
     { "name": "Young Blood Plasma (Schroer et al., Nature)", "desc": "Young platelets carry high PF4 levels; systemic PF4 acts via CXCR3 on peripheral immune cells to calm microglial neuroinflammation." },
-    { "name": "Klotho Hormone (Park et al., Nature Aging)", "desc": "Peripheral Klotho (which cannot cross the BBB) activates platelets to release PF4, enhancing GluN2B/NMDAR hippocampal LTP and memory." },
+    { "name": "Klotho Hormone (Park et al., Nature Aging)", "desc": "Peripheral Klotho (which cannot cross the BBB) activates platelets to release PF4, which crosses into the brain and enhances GluN2B/NMDAR hippocampal LTP and memory." },
     { "name": "Aerobic Exercise (Leiter et al., Nat. Commun.)", "desc": "Running triggers platelet exerkine CXCL4/PF4 release, directly promoting neural precursor proliferation and neurogenesis in the aged dentate gyrus." }
   ],
   "keyFindings": [
     { "title": "The 3-Lab Convergence Discovery", "desc": "Published back-to-back on August 16, 2023 across Nature, Nature Aging, and Nature Communications, the Villeda, Dubal, and Walker labs independently converged on platelet-derived PF4 as the shared effector of systemic brain rejuvenation." },
-    { "title": "Peripheral CXCR3 Immune-Brain Axis", "desc": "Schroer et al. proved that PF4 rejuvenates the aged peripheral immune system (reducing myeloid pro-inflammatory signaling) via the CXCR3 receptor; deleting CXCR3 abolished PF4's cognitive and molecular rescue in aged mice." },
+    { "title": "Peripheral CXCR3 Immune-Brain Axis", "desc": "Schroer et al. proved that PF4 rejuvenates the aged peripheral immune system (reducing myeloid pro-inflammatory signaling) via the CXCR3 receptor; deleting CXCR3 partially abolished PF4's cognitive and molecular rescue in aged mice." },
     { "title": "Synaptic LTP & Klotho Amplification", "desc": "Park et al. demonstrated that systemic PF4 replicates Klotho's cognitive enhancement in both young and aged mice, increasing hippocampal long-term potentiation (LTP) and glutamate receptor subunit expression." },
     { "title": "Hippocampal Neurogenesis Restoration", "desc": "Leiter et al. established PF4 as a bona fide exercise-induced 'exerkine' required for exercise-stimulated adult hippocampal neurogenesis and restoration of spatial learning in aged animals." }
   ],
   "conclusions": [
     "Platelet Factor 4 (PF4/CXCL4) is a central circulating messenger uniting young blood, Klotho, and exercise in reversing brain aging.",
-    "Systemic PF4 rejuvenates the aged brain without needing to cross the blood-brain barrier in bulk, acting largely through a CXCR3-dependent peripheral immune-to-brain signaling axis.",
+    "Systemic PF4 rejuvenates the aged brain through both a CXCR3-dependent peripheral immune-to-brain signaling axis (Schroer et al.) and direct hippocampal synaptic/neurogenic actions (Park et al.; Leiter et al.).",
     "Platelets function not merely as hemostatic clotting fragments, but as dynamic neuro-immunomodulatory endocrine sensors of exercise and longevity factors."
   ],
   "structuredConclusions": [
@@ -86,7 +86,7 @@
     },
     {
       "title": "Peripheral Immune Reprogramming via CXCR3",
-      "content": "Rather than requiring direct BBB penetration, systemic PF4 binds CXCR3 on peripheral immune cells to suppress pro-aging myeloid factors, thereby attenuating microglial TNF-alpha/complement neuroinflammation."
+      "content": "In Schroer et al., systemic PF4 binds CXCR3 on peripheral immune cells to suppress pro-aging myeloid factors and attenuate microglial TNF-alpha/complement neuroinflammation, while Park et al. also detected His-tagged PF4 reaching the brain parenchyma."
     },
     {
       "title": "Exercise as an Endogenous PF4 Secretagogue",

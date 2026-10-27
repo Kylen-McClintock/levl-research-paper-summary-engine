@@ -1,12 +1,12 @@
 {
   "titleBlock": {
     "headline": "Inhibition of IL-11 signalling extends mammalian healthspan and lifespan",
-    "authors": "Widjaja, A.A., Lim, W.-W., Viswanathan, S., Chothani, S.,PF, Schafer, S., Cook, S.A. et al.",
+    "authors": "Widjaja, A.A., Lim, W.-W., Viswanathan, S., Chothani, S., Corden, B., Dasan, C.M., Goh, J.W.T., Lim, R., Singh, B.K., Tan, J., Pua, C.J., Lim, S.Y., Adami, E., Schafer, S., Cook, S.A. et al.",
     "journal": "Nature",
     "year": 2024,
     "doi": "10.1038/s41586-024-07701-9",
-    "pmid": "39019040",
-    "pmcid": "PMC11306101"
+    "pmid": "39020175",
+    "pmcid": "PMC11291288"
   },
   "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
   "whatIsIL11": [
@@ -15,12 +15,12 @@
     "Why does it matter for aging?",
     "Across aged murine tissues (liver, visceral adipose, skeletal muscle, heart, kidney), IL-11 expression progressively rises inside senescent stromal, epithelial, and smooth muscle cells—hyperactivating ERK1/2 and mTORC1 while inhibiting AMPK.",
     "What did this study discover?",
-    "Both germline Il11 deletion and late-life monthly administration of a neutralizing anti-IL-11 antibody (X203, started at 75 weeks of age, ~55 human years) extended mouse median lifespan by 22.5% in males and 24.9% in females while slashing age-related cancer deaths."
+    "Late-life monthly administration of a neutralizing anti-IL-11 antibody (X203, started at 75 weeks of age, ~55 human years) extended mouse median lifespan by 22.5% in males (130.3 to 159.6 weeks) and 25.0% in females (117.1 to 146.4 weeks; +28.7% pooled, p < 0.0001), while germline Il11-/- deletion extended pooled median lifespan by 24.9% (120.9 to 151.0 weeks, p < 0.0001) and slashed age-related cancer deaths."
   ],
   "studyOverview": [
     { "label": "Objective", "value": "Test whether genetic deletion or late-life pharmacological neutralization of IL-11 signaling extends mammalian healthspan and lifespan." },
     { "label": "Design", "value": "Germline Il11ra1/Il11 KO cohorts + late-life monthly anti-IL-11 mAb (X203, 40 mg/kg) from 75 weeks of age in male and female C57BL/6J mice." },
-    { "label": "Lifespan Result", "value": "+22.5% median lifespan in males, +24.9% in females (anti-IL-11 mAb); +24.9% pooled in Il11-/- knockout mice." },
+    { "label": "Lifespan Result", "value": "+22.5% median lifespan in males, +25.0% in females (+28.7% pooled, p < 0.0001) with anti-IL-11 mAb; +24.9% pooled in Il11-/- knockout mice." },
     { "label": "Healthspan Result", "value": "Reversed sarcopenia & frailty, prevented brown-to-white fat conversion, preserved telomeres/mitochondria, and reduced macroscopic tumors (~16% vs >60% at autopsy)." }
   ],
   "scorecardOverview": [
@@ -30,11 +30,11 @@
     },
     {
       "title": "The Methodology",
-      "content": "Evaluated aging biomarkers, metabolism, fibrosis, and full survival curves in Il11ra1-/- and Il11-/- knockout mice, and administered an anti-IL-11 neutralizing antibody (X203) monthly to 75-week-old C57BL/6J mice (~55 human years) until natural death."
+      "content": "Evaluated aging biomarkers, metabolism, fibrosis, and full survival curves in Il11ra1-/- and Il11-/- knockout mice, and administered an anti-IL-11 neutralizing antibody (X203, 40 mg/kg) monthly to 75-week-old C57BL/6J mice (~55 human years) until natural death."
     },
     {
       "title": "The Breakthrough",
-      "content": "Late-life anti-IL-11 therapy extended median lifespan by 22.5% in males and 24.9% in females, restored AMPK activity while suppressing ERK/mTORC1, preserved lean muscle strength, and markedly lowered age-related neoplasia."
+      "content": "Late-life anti-IL-11 therapy extended median lifespan by 22.5% in males and 25.0% in females (+28.7% pooled; matching +24.9% in germline Il11-/- knockouts), restored AMPK activity while suppressing ERK/mTORC1, preserved lean muscle strength, and markedly lowered age-related neoplasia."
     }
   ],
   "mechanismDescription": "Age-induced IL-11 upregulation acts as a master feed-forward switch: binding to IL-11RA/gp130 activates MEK/ERK1/2, which phosphorylates and inactivates LKB1/AMPK, releasing the brake on mTORC1 and canonical JAK/STAT3 inflammaging.",
@@ -45,14 +45,14 @@
     { "step": "4. Multimorbidity & Frailty", "desc": "Drives p16/p21 senescence amplification, tissue fibrosis, visceral adiposity, sarcopenia, and tumorigenesis." }
   ],
   "keyFindings": [
-    { "title": "Sex-Robust Lifespan Extension", "desc": "Unlike many longevity drugs that show strong sex dimorphism, monthly anti-IL-11 therapy from 75 weeks of age extended median lifespan by 22.5% in males (p = 0.0035) and 24.9% in females (p < 0.0001)." },
-    { "title": "Reversal of Sarcopenia & Frailty", "desc": "Treated aged mice showed 2.5-fold lower clinical frailty index scores, significantly higher full-body grip strength (+14–20%), and reduced skeletal muscle and cardiac fibrosis." },
+    { "title": "Sex-Robust Lifespan Extension", "desc": "Unlike many longevity drugs that show strong sex dimorphism, monthly anti-IL-11 therapy from 75 weeks of age extended median lifespan by 22.5% in males (130.3 to 159.6 weeks) and 25.0% in females (117.1 to 146.4 weeks; +28.7% pooled, p < 0.0001), while germline Il11-/- deletion extended pooled median lifespan by 24.9% (p < 0.0001)." },
+    { "title": "Reversal of Sarcopenia & Frailty", "desc": "Treated aged mice showed 2.5-fold smaller visceral white adipose (vWAT) lipid droplet area, significantly lower clinical frailty index scores, preserved four-limb grip strength, and reduced skeletal muscle and cardiac fibrosis." },
     { "title": "Metabolic & Thermogenic Rejuvenation", "desc": "Anti-IL-11 prevented age-related visceral fat expansion, restored uncoupling protein 1 (UCP1) thermogenesis and 'beiging' in subcutaneous adipose tissue, and normalized glucose tolerance." },
     { "title": "Suppression of Senescence & Tumors", "desc": "Neutralizing IL-11 broke the autocrine SASP amplification loop (lowering p16Ink4a, p21Cip1, and serum IL-6) and reduced macroscopic tumors at gross necropsy from >60% in IgG controls to ~16%." }
   ],
   "conclusions": [
     "IL-11 is a fundamental, targetable upstream driver of the ERK–AMPK–mTORC1 aging cascade in mammals.",
-    "Late-life pharmacological blockade of IL-11 extends both male (+22.5%) and female (+24.9%) median lifespan while compressing late-life frailty and tumor burden.",
+    "Late-life pharmacological blockade of IL-11 extends both male (+22.5%) and female (+25.0%; +28.7% pooled) median lifespan—and germline Il11-/- deletion extends pooled median lifespan by +24.9%—while compressing late-life frailty and tumor burden.",
     "Humanized anti-IL-11 and anti-IL-11RA antibodies already in Phase 1/2 fibrotic disease trials offer a near-term translational path for human multimorbidity."
   ],
   "structuredConclusions": [
@@ -62,7 +62,7 @@
     },
     {
       "title": "Robust Late-Life Efficacy in Both Sexes",
-      "content": "Initiating monthly anti-IL-11 antibody treatment at 75 weeks of age (~55 human years) extended median lifespan by +22.5% in males and +24.9% in females, matching germline Il11 knockout (+24.9%)."
+      "content": "Initiating monthly anti-IL-11 antibody treatment at 75 weeks of age (~55 human years) extended median lifespan by +22.5% in males and +25.0% in females (+28.7% pooled, p < 0.0001), closely paralleling lifelong germline Il11-/- deletion (+24.9% pooled)."
     },
     {
       "title": "Simultaneous Anti-Fibrotic & Anti-Cancer Action",

@@ -6,7 +6,7 @@
     "year": 2023,
     "doi": "10.1016/j.cell.2022.12.027",
     "pmid": "36638792",
-    "pmcid": "PMC9898840",
+    "pmcid": "PMC10166133",
     "companionDoi": "10.1038/s41586-020-2975-4"
   },
   "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
@@ -16,13 +16,13 @@
     "The Information Theory of Aging & RCM",
     "Yang et al. (2023, Cell) tested whether mammalian aging is caused by DNA mutations or by the Relocalization of Chromatin Modifiers (RCM). When cells repair double-strand DNA breaks (DSBs), chromatin proteins like SIRT1, SIRT6, HDAC1, and PARP1 leave their home promoters to assist repair—and fail to return completely, eroding cellular identity.",
     "ICE Mice (Cell 2023) & OSK Vision Rescue (Nature 2020)",
-    "Using the inducible I-PpoI endonuclease to create clean, non-mutagenic DNA breaks for 3 weeks in young 'ICE' mice, Yang et al. accelerated biological aging by ~50% across organs without increasing DNA mutations—and then reversed epigenetic age by up to 57% using AAV-OSK (Oct4, Sox2, Klf4), building on Lu et al. (2020, Nature) where AAV-OSK restored vision in aged and glaucoma mice."
+    "Using the inducible I-PpoI endonuclease to create clean, non-mutagenic DNA breaks for 3 weeks in young 'ICE' mice, Yang et al. accelerated biological aging by ~50% across organs without increasing DNA mutations—and then reversed DNAm age by up to 57% in ICE cells and restored youthful histone marks (H3K9me3/H3K36me2) and retinal function in vivo using AAV-OSK (Oct4, Sox2, Klf4), building on Lu et al. (2020, Nature)."
   ],
   "studyOverview": [
     { "label": "Objective", "value": "Test whether non-mutagenic DNA break repair (RCM) causally drives mammalian aging independent of somatic DNA mutations." },
     { "label": "The ICE Model", "value": "Inducible Changes to the Epigenome (ICE) mice expressing tamoxifen-inducible I-PpoI endonuclease at ~20 non-coding sites." },
-    { "label": "Accelerated Aging Result", "value": "50% accelerated DNAm age, brain gliosis, kidney/muscle atrophy, and frailty with zero increase in somatic mutation rate." },
-    { "label": "The OSK Reboot Result", "value": "AAV9-OSK (Oct4, Sox2, Klf4; omitting oncogenic c-Myc) reversed epigenetic age by up to 57% in ICE kidneys/retinas." }
+    { "label": "Accelerated Aging Result", "value": "~50% accelerated DNAm age, brain gliosis, kidney/muscle atrophy, and frailty with zero increase in somatic mutation rate." },
+    { "label": "The OSK Reboot Result", "value": "AAV-OSK (Oct4, Sox2, Klf4; omitting oncogenic c-Myc) reversed DNAm age by up to 57% in ICE fibroblasts and restored youthful kidney/muscle histone marks and retinal function in vivo." }
   ],
   "scorecardOverview": [
     {
@@ -31,25 +31,25 @@
     },
     {
       "title": "The Methodology",
-      "content": "Engineered ICE mice using inducible I-PpoI to generate 4-fold above-background non-mutagenic DNA breaks for 3 weeks; tracked whole-genome sequencing, Hi-C 3D chromatin, ChIP-seq, Horvath DNAm clocks, and AAV-OSK reprogramming over a 13-year study."
+      "content": "Engineered ICE mice using inducible I-PpoI to generate ~4-fold above-background non-mutagenic DNA breaks for 3 weeks; tracked whole-genome sequencing, Hi-C 3D chromatin, ChIP-seq, mouse epigenetic clocks, and AAV-OSK reprogramming over a 13-year study."
     },
     {
       "title": "The Breakthrough",
-      "content": "ICE mice developed classic multi-organ aging and +50% accelerated epigenetic age without increased DNA mutations. Inducible AAV-OSK (excluding c-Myc) restored youthful H3K27ac/DNAm landscapes (-57% epigenetic age) and, as shown in Lu et al. (2020, Nature), regenerated retinal axons via TET1/TET2."
+      "content": "ICE mice developed classic multi-organ aging and ~50% accelerated epigenetic age without increased DNA mutations. Inducible AAV-OSK (excluding c-Myc) reversed DNAm age by up to 57% in ICE fibroblasts, restored youthful histone marks in kidney and muscle, and regenerated retinal axons via TET1/TET2 (Lu et al., 2020)."
     }
   ],
-  "mechanismDescription": "Every day, mammalian cells suffer double-strand DNA breaks (DSBs). Chromatin modifiers (SIRT1, SIRT6, HDAC1) relocate to DSB sites to facilitate repair. Repeated relocalization (RCM) Gradually erodes H3K27ac/H3K56ac marks, flattens 3D topologically associating domains (TADs), and induces ex-differentiation—which partial OSK reprogramming resets via TET1/2 demethylases.",
+  "mechanismDescription": "Every day, mammalian cells suffer double-strand DNA breaks (DSBs). Chromatin modifiers (SIRT1, SIRT6, HDAC1) relocate to DSB sites to facilitate repair. Repeated relocalization (RCM) gradually erodes H3K27ac/H3K56ac marks, flattens 3D topologically associating domains (TADs), and induces ex-differentiation—which partial OSK reprogramming resets via TET1/2 demethylases.",
   "pathwaySteps": [
     { "step": "1. Youthful Chromatin Landscape", "desc": "Chromatin modifiers (SIRT1/6, HDAC1) silence ectopic genes and maintain sharp H3K27ac/H3K56ac cell-identity peaks." },
     { "step": "2. Non-Mutagenic DSBs (I-PpoI)", "desc": "Clean double-strand DNA breaks recruit SIRT1, HDAC1, and PARP1 away from their home gene promoters." },
     { "step": "3. RCM & Epigenetic Drift", "desc": "Incomplete return of chromatin modifiers scrambles DNA methylation, erodes 3D chromatin contacts, and causes identity loss." },
-    { "step": "4. Partial AAV-OSK Reboot", "desc": "Delivering Oct4, Sox2, and Klf4 (without c-Myc) engages TET1/TET2 demethylases to restore youthful epigenomes (-57% DNAm age)." }
+    { "step": "4. Partial AAV-OSK Reboot", "desc": "Delivering Oct4, Sox2, and Klf4 (without c-Myc) engages TET1/TET2 demethylases to reverse DNAm age (up to -57% in ICE cells) and restore youthful tissue chromatin." }
   ],
   "keyFindings": [
-    { "title": "Aging Without DNA Mutations (ICE Mice)", "desc": "Whole-genome and targeted deep sequencing confirmed that 3 weeks of I-PpoI induction caused zero increase in point mutations or indels, yet drove alopecia, kyphosis, frailty, brain microgliosis, and +50% DNAm age acceleration." },
+    { "title": "Aging Without DNA Mutations (ICE Mice)", "desc": "Whole-genome and targeted deep sequencing confirmed that 3 weeks of I-PpoI induction caused zero increase in point mutations or indels, yet drove alopecia, kyphosis, frailty, brain microgliosis, and ~50% DNAm age acceleration." },
     { "title": "Relocalization of Chromatin Modifiers (RCM)", "desc": "ChIP-seq and Hi-C revealed depleted H3K27ac and H3K56ac marks, smoothed epigenetic landscapes, and weakened 3D promoter-enhancer looping—causing fibroblasts and neurons to lose lineage identity ('ex-differentiation')." },
-    { "title": "Safe Partial Reprogramming (OSK Without c-Myc)", "desc": "By omitting the oncogenic Yamanaka factor c-Myc and expressing only Oct4, Sox2, and Klf4 (OSK), researchers reversed epigenetic age by up to 57% in ICE tissues without inducing teratomas or erasing somatic identity." },
-    { "title": "Vision Restoration (Lu et al., Nature 2020)", "desc": "In the companion Nature study (10.1038/s41586-020-2975-4), intravitreal AAV2-OSK regenerated crushed optic nerve axons and restored visual acuity in aged and glaucoma mice in a TET1/TET2-dependent manner." }
+    { "title": "Safe Partial Reprogramming (OSK Without c-Myc)", "desc": "By omitting the oncogenic Yamanaka factor c-Myc and expressing only Oct4, Sox2, and Klf4 (OSK), researchers reversed epigenetic clock age by up to 57% in post-treated ICE fibroblasts and restored youthful H3K9me3/H3K36me2 histone levels in ICE kidney and muscle without inducing teratomas." },
+    { "title": "Vision Restoration (Lu et al., Nature 2020 & Cell 2023)", "desc": "Intravitreal AAV2-OSK restored youthful mRNA profiles in ICE retinal ganglion cells (Yang et al., 2023) and regenerated crushed optic nerve axons and visual acuity in aged and glaucoma mice in a TET1/TET2-dependent manner (Lu et al., 2020, 10.1038/s41586-020-2975-4)." }
   ],
   "conclusions": [
     "Non-mutagenic DNA break repair (RCM) is sufficient to drive the molecular, histological, and physiological hallmarks of mammalian aging.",
@@ -59,7 +59,7 @@
   "structuredConclusions": [
     {
       "title": "Causal Proof of Epigenetic Aging",
-      "content": "The ICE mouse model provides direct causal proof in mammals that disrupting chromatin organization via non-mutagenic DNA break repair accelerates epigenetic clocks (+50%) and systemic aging without increasing DNA mutations."
+      "content": "The ICE mouse model provides direct causal proof in mammals that disrupting chromatin organization via non-mutagenic DNA break repair accelerates epigenetic clocks (~50%) and systemic aging without increasing DNA mutations."
     },
     {
       "title": "RCM Drives Cellular Ex-Differentiation",
@@ -67,7 +67,7 @@
     },
     {
       "title": "OSK Rejuvenation Requires TET1/TET2",
-      "content": "Delivering three Yamanaka factors (Oct4, Sox2, Klf4—excluding c-Myc) resets DNA methylation age by up to 57% in Yang et al. (2023) and restores retinal ganglion cell vision in Lu et al. (2020) via active TET1/TET2 demethylation."
+      "content": "Delivering three Yamanaka factors (Oct4, Sox2, Klf4—excluding c-Myc) resets DNA methylation age by up to 57% in ICE cells and restores youthful histone marks and retinal ganglion cell vision in vivo (Yang et al., 2023; Lu et al., 2020) via active TET1/TET2 demethylation."
     }
   ],
   "protocolRecommendations": [

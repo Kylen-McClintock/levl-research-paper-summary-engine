@@ -35,14 +35,14 @@
         { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.16, "ci": "-0.30 to -0.02", "monthsSaved": -1.9, "significant": true },
         { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.32, "ci": "-0.59 to -0.06", "monthsSaved": -3.8, "significant": true },
         { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.17, "ci": "-0.31 to -0.04", "monthsSaved": -1.1, "significant": true },
-        { "clock": "PC-GrimAge", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.08, "ci": "-0.17 to +0.01", "monthsSaved": -1.0, "significant": false }
+        { "clock": "GrimAge (PC)", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.08, "ci": "n.s. (no significant effect)", "monthsSaved": -1.0, "significant": false }
       ],
       "proteins": [
-        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis)", "cohensD": -0.33, "significant": true },
-        { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker", "cohensD": -0.42, "significant": true },
-        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis)", "cohensD": -0.31, "significant": true },
-        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker", "cohensD": -0.14, "significant": false },
-        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging)", "cohensD": -0.18, "significant": false }
+        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis; range d: -0.31 to -0.42)", "cohensD": -0.33, "significant": true },
+        { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker (range d: -0.31 to -0.42)", "cohensD": -0.42, "significant": true },
+        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis; range d: -0.31 to -0.42)", "cohensD": -0.31, "significant": true },
+        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker (n.s. for monotherapy)", "cohensD": -0.14, "significant": false },
+        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging; n.s. for monotherapy)", "cohensD": -0.18, "significant": false }
       ]
     },
     {
@@ -50,19 +50,19 @@
       "label": "Omega-3 + Vitamin D3",
       "dose": "1 g/day Omega-3 + 2,000 IU/day Cholecalciferol",
       "badge": "Dual Nutrient Synergy",
-      "summary": "Combining marine omega-3 with 2,000 IU/day vitamin D3 amplified the slowing of PC-PhenoAge (d = -0.27) and DunedinPACE (d = -0.20) while additively suppressing DNAm PAI-1, TIMP-1, and Beta-2 Microglobulin (B2M).",
+      "summary": "Combining marine omega-3 with 2,000 IU/day vitamin D3 produced significant additive slowing on PC-PhenoAge (within the d = -0.24 to -0.32 additive combination range, equivalent to 2.9–3.8 months over 3 years) and additively suppressed GrimAge plasma protein surrogates (DNAm PAI-1, TIMP-1, B2M, and GDF-15; range d = -0.26 to -0.53), whereas no additive effects across interventions were observed for GrimAge, GrimAge2, or DunedinPACE.",
       "clocks": [
-        { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.27, "ci": "-0.49 to -0.05", "monthsSaved": -3.2, "significant": true },
-        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.28, "ci": "-0.55 to -0.01", "monthsSaved": -3.4, "significant": true },
-        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.20, "ci": "-0.36 to -0.04", "monthsSaved": -1.3, "significant": true },
-        { "clock": "PC-GrimAge", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.16, "ci": "-0.32 to 0.00", "monthsSaved": -1.9, "significant": true }
+        { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.27, "ci": "Additive range d: -0.24 to -0.32", "monthsSaved": -3.2, "significant": true },
+        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.28, "ci": "No additive effect beyond Omega-3", "monthsSaved": -3.4, "significant": false },
+        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.17, "ci": "No additive effect beyond Omega-3", "monthsSaved": -1.1, "significant": false },
+        { "clock": "GrimAge (PC)", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.16, "ci": "No additive effect across arms", "monthsSaved": -1.9, "significant": false }
       ],
       "proteins": [
-        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis)", "cohensD": -0.36, "significant": true },
+        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Combo range d: -0.26 to -0.53)", "cohensD": -0.36, "significant": true },
         { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker", "cohensD": -0.35, "significant": true },
-        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis)", "cohensD": -0.44, "significant": true },
-        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker", "cohensD": -0.22, "significant": false },
-        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging)", "cohensD": -0.39, "significant": true }
+        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Combo range d: -0.26 to -0.53)", "cohensD": -0.44, "significant": true },
+        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker (Combo range d: -0.26 to -0.53)", "cohensD": -0.26, "significant": true },
+        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Combo range d: -0.26 to -0.53)", "cohensD": -0.39, "significant": true }
       ]
     },
     {
@@ -70,19 +70,19 @@
       "label": "Omega-3 + Exercise",
       "dose": "1 g/day Omega-3 + 3×30 min/wk Strength SHEP",
       "badge": "Metabolic + Mechanical",
-      "summary": "Pairing omega-3 supplementation with structured home strength training (SHEP) significantly slowed PC-PhenoAge (d = -0.26) and PC-GrimAge (d = -0.18) while reducing PAI-1, TIMP-1, and B2M surrogates.",
+      "summary": "Pairing omega-3 supplementation with structured home strength training (SHEP) produced significant additive slowing on PC-PhenoAge (within the d = -0.24 to -0.32 additive combination range) and reduced DNAm PAI-1, TIMP-1, B2M, and GDF-15 surrogates (range d = -0.26 to -0.53), while no additive effects across interventions were observed for GrimAge, GrimAge2, or DunedinPACE.",
       "clocks": [
-        { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.26, "ci": "-0.48 to -0.04", "monthsSaved": -3.1, "significant": true },
-        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.25, "ci": "-0.52 to +0.02", "monthsSaved": -3.0, "significant": false },
-        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.16, "ci": "-0.31 to -0.01", "monthsSaved": -1.1, "significant": true },
-        { "clock": "PC-GrimAge", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.18, "ci": "-0.34 to -0.02", "monthsSaved": -2.2, "significant": true }
+        { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.26, "ci": "Additive range d: -0.24 to -0.32", "monthsSaved": -3.1, "significant": true },
+        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.25, "ci": "No additive effect beyond Omega-3", "monthsSaved": -3.0, "significant": false },
+        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.16, "ci": "No additive effect beyond Omega-3", "monthsSaved": -1.1, "significant": false },
+        { "clock": "GrimAge (PC)", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.18, "ci": "No additive effect across arms", "monthsSaved": -2.2, "significant": false }
       ],
       "proteins": [
-        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis)", "cohensD": -0.34, "significant": true },
+        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Combo range d: -0.26 to -0.53)", "cohensD": -0.34, "significant": true },
         { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker", "cohensD": -0.29, "significant": true },
-        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis)", "cohensD": -0.38, "significant": true },
-        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker", "cohensD": -0.21, "significant": false },
-        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging)", "cohensD": -0.32, "significant": true }
+        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Combo range d: -0.26 to -0.53)", "cohensD": -0.38, "significant": true },
+        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker (Combo range d: -0.26 to -0.53)", "cohensD": -0.26, "significant": true },
+        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Combo range d: -0.26 to -0.53)", "cohensD": -0.32, "significant": true }
       ]
     },
     {
@@ -90,19 +90,19 @@
       "label": "Triple Combination (All 3)",
       "dose": "Omega-3 (1 g/d) + Vitamin D3 (2,000 IU/d) + Exercise (3×30 min/wk)",
       "badge": "Maximum Additive Benefit (-3.8 mo)",
-      "summary": "The full triple combination achieved the largest biological age deceleration on PC-PhenoAge (d = -0.24 in factorial model; d = -0.32 in direct treatment-arm comparison vs. triple placebo, equivalent to -2.9 to -3.8 months over 3 years), preserved epigenetic telomere length (PC-DNAmTL d = +0.33), and suppressed 4 GrimAge plasma protein surrogates including GDF-15 and B2M.",
+      "summary": "The full triple combination achieved the largest additive biological age deceleration on PC-PhenoAge (d = -0.24 to -0.32 in factorial model; d = -0.32, 95% CI -0.59 to -0.06 in direct treatment-arm comparison vs. triple placebo, equivalent to -2.9 to -3.8 months over 3 years) and suppressed 4 GrimAge plasma protein surrogates (PAI-1, TIMP-1, B2M, and GDF-15; range d = -0.26 to -0.53), whereas no additive effects were observed for GrimAge, GrimAge2, or DunedinPACE.",
       "clocks": [
         { "clock": "PC-PhenoAge", "generation": "2nd-Gen (Morbidity/Mortality)", "cohensD": -0.32, "ci": "-0.59 to -0.06", "monthsSaved": -3.8, "significant": true },
-        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.24, "ci": "-0.50 to +0.02", "monthsSaved": -2.9, "significant": false },
-        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.18, "ci": "-0.34 to -0.02", "monthsSaved": -1.2, "significant": true },
-        { "clock": "PC-GrimAge", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.19, "ci": "-0.36 to -0.02", "monthsSaved": -2.3, "significant": true }
+        { "clock": "GrimAge2", "generation": "2nd-Gen (Lifespan & Plasma Proteins)", "cohensD": -0.24, "ci": "No additive effect beyond Omega-3", "monthsSaved": -2.9, "significant": false },
+        { "clock": "DunedinPACE", "generation": "3rd-Gen (Dynamic Pace of Aging)", "cohensD": -0.17, "ci": "No additive effect beyond Omega-3", "monthsSaved": -1.1, "significant": false },
+        { "clock": "GrimAge (PC)", "generation": "2nd-Gen (Principal Component)", "cohensD": -0.19, "ci": "No additive effect across arms", "monthsSaved": -2.3, "significant": false }
       ],
       "proteins": [
-        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Senescence & Thrombosis)", "cohensD": -0.31, "significant": true },
+        { "name": "DNAm PAI-1", "role": "Plasminogen Activator Inhibitor-1 (Combo range d: -0.26 to -0.53)", "cohensD": -0.31, "significant": true },
         { "name": "DNAm Leptin", "role": "Adipokine & Metabolic Inflammation Marker", "cohensD": -0.24, "significant": false },
-        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Fibrosis)", "cohensD": -0.53, "significant": true },
-        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker", "cohensD": -0.26, "significant": true },
-        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Systemic Immune Aging)", "cohensD": -0.44, "significant": true }
+        { "name": "DNAm TIMP-1", "role": "Tissue Inhibitor of Metalloproteinases-1 (Combo range d: -0.26 to -0.53)", "cohensD": -0.53, "significant": true },
+        { "name": "DNAm GDF-15", "role": "Mitokine & Mitochondrial Stress Marker (Combo range d: -0.26 to -0.53)", "cohensD": -0.26, "significant": true },
+        { "name": "DNAm B2M", "role": "Beta-2 Microglobulin (Combo range d: -0.26 to -0.53)", "cohensD": -0.44, "significant": true }
       ]
     }
   ],

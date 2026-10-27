@@ -5,8 +5,8 @@
     "journal": "JAMA Network Open",
     "year": "2018",
     "doi": "10.1001/jamanetworkopen.2018.3605",
-    "pmid": "30646255",
-    "pmcid": "PMC6324324",
+    "pmid": "30646252",
+    "pmcid": "PMC6324439",
     "summary": "In a landmark retrospective cohort study of 122,007 consecutive patients undergoing symptom-limited exercise treadmill testing at the Cleveland Clinic over 1.1 million person-years of follow-up (median 8.4 years; 13,637 deaths), cardiorespiratory fitness (CRF, measured objectively in peak METs) exhibited a powerful, inverse, dose-dependent reduction in all-cause mortality with zero evidence of an upper threshold of harm. Low fitness (<25th percentile) carried a 5.04x higher risk-adjusted mortality hazard than Elite fitness (≥97.7th percentile; HR 0.20, p < 0.001)—surpassing the mortality hazard of smoking, diabetes, or coronary artery disease."
   },
   "studyOverview": [
@@ -28,44 +28,44 @@
       "id": "low",
       "tier": "Low Fitness",
       "percentile": "<25th Percentile (Age & Sex Matched)",
-      "sampleSize": "n = 30,271 (24.8%)",
+      "sampleSize": "n = 29,181 (23.9%)",
       "hrVsElite": 5.04,
       "ciVsElite": "4.10 – 6.20",
       "survivalVsLowHR": 1.00,
-      "exampleMet50Yr": "<8.5 METs (♂) / <6.8 METs (♀) at Age 50–59",
+      "exampleMet50Yr": "<8.2 METs (♂) / <7.0 METs (♀) at Age 50–59",
       "clinicalNote": "Highest all-cause mortality risk across all age decades. Being in the bottom quartile of VO2max carries a 1.95x higher mortality risk than merely reaching the 50th–74th percentile (Above Average)."
     },
     {
       "id": "below_avg",
       "tier": "Below Average Fitness",
       "percentile": "25th – 49th Percentile",
-      "sampleSize": "n = 26,872 (22.0%)",
+      "sampleSize": "n = 27,172 (22.3%)",
       "hrVsElite": 2.75,
       "ciVsElite": "2.24 – 3.38",
       "survivalVsLowHR": 0.55,
-      "exampleMet50Yr": "8.5–9.8 METs (♂) / 6.8–8.1 METs (♀) at Age 50–59",
+      "exampleMet50Yr": "8.2–9.9 METs (♂) / 7.0–8.0 METs (♀) at Age 50–59",
       "clinicalNote": "Moving out of the bottom quartile (<25th) into just the 25th–49th percentile cuts all-cause mortality hazard by ~45% (HR 1.84 for Low vs. Below Average)—the single largest marginal risk reduction in medicine."
     },
     {
       "id": "above_avg",
       "tier": "Above Average Fitness",
       "percentile": "50th – 74th Percentile",
-      "sampleSize": "n = 31,422 (25.7%)",
+      "sampleSize": "n = 31,897 (26.1%)",
       "hrVsElite": 1.95,
       "ciVsElite": "1.59 – 2.40",
       "survivalVsLowHR": 0.39,
-      "exampleMet50Yr": "9.9–11.3 METs (♂) / 8.2–9.5 METs (♀) at Age 50–59",
+      "exampleMet50Yr": "10.0–11.3 METs (♂) / 8.1–9.9 METs (♀) at Age 50–59",
       "clinicalNote": "Confers an additional ~29% mortality reduction compared to Below Average fitness (HR 1.41 for Below Average vs. Above Average—matching the entire mortality hazard of smoking!)."
     },
     {
       "id": "high",
       "tier": "High Fitness",
       "percentile": "75th – 97.6th Percentile",
-      "sampleSize": "n = 29,871 (24.5%)",
+      "sampleSize": "n = 30,187 (24.7%)",
       "hrVsElite": 1.29,
       "ciVsElite": "1.05 – 1.58",
       "survivalVsLowHR": 0.26,
-      "exampleMet50Yr": "11.4–13.7 METs (♂) / 9.6–12.1 METs (♀) at Age 50–59",
+      "exampleMet50Yr": "11.4–13.9 METs (♂) / 10.0–12.9 METs (♀) at Age 50–59",
       "clinicalNote": "Top-quartile aerobic capacity reduces all-cause mortality by ~74% compared to Low fitness (HR 3.90 for Low vs. High; 95% CI 3.67–4.14)."
     },
     {
@@ -76,7 +76,7 @@
       "hrVsElite": 1.00,
       "ciVsElite": "Reference (Lowest Mortality)",
       "survivalVsLowHR": 0.20,
-      "exampleMet50Yr": "≥13.8 METs / ~48+ mL/kg/min (♂) | ≥12.2 METs / ~43+ mL/kg/min (♀) at Age 50–59",
+      "exampleMet50Yr": "≥14.0 METs / ~49+ mL/kg/min (♂) | ≥13.0 METs / ~45.5+ mL/kg/min (♀) at Age 50–59",
       "clinicalNote": "Achieved an additional 23% mortality reduction even beyond High fitness (HR 0.77 vs. High, p = 0.02; HR 0.20 vs. Low, p < 0.001), disproving the 'extreme endurance toxicity' hypothesis."
     }
   ],
@@ -124,5 +124,5 @@
       "content": "Physiologically, raising peak METs into the High/Elite tier requires combining aerobic base volume (Zone 2 mitochondrial biogenesis and capillary density) with high-output intervals (4×4 min at 90–95% HRmax to expand cardiac stroke volume)."
     }
   ],
-  "protocolImplications": "Translational takeaway: Quantify your VO2max annually via cardiopulmonary exercise testing (CPET) or validated submaximal/field protocols (1 MET ≈ 3.5 mL O2/kg/min). Target at minimum the ≥75th percentile (High) and ideally the ≥97.7th percentile (Elite) for your age and sex (~13.8+ METs / 48+ mL/kg/min for men in their 50s; ~12.2+ METs / 43+ mL/kg/min for women in their 50s) using a polarized training structure: 3–4 hours/week of Zone 2 aerobic base paired with 1–2 weekly sessions of peak aerobic intervals (e.g., Norwegian 4×4 protocol)."
+  "protocolImplications": "Translational takeaway: Quantify your VO2max annually via cardiopulmonary exercise testing (CPET) or validated submaximal/field protocols (1 MET ≈ 3.5 mL O2/kg/min). Target at minimum the ≥75th percentile (High) and ideally the ≥97.7th percentile (Elite) for your age and sex (~14.0+ METs / 49+ mL/kg/min for men in their 50s; ~13.0+ METs / 45.5+ mL/kg/min for women in their 50s) using a polarized training structure: 3–4 hours/week of Zone 2 aerobic base paired with 1–2 weekly sessions of peak aerobic intervals (e.g., Norwegian 4×4 protocol)."
 }

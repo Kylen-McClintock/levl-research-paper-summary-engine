@@ -51,7 +51,7 @@ export const RapaTramWebpage: React.FC = () => {
             </a>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-mono">
               <FlaskConical className="w-3.5 h-3.5" aria-hidden="true" />
-              <span>n = 875 C3B6F1 Hybrid Mice (4 Arms)</span>
+              <span>n = 876 C3B6F1 Hybrid Mice (4 Arms)</span>
             </span>
           </div>
 
@@ -87,7 +87,7 @@ export const RapaTramWebpage: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-orange-400 block mb-2">
-                4-Arm Survival & Multi-Organ Comparator (n = 875 Mice from 6 Months)
+                4-Arm Survival & Multi-Organ Comparator (n = 876 Mice from 6 Months)
               </span>
               <h2 id="survival-comparator-heading" className="text-3xl font-bold text-white">
                 Monotherapy vs. Additive Dual-Branch Inhibition

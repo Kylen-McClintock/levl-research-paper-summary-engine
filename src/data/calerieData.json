@@ -44,8 +44,8 @@
       "generation": "2nd-Generation Static 'Odometer'",
       "metaphor": "Odometer (Cumulative Historical Biological Mileage)",
       "trainingTarget": "Trained cross-sectionally on composite clinical chemistry mortality score (albumin, creatinine, glucose, CRP, lymphocyte %, mean cell volume, RDW, ALP, WBC) + chronological age.",
-      "effect12Mo": 0.01,
-      "ci12Mo": "-0.13 to +0.16",
+      "effect12Mo": -0.03,
+      "ci12Mo": "-0.19 to +0.12",
       "effect24Mo": 0.05,
       "ci24Mo": "-0.11 to +0.20",
       "pVal": "p > 0.50 (Null in 2-Yr RCT)",
@@ -58,9 +58,9 @@
       "metaphor": "Odometer (Cumulative Mortality & Smoking Pack-Year Mileage)",
       "trainingTarget": "Trained cross-sectionally on time-to-death, smoking pack-years, and 7 plasma protein surrogates + age and sex.",
       "effect12Mo": -0.04,
-      "ci12Mo": "-0.16 to +0.08",
+      "ci12Mo": "-0.16 to +0.07",
       "effect24Mo": 0.05,
-      "ci24Mo": "-0.08 to +0.17",
+      "ci24Mo": "-0.07 to +0.17",
       "pVal": "p > 0.40 (Null in 2-Yr RCT)",
       "interpretation": "Highly accurate for cross-sectional mortality risk stratification, but less sensitive than 3rd-generation longitudinal slope clocks for detecting short-term (12–24 month) lifestyle intervention velocity shifts in healthy younger adults."
     }
@@ -80,9 +80,9 @@
       "achievedCR": "Mean <10% DLW CR",
       "d12Mo": -0.19,
       "d24Mo": -0.14,
-      "paceReduction": "~1.4% Slower Pace",
-      "mortalityEquivalent": "~6–8% Lower Mortality Hazard",
-      "note": "Modest caloric reduction produced a smaller, attenuated slowing of DunedinPACE."
+      "paceReduction": "d = -0.19 (12 mo) / -0.14 (24 mo)",
+      "mortalityEquivalent": "Attenuated (p > 0.15 vs. AL)",
+      "note": "Modest caloric reduction (<10% DLW CR) produced a smaller, non-significant slowing of DunedinPACE."
     },
     {
       "tier": "Intent-to-Treat (All CR)",
@@ -98,8 +98,8 @@
       "achievedCR": "Mean >10% DLW CR",
       "d12Mo": -0.33,
       "d24Mo": -0.33,
-      "paceReduction": "~3.3% Slower Pace",
-      "mortalityEquivalent": "~15% Lower Mortality Hazard",
+      "paceReduction": "d = -0.33 (12 & 24 mo)",
+      "mortalityEquivalent": "Significant Slowing (p ≤ 0.003)",
       "note": "Sustained reduction at both 12 and 24 months among participants achieving >10% caloric restriction by Doubly Labeled Water."
     },
     {
@@ -107,8 +107,8 @@
       "achievedCR": "20% DLW CR (Instrumental Variables)",
       "d12Mo": -0.43,
       "d24Mo": -0.40,
-      "paceReduction": "~4.0% Slower Pace",
-      "mortalityEquivalent": "~18–20% Lower Mortality Hazard",
+      "paceReduction": "d = -0.43 (12 mo) / -0.40 (24 mo)",
+      "mortalityEquivalent": "Largest TOT Effect (p < 0.005)",
       "note": "Instrumental variable TOT estimate of the biological effect of achieving a full 20% caloric restriction (p < 0.005)."
     }
   ],
@@ -127,7 +127,7 @@
     },
     {
       "title": "Weight-Loss Phase (0–12 mo) vs. Weight-Maintenance Phase (12–24 mo)",
-      "desc": "Most weight loss (~7.5 kg) occurred in Year 1 while Year 2 was weight maintenance, yet DunedinPACE remained significantly slowed at 24 months—confirming sustained metabolic reprogramming rather than acute negative energy balance alone."
+      "desc": "Most weight loss occurred in Year 1 while Year 2 was weight maintenance, yet DunedinPACE remained significantly slowed at 24 months—confirming sustained metabolic reprogramming rather than acute negative energy balance alone."
     }
   ],
   "conclusions": [

@@ -20,7 +20,7 @@
     },
     {
       "title": "What They Found",
-      "content": "Taurine levels dropped by >80% in aged humans vs. young children/adults. Oral taurine (T1000) extended worm lifespan by +10–23% and mouse median lifespan by +10% (♂) and +12% (♀)—plus +18–25% life expectancy at 28 months—while suppressing cellular senescence, DNA damage (γH2AX), mitochondrial tRNA Leu(UUR) defects, and inflammaging. In 11,966 humans, higher taurine/hypotaurine tracked with lower BMI, T2D, hypertension, and CRP, and acute endurance/sprint exercise significantly boosted blood taurine."
+      "content": "Taurine levels dropped by >80% in aged humans vs. young individuals (and by ~70% in mice and ~85% in monkeys). Oral taurine (T1000) extended worm lifespan by +10–23% and mouse median lifespan by +10% (♂) and +12% (♀)—plus +18–25% life expectancy at 28 months—while suppressing cellular senescence, DNA damage (γH2AX), mitochondrial tRNA Leu(UUR) defects, and inflammaging. In 11,966 humans, higher taurine/hypotaurine tracked with lower BMI, abdominal obesity, T2D, glucose, and CRP, and acute endurance/sprint exercise significantly boosted blood taurine (+16%) and hypotaurine (+36%)."
     }
   ],
   "speciesModels": [
@@ -50,7 +50,7 @@
       "findings": [
         "Prevented age-associated weight gain (-0.75 kg vs. control) and reduced visceral fat percentage.",
         "Increased lumbar spine and leg bone mineral density (BMD) and serum osteocalcin while lowering bone resorption marker CTX.",
-        "Lowered fasting blood glucose (-19%), reduced hepatic transaminases (AST -36%, ALT -20%), and lowered serum lipid peroxides by -33%.",
+        "Lowered fasting blood glucose (-19%), reduced hepatic transaminases (AST -36%, ALT -20%), and lowered serum oxidative damage markers: DNA 8-OH-dG (-36%), lipid peroxides (-11%), and protein carbonyls (-20%).",
         "Rejuvenated the immune compartment by reducing circulating pro-inflammatory monocytes and granulocytes."
       ]
     },
@@ -63,9 +63,9 @@
       "metricLabel": "Age-Related Serum Taurine Drop (Youth → Age 60+)",
       "barPct": 100,
       "findings": [
-        "Serum taurine levels in 60-year-old humans were ~80% lower than in 5-year-old individuals (~30 µM vs. ~130–150 µM).",
-        "Across 11,966 EPIC-Norfolk participants, higher circulating taurine, hypotaurine, and N-acetyltaurine significantly associated with lower BMI, abdominal obesity, Type 2 Diabetes prevalence, fasting glucose, liver enzymes (AST/ALT), and hs-CRP.",
-        "A single bout of graded cycling to exhaustion significantly elevated serum taurine (+16% to +25%) and hypotaurine across sedentary adults, sprinters, endurance runners, and natural bodybuilders.",
+        "Serum taurine levels declined by >80% in elderly humans compared with young individuals (paralleling a ~70% decline in mice from 132.3 ± 14.2 ng/mL at 4 weeks to 40.2 ± 7.1 ng/mL at 56 weeks, and an ~85% decline in aged monkeys).",
+        "Across 11,966 EPIC-Norfolk participants, higher circulating blood taurine and hypotaurine significantly associated with lower BMI, waist-hip ratio, abdominal obesity, Type 2 Diabetes prevalence, fasting glucose, insulin, and hs-CRP (while hypotaurine also negatively correlated with total/LDL cholesterol and AST, and CSAD variants linked to lower hypertension in FinnGen).",
+        "A single bout of graded cycling to exhaustion significantly elevated serum taurine (+16% / 1.16-fold across sprinters, endurance runners, and natural bodybuilders; trend p = 0.067 in sedentary subjects), hypotaurine (+36% / 1.36-fold), and N-acetyltaurine (+18% to +28% in endurance athletes and sprinters).",
         "Notably, taurine did NOT extend replicative lifespan in unicellular budding yeast (S. cerevisiae), which lacks taurine biosynthetic/transport dependence."
       ]
     },
@@ -90,11 +90,11 @@
     },
     {
       "hallmark": "Cellular Senescence & SASP Suppression",
-      "mechanism": "In aged p16-luc mice, taurine supplementation suppressed whole-body p16INK4a bioluminescence and protected telomerase-deficient (Terc-/-) mice from premature mortality."
+      "mechanism": "In aged p16-luc mice, taurine supplementation suppressed whole-body p16INK4a bioluminescence and rescued premature mortality in telomerase-deficient (tert-/-(G2)) zebrafish embryos."
     },
     {
-      "hallmark": "Stem Cell Preservation (Gut & Muscle)",
-      "mechanism": "Increased Lgr5+ intestinal crypt stem cells and Pax7+ skeletal muscle satellite cells in aged mice, accelerating tissue regeneration after injury."
+      "hallmark": "Stem Cell Preservation (Gut & Hair Follicle)",
+      "mechanism": "Increased Lgr5+ stem cells in the intestinal epithelium and hair follicles and enhanced skeletal muscle fiber regeneration after cardiotoxin injury in aged mice."
     },
     {
       "hallmark": "Autophagy & Proteostasis Activation",
@@ -104,7 +104,7 @@
   "keyFindings": [
     {
       "title": "80% Age-Related Decline in Human Circulating Taurine",
-      "desc": "Hepatic cysteinesulfinic acid decarboxylase (CSAD)—the rate-limiting enzyme for endogenous taurine synthesis—declines with age, causing an ~80% drop in human serum taurine by age 60."
+      "desc": "Hepatic cysteinesulfinic acid decarboxylase (CSAD)—the rate-limiting enzyme for endogenous taurine synthesis—declines with age, causing an >80% drop in human serum taurine by age 60."
     },
     {
       "title": "+10–12% Median Lifespan & +18–25% Late-Life Expectancy in Mice",
@@ -112,11 +112,11 @@
     },
     {
       "title": "Primate Translation in Rhesus Macaques",
-      "desc": "Six months of oral taurine (250 mg/kg/day) in middle-aged monkeys increased lumbar bone density, lowered fasting glucose by 19%, reduced liver transaminases, and suppressed lipid peroxidation by 33%."
+      "desc": "Six months of oral taurine (250 mg/kg/day) in middle-aged monkeys increased lumbar bone density, lowered fasting glucose by 19%, reduced liver transaminases, and decreased serum DNA 8-OH-dG (-36%), lipid peroxides (-11%), and protein carbonyls (-20%)."
     },
     {
       "title": "Exercise Acutely Mobilizes Endogenous Taurine in Humans",
-      "desc": "Both endurance and sprint exercise significantly increase circulating taurine and hypotaurine in humans, suggesting taurine mediates part of the systemic metabolic benefit of physical activity."
+      "desc": "Both endurance and sprint exercise significantly increase circulating taurine (+16%) and hypotaurine (+36%) in humans, suggesting taurine metabolites mediate part of the systemic benefit of physical activity."
     }
   ],
   "conclusions": [

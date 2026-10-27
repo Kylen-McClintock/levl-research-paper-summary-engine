@@ -220,7 +220,11 @@ export const CrExWebpage = () => {
                     <span className="font-semibold text-white">{bar.label}</span>
                     <div className="flex items-center gap-2">
                       <span className="font-mono font-bold text-sm text-white">
-                        {bar.value === 0 ? '0.00 yr (Ref)' : `${bar.value} yr`}
+                        {bar.pVal === 'Reference'
+                          ? '0.00 yr (Ref)'
+                          : bar.value === 0
+                            ? 'n.s. vs WD'
+                            : `${bar.value} yr`}
                       </span>
                       <span className={`px-2 py-0.5 rounded border text-[11px] font-mono ${badgeColor}`}>
                         {bar.pVal}
@@ -375,7 +379,7 @@ export const CrExWebpage = () => {
                   Restriction
                 </span>
                 <span className="text-[10px] md:text-xs text-green opacity-80 leading-tight block">
-                  Blood PhenoAge (-2.96 yr), Ether Lipids &amp; Microbiome
+                  Blood PhenoAge (-2.96 yr), Hormones, Metabolome &amp; Microbiome
                 </span>
               </div>
             </div>
@@ -473,7 +477,7 @@ export const CrExWebpage = () => {
       <ConclusionsSection
         paperId="cr-ex"
         conclusions={data.structuredConclusions}
-        protocolImplications="Neither diet alone nor endurance training alone captures the complete longevity phenotype. Combining caloric/metabolic restraint (which lowers systemic blood PhenoAge and optimizes ether-lipid/bile-acid metabolism) with regular aerobic exercise (which suppresses colon tissue epigenetic mutation load by -4.91 years) provides orthogonal, non-redundant protection."
+        protocolImplications="Neither diet alone nor endurance training alone captures the complete longevity phenotype. Combining caloric/metabolic restraint (which lowers systemic blood PhenoAge and optimizes hormonal, metabolomic, and microbiome health) with regular aerobic exercise (which suppresses colon tissue epigenetic mutation load by -4.91 years) provides orthogonal, non-redundant protection."
       />
 
       {/* Footer */}

@@ -16,11 +16,11 @@
     },
     {
       "title": "What They Did",
-      "content": "Randomized n = 960 genetically unique female Diversity Outbred (DO) mice at 6 months of age into 5 lifelong dietary groups (~192 mice/arm): Ad Libitum (AL), 1 day/week fasting (1D IF), 2 consecutive days/week fasting (2D IF), 20% daily CR, and 40% daily CR, tracking 198 longitudinal clinical phenotypes (DEXA body composition, indirect calorimetry, glucose/insulin, hematology, FACS immune profiling, frailty, and grip strength)."
+      "content": "Randomized n = 960 genetically unique female Diversity Outbred (DO) mice at 6 months of age into 5 lifelong dietary groups (~192 mice/arm): Ad Libitum (AL), 1 day/week fasting (1D IF), 2 consecutive days/week fasting (2D IF), 20% daily CR, and 40% daily CR, tracking more than 200 longitudinal clinical phenotypes (194 traits in the 10–16 month network analysis: DEXA body composition, indirect calorimetry, glucose/insulin, hematology, FACS immune profiling, frailty, and grip strength)."
     },
     {
       "title": "What They Found",
-      "content": "Lifespan scaled with restriction intensity: AL (25.4 mo) < 1D IF (28.0 mo, +10.2%) < 2D IF (28.5 mo, +12.2%) < 20% CR (30.5 mo, +20.1%) < 40% CR (34.6 mo, +36.3%). Crucially, genetics explained 23.6% of lifespan variance vs. ~7.4–8.4% for diet. Furthermore, metabolic health and lifespan were decoupled: mice that lost the most weight or adipose tissue on CR/IF died earlier, whereas stress resilience (retaining weight during handling), intact lymphocyte proportions, and low RDW predicted exceptional longevity."
+      "content": "Lifespan scaled with restriction intensity: AL (25.4 mo) < 1D IF (28.0 mo, +10.2%) < 2D IF (28.5 mo, +12.2%) < 20% CR (30.5 mo, +20.1%) < 40% CR (34.6 mo, +36.3%). Crucially, genetics explained 23.6% of lifespan variance vs. 7.4% for diet (rising to 8.4% after 12 months and 11.4% after 18 months). Furthermore, metabolic health and lifespan were decoupled: mice that lost the most weight or adipose tissue on CR/IF died earlier, whereas stress resilience (retaining weight during handling), intact lymphocyte proportions, and low RDW predicted exceptional longevity."
     }
   ],
   "dietArms": [
@@ -44,7 +44,7 @@
       "medianMonths": 28.0,
       "max90Months": 37.8,
       "lifespanGainPct": 10.2,
-      "netCalorieReduction": "~0–3% (Compensatory hyperphagia on refeeding days)",
+      "netCalorieReduction": "~0% (Complete compensatory hyperphagia on refeeding days)",
       "bodyComposition": "Minimal net body weight reduction; preserved lean muscle mass.",
       "metabolicEffect": "Cyclic weekly ketogenesis and RQ flexibility (rapid switch between fat oxidation during fast and lipogenesis on refeed).",
       "immuneHematology": "Mild erythroid stress during fast-refeed cycles; preserved lymphocyte counts.",
@@ -57,7 +57,7 @@
       "medianMonths": 28.5,
       "max90Months": 38.6,
       "lifespanGainPct": 12.2,
-      "netCalorieReduction": "~5–8% (Strong refeeding hyperphagia)",
+      "netCalorieReduction": "12% Net Reduction (Incomplete refeeding hyperphagia)",
       "bodyComposition": "Moderate cyclical weight fluctuations; preserved lean mass better than 40% CR.",
       "metabolicEffect": "Pronounced 48-hour ketosis and improved fasting glucose, but large refeeding metabolic swings.",
       "immuneHematology": "Elevated red blood cell distribution width (RDW) and erythroid instability from repeated 48-hr starvation-refeeding.",
@@ -92,25 +92,25 @@
   ],
   "varianceBreakdown": [
     {
-      "factor": "Additive Genetic Background (Heritability h²)",
+      "factor": "Additive Genetic Background (Heritability h² at ≥6 mo)",
       "variancePct": 23.6,
-      "description": "Genetic ancestry across the 8 founder strains of Diversity Outbred mice accounted for nearly 3x more variation in lifespan than the dietary interventions."
+      "description": "Genetic ancestry across the 8 founder strains of Diversity Outbred mice accounted for >3x more variation in lifespan (23.6% at ≥6 mo; 17.1% at >12 mo; 15.9% at >18 mo) than the dietary interventions."
     },
     {
       "factor": "Dietary Restriction Regimen (AL vs. IF vs. CR)",
-      "variancePct": 8.4,
-      "description": "While diet shifted population median survival by up to +36.3%, individual response within every diet arm spanned >25 months due to genetic variation."
+      "variancePct": 7.4,
+      "description": "Accounted for 7.4% of lifespan variance at ≥6 months (rising to 8.4% at >12 months and 11.4% at >18 months); individual survival within every diet arm spanned >25 months due to genetic variation."
     },
     {
-      "factor": "Stochastic, Micro-Environmental & Epigenetic Factors",
-      "variancePct": 68.0,
+      "factor": "Stochastic, Micro-Environmental & Residual Factors",
+      "variancePct": 69.0,
       "description": "Individual resilience trajectories best captured longitudinally by hematological (RDW), immune (lymphocyte %), and stress-weight-retention biomarkers."
     }
   ],
   "keyFindings": [
     {
-      "title": "Genetics Dominates Diet (~3x Greater Lifespan Variance)",
-      "desc": "Additive genetic heritability explained 23.6% of total lifespan variance across the 960 mice, compared to ~7.4–8.4% explained by dietary restriction regimens."
+      "title": "Genetics Dominates Diet (>3x Greater Lifespan Variance)",
+      "desc": "Additive genetic heritability explained 23.6% of total lifespan variance across the 960 mice (at ≥6 months), compared to 7.4% explained by dietary restriction regimens (8.4% after 12 months)."
     },
     {
       "title": "Metabolic Biomarkers Are Decoupled From Lifespan",
@@ -122,7 +122,7 @@
     },
     {
       "title": "RDW and Lymphocyte Percentage Are Top Longevity Predictors",
-      "desc": "Across all 198 phenotypes measured, low red blood cell distribution width (RDW—erythrocyte uniformity) and high circulating lymphocyte proportions were the strongest longitudinal predictors of remaining survival."
+      "desc": "Across >200 phenotypes measured (194 network traits), low red blood cell distribution width (RDW—erythrocyte uniformity) and high circulating lymphocyte proportions were the strongest longitudinal predictors of remaining survival."
     }
   ],
   "conclusions": [

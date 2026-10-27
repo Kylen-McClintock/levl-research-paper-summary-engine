@@ -58,7 +58,7 @@ export const GlynacWebpage: React.FC = () => {
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-[1.12] max-w-5xl mx-auto">
             GlyNAC Human RCT:{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">
-              +164% Glutathione & -72% Oxidative Stress
+              +164% Muscle GSH & -72% Oxidative Stress
             </span>{' '}
             Restore Mitochondrial & Physical Function
           </h1>

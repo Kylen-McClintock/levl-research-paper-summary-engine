@@ -5,8 +5,8 @@
     "journal": "Nature Aging",
     "year": 2024,
     "doi": "10.1038/s43587-023-00560-5",
-    "pmid": "38263427",
-    "pmcid": "PMC10954541",
+    "pmid": "38267706",
+    "pmcid": "PMC10950785",
     "companionDoi": "10.1038/s41586-020-2403-9"
   },
   "researchSummary": "This is a summary of the scientific study.\nNot affiliated with the study authors or their institutions.",
@@ -20,8 +20,8 @@
   ],
   "studyOverview": [
     { "label": "Objective", "value": "Test therapeutic and lifelong prophylactic efficacy of uPAR-targeted senolytic CAR T-cells against physiological aging and metabolic syndrome." },
-    { "label": "Surface Target", "value": "uPAR (urokinase-type plasminogen activator receptor) on senescent pancreatic beta-cells, adipose macrophages, and hepatic cells." },
-    { "label": "Therapeutic Result", "value": "Reversed insulin resistance, glucose intolerance, and exercise capacity decline in 18–20 month old mice (building on CCl4/NASH liver fibrosis reversal in Amor et al., 2020)." },
+    { "label": "Surface Target", "value": "uPAR (urokinase-type plasminogen activator receptor) on senescent vascular endothelial cells, fibroblasts/preadipocytes, macrophages/monocytes/dendritic cells, and epithelial cells in pancreas, adipose, and liver." },
+    { "label": "Therapeutic Result", "value": "Reversed insulin resistance, glucose intolerance, pancreatic beta-cell secretory dysfunction, and exercise capacity decline in 18–20 month old mice (building on CCl4/NASH liver fibrosis reversal in Amor et al., 2020)." },
     { "label": "Prophylactic Result", "value": "A single sub-toxic infusion in young mice persisted as memory CAR T-cells (>12 months), preventing late-life and HFD metabolic decline." }
   ],
   "scorecardOverview": [
@@ -31,24 +31,24 @@
     },
     {
       "title": "The Methodology",
-      "content": "Administered a single low dose (0.5 x 10^6) of mouse uPAR-targeted CAR T-cells (m.uPAR-h.28z) either therapeutically to naturally aged (18–20 mo) and HFD-fed mice, or prophylactically to young mice followed for >12 months."
+      "content": "Administered a single low dose (0.5 x 10^6) of fully murine uPAR-targeted CAR T-cells (m.uPAR-m.28z) either therapeutically to naturally aged (18–20 mo) and HFD-fed mice, or prophylactically to young mice followed for >12 months."
     },
     {
       "title": "The Breakthrough",
-      "content": "uPAR CAR T-cells selectively eliminated senescent pancreatic beta-cells, adipocytes, and hepatic cells, restoring glucose homeostasis and exercise capacity—and persisted as memory T-cells to prevent future age-related metabolic decline."
+      "content": "uPAR CAR T-cells selectively eliminated uPAR+ senescent cells across pancreas, adipose tissue, and liver, improving pancreatic beta-cell insulin secretion, glucose homeostasis, and exercise capacity—and persisted as memory T-cells to prevent future age-related metabolic decline."
     }
   ],
-  "mechanismDescription": "Senescent cells across aged pancreas, adipose tissue, and liver upregulate cell-surface uPAR and shed soluble suPAR into plasma. Engineered m.uPAR-h.28z CAR T-cells recognize membrane-bound uPAR, lyse the senescent cells, and contract into central/effector memory T-cells that continuously patrol tissues.",
+  "mechanismDescription": "Senescent cells across aged pancreas, adipose tissue, and liver (principally vascular endothelial cells, fibroblasts/preadipocytes, myeloid macrophages/dendritic cells, and epithelial subsets) upregulate cell-surface uPAR. Engineered m.uPAR-m.28z CAR T-cells recognize membrane-bound uPAR, lyse the senescent cells, and contract into central/effector memory T-cells that continuously patrol tissues.",
   "pathwaySteps": [
-    { "step": "1. uPAR Surface Expression", "desc": "Senescent pancreatic beta-cells, hepatic stellate cells, and adipose macrophages express high levels of uPAR." },
-    { "step": "2. CAR T-Cell Engineering", "desc": "T-cells are transduced with an anti-uPAR scFv coupled to CD28 costimulatory and CD3-zeta signaling domains." },
-    { "step": "3. Selective Cytolytic Clearance", "desc": "A single infusion clears SA-beta-gal+ / uPAR+ senescent cells and lowers circulating soluble suPAR and SASP cytokines." },
+    { "step": "1. uPAR Surface Expression", "desc": "Senescent endothelial cells, fibroblasts/preadipocytes, macrophages, and epithelial cells in aged liver, adipose, and pancreas upregulate uPAR." },
+    { "step": "2. CAR T-Cell Engineering", "desc": "T-cells are transduced with a fully murine anti-uPAR CAR (m.uPAR-m.28z) containing mouse CD28 costimulatory and CD3-zeta signaling domains." },
+    { "step": "3. Selective Cytolytic Clearance", "desc": "A single infusion clears SA-beta-gal+ / uPAR+ senescent cells, reduces SASP cytokines, and restores pancreatic beta-cell glucose-stimulated insulin secretion." },
     { "step": "4. Memory Surveillance (>1 Yr)", "desc": "Engineered T-cells persist as CD4+/CD8+ memory populations that expand whenever new senescent cells emerge." }
   ],
   "keyFindings": [
-    { "title": "Reversal of Age-Related Metabolic Dysfunction", "desc": "In naturally aged (18–20 month) and HFD mice, uPAR CAR T-cells cleared senescent pancreatic beta-cells and adipose cells, restoring fasting glucose tolerance, insulin sensitivity, and treadmill exercise capacity." },
+    { "title": "Reversal of Age-Related Metabolic Dysfunction", "desc": "In naturally aged (18–20 month) and HFD mice, uPAR CAR T-cells cleared uPAR+ senescent cells across pancreatic islets, adipose tissue, and liver, restoring pancreatic beta-cell insulin secretion, fasting glucose tolerance, insulin sensitivity, and treadmill exercise capacity." },
     { "title": "Single-Dose Prophylactic 'Vaccine' Effect", "desc": "Administering a single infusion to young mice prevented age-induced and high-fat-diet-induced glucose intolerance and senescent cell accumulation more than a year later—without booster doses." },
-    { "title": "Durable Persistence vs. Small Molecules", "desc": "Whereas small-molecule senolytics (such as D+Q or Bcl-2 inhibitors) have short half-lives requiring intermittent re-administration, uPAR CAR T-cells persisted in spleen and bone marrow for the animal's lifespan." },
+    { "title": "Durable Persistence vs. Small Molecules", "desc": "Whereas small-molecule senolytics (such as D+Q or Bcl-2 inhibitors) have short half-lives requiring intermittent re-administration, uPAR CAR T-cells persisted in spleen, liver, and adipose tissue across the animal's lifespan." },
     { "title": "Two-Study Foundation (2020 & 2024)", "desc": "Builds directly on Amor et al. (2020, Nature), which proved uPAR CAR T-cells reverse CCl4- and NASH-induced liver fibrosis, extending the paradigm to natural physiological aging and metabolic syndrome." }
   ],
   "conclusions": [
@@ -59,20 +59,20 @@
   "structuredConclusions": [
     {
       "title": "Living Senolytics Outlast Small Molecules",
-      "content": "A single low-dose infusion (0.5 x 10^6 cells) of uPAR CAR T-cells established long-lived immunological memory that continuously cleared newly arising senescent cells for over a year."
+      "content": "A single low-dose infusion (0.5 x 10^6 cells) of m.uPAR-m.28z CAR T-cells established long-lived immunological memory that continuously cleared newly arising senescent cells for over a year."
     },
     {
       "title": "Pancreatic & Adipose Metabolic Rescue",
-      "content": "Eliminating uPAR+ senescent cells in pancreatic islets, visceral fat, and liver restored insulin secretory capacity, glucose tolerance, and physical exercise endurance in aged mice."
+      "content": "Eliminating uPAR+ senescent cells in pancreatic islets, visceral fat, and liver restored pancreatic beta-cell insulin secretory capacity, glucose tolerance, and physical exercise endurance in aged mice."
     },
     {
-      "title": "Soluble suPAR as a Companion Biomarker",
-      "content": "Circulating soluble uPAR (suPAR) tracks systemic senescent cell burden and drops following senolytic CAR T clearance, offering a non-invasive blood biomarker for future human translation."
+      "title": "Human PLAUR / suPAR Translational Relevance",
+      "content": "In human cohorts, pancreatic and adipose PLAUR (uPAR) expression and circulating soluble uPAR (suPAR) rise with age and metabolic disease, highlighting uPAR as a conserved translational target and biomarker."
     }
   ],
   "protocolRecommendations": [
     "Autologous CAR T-cell therapy remains a specialized clinical immunotherapy, though next-generation in vivo mRNA lipid nanoparticle (LNP) CAR T and off-the-shelf NK/T-cell platforms are under active development.",
-    "Circulating soluble uPAR (suPAR) and hs-CRP serve as clinically measurable blood biomarkers of systemic inflammaging and senescent cell burden.",
+    "Circulating soluble uPAR (suPAR) and hs-CRP serve as clinically measurable blood biomarkers of systemic inflammaging and senescent cell burden in human cohorts.",
     "For accessible senescent cell management today, intermittent hit-and-run senolytic protocols (such as Quercetin/Fisetin) paired with aerobic exercise and caloric restraint reduce adipose and hepatic senescence."
   ]
 }

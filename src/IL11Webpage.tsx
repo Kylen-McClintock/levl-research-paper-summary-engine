@@ -74,7 +74,7 @@ export const IL11Webpage = () => {
               <ShieldCheck className="w-4 h-4 text-rose-400" aria-hidden="true" /> Key Takeaway
             </span>
             <p className="text-base md:text-lg text-[var(--levl-text-secondary)] font-light leading-relaxed">
-              Neutralizing the pro-inflammatory, pro-fibrotic cytokine IL-11 from 75 weeks of age (~55 human years) reverses physical frailty, restores AMPK/mTORC1 metabolic balance, reduces age-related tumors, and extends median lifespan by <strong className="text-white">+22.5% in males</strong> and <strong className="text-white">+24.9% in females</strong>.
+              Neutralizing the pro-inflammatory, pro-fibrotic cytokine IL-11 from 75 weeks of age (~55 human years) reverses physical frailty, restores AMPK/mTORC1 metabolic balance, reduces age-related tumors, and extends median lifespan by <strong className="text-white">+22.5% in males</strong> and <strong className="text-white">+25.0% in females</strong> (<strong className="text-white">+28.7% pooled</strong>; <strong className="text-white">+24.9% in germline Il11&minus;/&minus; knockouts</strong>).
             </p>
           </div>
           <div className="flex flex-col items-center gap-2 pt-8 w-full justify-center opacity-80 mt-2">
@@ -163,7 +163,7 @@ export const IL11Webpage = () => {
           Median Lifespan Extension Across Cohorts
         </h2>
         <p className="text-center text-xs text-gray-400 mb-12 max-w-xl mx-auto">
-          Proportional comparison where control median lifespan (~120.5 weeks) equals 80% of the chart axis, and +24.9% extension (~151 weeks) equals 100% of the chart axis (80% &times; 1.249 = 100%).
+          Proportional comparison where control median lifespan (120.9 weeks pooled; 130.3 wks M / 117.1 wks F) equals 80% of the chart axis, and +25.0% extension (146.4 wks F X203; +24.9% to 151.0 wks in pooled Il11&minus;/&minus; KO) equals 100% of the chart axis (80% &times; 1.25 = 100%).
         </p>
 
         <div className="bg-[var(--levl-panel-bg)] border border-[var(--levl-border)] rounded-3xl p-8 md:p-12 shadow-[0_30px_60px_rgba(0,0,0,0.3)] relative overflow-hidden">
@@ -173,8 +173,8 @@ export const IL11Webpage = () => {
             {/* Control Group (100% Baseline = 80% of bar width) */}
             <div className="relative w-full">
               <div className="flex justify-between text-xs text-[var(--levl-text-muted)] mb-2 font-mono uppercase tracking-widest">
-                <span>IgG Control Mice (Baseline From 75 Wks)</span>
-                <span>100% Baseline (~120.5 Wks)</span>
+                <span>WT / IgG Control Mice (Baseline)</span>
+                <span>100% Baseline (120.9 Wks Pooled)</span>
               </div>
               <div className="w-full h-9 bg-white bg-opacity-5 rounded-lg border border-white border-opacity-10 flex items-center relative overflow-hidden">
                 <div className="w-[80%] h-full bg-gradient-to-r from-slate-700 to-slate-500 flex items-center justify-end pr-3">
@@ -190,7 +190,7 @@ export const IL11Webpage = () => {
                   <Target className="w-3.5 h-3.5 text-rose-400" aria-hidden="true" /> Anti-IL-11 Antibody (X203) — Males
                 </span>
                 <span className="text-white bg-rose-500/80 px-2.5 py-0.5 rounded shadow-[0_0_10px_rgba(244,63,94,0.5)]">
-                  +22.5% Median Lifespan (p = 0.0035)
+                  +22.5% Median Lifespan (130.3 &rarr; 159.6 Wks)
                 </span>
               </div>
               <div className="w-full h-9 bg-white bg-opacity-5 rounded-lg border border-white border-opacity-10 flex items-center relative overflow-hidden">
@@ -201,20 +201,20 @@ export const IL11Webpage = () => {
               </div>
             </div>
 
-            {/* Female Anti-IL-11 Group (+24.9% of 80% = +20% -> 100% total width) */}
+            {/* Female Anti-IL-11 Group (+25.0% of 80% = +20% -> 100% total width) */}
             <div className="relative w-full">
               <div className="flex justify-between text-xs font-semibold text-rose-300 mb-2 font-mono uppercase tracking-widest">
                 <span className="flex items-center gap-2">
-                  <Target className="w-3.5 h-3.5 text-rose-400" aria-hidden="true" /> Anti-IL-11 Antibody (X203) — Females &amp; Il11-/- KO
+                  <Target className="w-3.5 h-3.5 text-rose-400" aria-hidden="true" /> Anti-IL-11 (X203) Females (+25.0%) &amp; Il11&minus;/&minus; KO (+24.9%)
                 </span>
                 <span className="text-white bg-rose-500 px-2.5 py-0.5 rounded shadow-[0_0_10px_rgba(244,63,94,0.8)]">
-                  +24.9% Median Lifespan (p &lt; 0.0001)
+                  +25.0% F (117.1 &rarr; 146.4 Wks) / +28.7% Pooled (p &lt; 0.0001)
                 </span>
               </div>
               <div className="w-full h-9 bg-white bg-opacity-5 rounded-lg border border-white border-opacity-10 flex items-center relative overflow-hidden">
                 <div className="w-[80%] h-full bg-gradient-to-r from-violet-600 to-rose-500" />
                 <div className="w-[20%] h-full bg-gradient-to-r from-rose-400 to-amber-300 flex items-center justify-center border-l border-white/30 shadow-[0_0_20px_rgba(244,63,94,0.8)]">
-                  <span className="text-slate-950 text-[11px] font-mono font-black">+24.9%</span>
+                  <span className="text-slate-950 text-[11px] font-mono font-black">+25.0%</span>
                 </div>
               </div>
             </div>

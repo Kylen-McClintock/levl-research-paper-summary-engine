@@ -8,7 +8,7 @@
     "pmid": "35975308",
     "pmcid": "PMC9879756",
     "nct": "NCT01870193",
-    "summary": "In a 16-week double-blind, placebo-controlled randomized clinical trial at Baylor College of Medicine (NCT01870193) comparing older adults (aged 61–80 years, n = 24 randomized to GlyNAC vs. isonitrogenous alanine placebo) against young adult controls (aged 21–40 years, n = 12), oral GlyNAC (100 mg/kg/day each of glycine and N-acetylcysteine) corrected intracellular RBC and muscle glutathione deficiency (+164%), lowered lipid peroxidation (TBARS) by -72%, reduced insulin resistance (HOMA-IR) by -64%, restored mitochondrial fatty acid oxidation and mitophagy (PINK1), and normalized gait speed to young-adult levels."
+    "summary": "In a 16-week double-blind, placebo-controlled randomized clinical trial at Baylor College of Medicine (NCT01870193) comparing older adults (aged 61–80 years, n = 24 randomized to GlyNAC vs. isonitrogenous alanine placebo) against young adult controls (aged 21–40 years, n = 12), oral GlyNAC (100 mg/kg/day each of glycine and N-acetylcysteine) corrected skeletal muscle (+164%) and RBC (+225%) glutathione deficiency, lowered lipid peroxidation (TBARS) by -72%, reduced insulin resistance (HOMA-IR) by -64%, restored mitochondrial fatty acid oxidation and mitophagy (PINK1), and normalized gait speed to young-adult levels."
   },
   "studyOverview": [
     {
@@ -21,17 +21,17 @@
     },
     {
       "title": "What They Found",
-      "content": "While the alanine placebo group showed zero improvement across any metric, 16 weeks of GlyNAC increased RBC total GSH by +164% (p < 0.0001), cut oxidative stress (TBARS -72%, F2-isoprostanes -72%), rescued mitochondrial fatty-acid oxidation (+78%) and lowered abnormal glucose oxidation, reduced IL-6 (-78%), TNF-α (-54%), and hs-CRP (-65%), cut HOMA-IR by -64%, lowered muscle p16INK4a senescence and γH2AX DNA damage, and increased gait speed (+18%, matching young adults), 6-minute walk distance, and grip strength."
+      "content": "While the alanine placebo group showed zero improvement across any metric, 16 weeks of GlyNAC increased skeletal muscle total GSH by +164% and RBC total GSH by +225% (RBC rGSH +259%, p < 0.0001), cut oxidative stress (TBARS -72%, F2-isoprostanes -72%), rescued mitochondrial fatty-acid oxidation (+78%) and lowered abnormal glucose oxidation, reduced IL-6 (-78%), TNF-α (-54%), and hs-CRP (-65%), cut HOMA-IR by -64%, lowered muscle p16INK4a senescence and γH2AX DNA damage, and significantly increased gait speed (+18%, matching young adults) and grip strength (with a positive trend in 6-minute walk distance)."
     }
   ],
   "biomarkerDomains": [
     {
       "id": "redox_gsh",
       "domain": "Glutathione & Oxidative Stress",
-      "badge": "+164% GSH / -72% TBARS",
-      "summary": "At baseline, older adults had 66% lower intracellular RBC GSH and 494% higher plasma TBARS lipid peroxidation than young adults. GlyNAC restored de novo GSH synthesis enzymes (GCLC, GCLM, GSS) and normalized redox balance by Week 16.",
+      "badge": "+164% Muscle GSH / +225% RBC tGSH",
+      "summary": "At baseline, older adults had 63% lower skeletal muscle GSH, 70% lower RBC total GSH, and 494% higher plasma TBARS lipid peroxidation than young adults. GlyNAC restored de novo GSH synthesis enzymes (GCLC, GCLM, GSS) and normalized tissue and RBC redox balance by Week 16.",
       "metrics": [
-        { "label": "Intracellular RBC Total Glutathione (GSH)", "baselineOA": "0.78 mmol/L RBC", "week16GlyNAC": "2.06 mmol/L (+164%)", "youngControl": "2.08 mmol/L", "changePct": 164, "direction": "up" },
+        { "label": "Skeletal Muscle Total Glutathione (Muscle-GSH; RBC tGSH +225%)", "baselineOA": "0.78 mmol/kg (RBC: 0.4 mmol/g Hb)", "week16GlyNAC": "2.06 mmol/kg (+164%; RBC: 1.3 [+225%])", "youngControl": "2.08 mmol/kg (RBC: 1.2)", "changePct": 164, "direction": "up" },
         { "label": "Plasma Lipid Peroxidation (TBARS)", "baselineOA": "22.6 µM", "week16GlyNAC": "6.2 µM (-72%)", "youngControl": "3.8 µM", "changePct": -72, "direction": "down" },
         { "label": "Plasma 8-Iso-Prostaglandin F2α (F2-Isoprostanes)", "baselineOA": "121.4 pg/mL", "week16GlyNAC": "34.1 pg/mL (-72%)", "youngControl": "30.2 pg/mL", "changePct": -72, "direction": "down" }
       ]
@@ -62,10 +62,10 @@
       "id": "physical_hallmarks",
       "domain": "Physical Function, Senescence & DNA Damage",
       "badge": "+18% Gait Speed (Normalized)",
-      "summary": "Skeletal muscle biopsies and functional assessments confirmed that GlyNAC reduced muscle p16INK4a senescence, γH2AX DNA damage, and plasma 8-OHdG while restoring walking speed, 6-minute walk distance, and grip strength.",
+      "summary": "Skeletal muscle biopsies and functional assessments confirmed that GlyNAC reduced muscle p16INK4a senescence, γH2AX DNA damage, and plasma 8-OHdG while significantly restoring walking speed (p < 0.01) and grip strength (p < 0.05), with a positive trend in 6-minute walk distance.",
       "metrics": [
-        { "label": "Habitual Gait Speed (m/s)", "baselineOA": "1.17 m/s", "week16GlyNAC": "1.38 m/s (+18%)", "youngControl": "1.37 m/s", "changePct": 18, "direction": "up" },
-        { "label": "6-Minute Walk Test Distance (6MWT)", "baselineOA": "466 meters", "week16GlyNAC": "565 meters (+21%)", "youngControl": "589 meters", "changePct": 21, "direction": "up" },
+        { "label": "Habitual Gait Speed (m/s, p < 0.01)", "baselineOA": "1.17 m/s", "week16GlyNAC": "1.38 m/s (+18%)", "youngControl": "1.37 m/s", "changePct": 18, "direction": "up" },
+        { "label": "6-Minute Walk Test Distance (6MWT, Positive Trend)", "baselineOA": "466 meters", "week16GlyNAC": "565 meters (+21% trend)", "youngControl": "589 meters", "changePct": 21, "direction": "up" },
         { "label": "Plasma Genomic DNA Damage (8-OHdG)", "baselineOA": "Elevated (+310% vs YA)", "week16GlyNAC": "Reduced (-67% vs Baseline)", "youngControl": "Baseline Reference", "changePct": -67, "direction": "down" }
       ]
     }
@@ -100,7 +100,7 @@
     },
     {
       "title": "Rapid 2-to-16-Week Biomarker Responsiveness",
-      "content": "Significant improvements in RBC GSH (+121%), TBARS (-42%), and HOMA-IR (-31%) were already detectable at Week 2, reaching young-adult equivalence by Week 16."
+      "content": "Significant improvements in muscle GSH (+121% at Week 2; +164% at Week 16), RBC total GSH (+225% at Week 16), TBARS (-42% at Week 2; -72% at Week 16), and HOMA-IR (-31% at Week 2; -64% at Week 16) reached young-adult equivalence by Week 16."
     }
   ],
   "protocolImplications": "Translational takeaway: The Baylor RCT used weight-adjusted dosing of 100 mg/kg/day Glycine + 100 mg/kg/day N-Acetylcysteine (roughly 7 g/day of each for a 70 kg adult, split into morning and evening doses), while real-world clinical protocols commonly titrate from 1.8–3.6 g/day up to 6–7 g/day in adults aged 55+ or those with verified low RBC glutathione, elevated hs-CRP, or elevated HOMA-IR. Because young adults with normal GSH showed no change, testing baseline RBC Glutathione, GGT, hs-CRP, and HOMA-IR helps identify responders."

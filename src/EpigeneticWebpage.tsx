@@ -77,7 +77,7 @@ export const EpigeneticWebpage = () => {
               <Cpu className="w-4 h-4 text-emerald-400" aria-hidden="true" /> Executive Summary
             </span>
             <p className="text-base md:text-lg text-gray-300 font-light leading-relaxed">
-              Using inducible non-mutagenic DNA breaks (<strong className="text-white">ICE mice</strong>), Yang et al. (2023) proved that the <strong className="text-white">Relocalization of Chromatin Modifiers (RCM)</strong> drives mammalian aging without DNA mutations—and that partial Yamanaka reprogramming (<strong className="text-white">AAV-OSK</strong>, excluding oncogenic c-Myc) reverses epigenetic age by up to <strong className="text-emerald-400">57%</strong>.
+              Using inducible non-mutagenic DNA breaks (<strong className="text-white">ICE mice</strong>), Yang et al. (2023) proved that the <strong className="text-white">Relocalization of Chromatin Modifiers (RCM)</strong> drives mammalian aging without DNA mutations—and that partial Yamanaka reprogramming (<strong className="text-white">AAV-OSK</strong>, excluding oncogenic c-Myc) reverses epigenetic clock age by up to <strong className="text-emerald-400">57%</strong> in ICE cells while restoring youthful histone marks and retinal function in vivo.
             </p>
           </div>
           <div className="flex flex-col items-center gap-2 pt-8 w-full justify-center opacity-80 mt-2">
